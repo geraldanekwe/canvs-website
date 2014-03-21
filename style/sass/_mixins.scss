@@ -1,0 +1,18 @@
+@import "../../bower_components/sass_mixin_rem/stylesheets/_rem.scss";
+
+
+//Media Queries
+
+//Source: http://css-tricks.com/naming-media-queries/
+
+@mixin min-width($device-width) {
+  @media screen and (min-width: $device-width) {
+    @content 
+  }
+}
+
+@mixin max-width($device-width) {
+  @media screen and (max-width: $device-width - 1) {
+    @content 
+  }
+}

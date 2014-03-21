@@ -1,0 +1,31 @@
+//STRUCTURE
+
+html {
+	background-color: $offWhite;
+	@include size(100%);
+}
+
+body {
+	@include size(100%);
+}
+
+.content {
+	@include size(100%);
+}
+
+//HERO HEADER
+
+.hero-header {
+	@include size(100%);
+	text-align: center;
+	background: $offBlack url("/images/hero-image.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+.logo-introducing {
+	color: white;
+}
+
+.branding-wrap {
+  margin-top: 35px;
+}

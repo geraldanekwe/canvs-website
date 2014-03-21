@@ -1,0 +1,15 @@
+$sansFontFamily:      "source-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$headerFontFamily:    "jaf-bernino-sans-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$slabFontFamily:      "adelle", Georgia, "Times New Roman", Times, serif;
+$monoFontFamily:      Monaco, Menlo, Consolas, "Courier New", monospace;
+
+html {
+  font-size: 62.5%; /* Sets up the Base 10 stuff */
+}
+
+a {
+  color: $gold;
+  &:hover {
+    color: shade($gold, .5);
+  }
+}

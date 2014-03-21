@@ -1,0 +1,14 @@
+{
+  "name": "sass_mixin_rem",
+  "homepage": "https://github.com/bitmanic/rem",
+  "_release": "99a19908fd",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "99a19908fd9cd3829600ffc6891407a284c414ae"
+  },
+  "_source": "git://github.com/bitmanic/rem.git",
+  "_target": "*",
+  "_originalSource": "sass_mixin_rem",
+  "_direct": true
+}

@@ -1,0 +1,2056 @@
+{
+"CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
+"creatorBuild": "16844",
+"files": {
+	"\/apple-touch-icon-precomposed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/apple-touch-icon-precomposed.png",
+		"outputAbbreviatedPath": "\/apple-touch-icon-precomposed.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bower_components\/html5-boilerplate\/404.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/404.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/html5-boilerplate\/apple-touch-icon-precomposed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1226,
+		"inputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/apple-touch-icon-precomposed.png",
+		"outputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/apple-touch-icon-precomposed.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bower_components\/html5-boilerplate\/CHANGELOG.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/CHANGELOG.md",
+		"outputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/CHANGELOG.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/html5-boilerplate\/CONTRIBUTING.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/CONTRIBUTING.md",
+		"outputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/CONTRIBUTING.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/html5-boilerplate\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/html5-boilerplate\/css\/normalize.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/css\/normalize.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/html5-boilerplate\/doc\/crossdomain.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/doc\/crossdomain.md",
+		"outputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/doc\/crossdomain.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/html5-boilerplate\/doc\/css.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/doc\/css.md",
+		"outputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/doc\/css.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/html5-boilerplate\/doc\/extend.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/doc\/extend.md",
+		"outputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/doc\/extend.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/html5-boilerplate\/doc\/faq.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/doc\/faq.md",
+		"outputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/doc\/faq.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/html5-boilerplate\/doc\/html.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/doc\/html.md",
+		"outputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/doc\/html.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/html5-boilerplate\/doc\/js.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/doc\/js.md",
+		"outputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/doc\/js.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/html5-boilerplate\/doc\/misc.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/doc\/misc.md",
+		"outputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/doc\/misc.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/html5-boilerplate\/doc\/TOC.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/doc\/TOC.md",
+		"outputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/doc\/TOC.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/html5-boilerplate\/doc\/usage.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/doc\/usage.md",
+		"outputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/doc\/usage.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/html5-boilerplate\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/html5-boilerplate\/js\/main.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/js\/main.js",
+		"outputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/js\/min\/main-min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/html5-boilerplate\/js\/plugins.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/js\/plugins.js",
+		"outputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/js\/min\/plugins-min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/html5-boilerplate\/js\/vendor\/jquery-1.10.2.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/js\/vendor\/jquery-1.10.2.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/js\/vendor\/min\/jquery-1.10.2.min-min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/html5-boilerplate\/js\/vendor\/modernizr-2.6.2.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/js\/vendor\/modernizr-2.6.2.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/js\/vendor\/min\/modernizr-2.6.2.min-min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/html5-boilerplate\/LICENSE.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/LICENSE.md",
+		"outputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/LICENSE.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/html5-boilerplate\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/README.md",
+		"outputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/README.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/sass_mixin_rem\/stylesheets\/_rem.sass": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/sass_mixin_rem\/stylesheets\/_rem.sass",
+		"outputAbbreviatedPath": "\/bower_components\/sass_mixin_rem\/css\/_rem.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/sass_mixin_rem\/stylesheets\/_rem.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/sass_mixin_rem\/stylesheets\/_rem.scss",
+		"outputAbbreviatedPath": "\/bower_components\/sass_mixin_rem\/css\/_rem.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/sass_mixin_rem\/test\/css\/screen.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/sass_mixin_rem\/test\/css\/screen.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/sass_mixin_rem\/test\/sass\/screen.sass": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/sass_mixin_rem\/test\/sass\/screen.sass",
+		"outputAbbreviatedPath": "\/bower_components\/sass_mixin_rem\/test\/css\/screen.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/CHANGELOG.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/CHANGELOG.md",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/CHANGELOG.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/CONTRIBUTING.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/CONTRIBUTING.md",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/CONTRIBUTING.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/README.md",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/README.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap.js",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/min\/bootstrap-min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/affix.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/affix.js",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/min\/affix-min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/alert.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/alert.js",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/min\/alert-min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/button.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/button.js",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/min\/button-min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/carousel.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/carousel.js",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/min\/carousel-min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/collapse.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/collapse.js",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/min\/collapse-min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/dropdown.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/dropdown.js",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/min\/dropdown-min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/modal.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/modal.js",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/min\/modal-min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/popover.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/popover.js",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/min\/popover-min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/scrollspy.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/scrollspy.js",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/min\/scrollspy-min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/tab.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/tab.js",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/min\/tab-min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/tooltip.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/tooltip.js",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/min\/tooltip-min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/transition.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/transition.js",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/min\/transition-min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/css\/bootstrap.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_alerts.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_alerts.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_alerts.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_badges.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_badges.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_badges.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_breadcrumbs.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_breadcrumbs.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_breadcrumbs.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_button-groups.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_button-groups.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_button-groups.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_buttons.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_buttons.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_buttons.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_carousel.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_carousel.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_carousel.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_close.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_close.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_close.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_code.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_code.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_code.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_component-animations.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_component-animations.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_component-animations.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_dropdowns.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_dropdowns.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_dropdowns.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_forms.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_forms.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_forms.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_glyphicons.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_glyphicons.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_glyphicons.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_grid.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_grid.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_grid.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_input-groups.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_input-groups.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_input-groups.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_jumbotron.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_jumbotron.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_jumbotron.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_labels.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_labels.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_labels.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_list-group.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_list-group.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_list-group.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_media.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_media.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_media.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_mixins.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_mixins.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_mixins.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_modals.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_modals.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_modals.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_navbar.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_navbar.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_navbar.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_navs.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_navs.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_navs.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_normalize.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_normalize.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_normalize.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_pager.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_pager.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_pager.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_pagination.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_pagination.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_pagination.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_panels.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_panels.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_panels.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_popovers.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_popovers.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_popovers.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_print.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_print.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_print.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_progress-bars.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_progress-bars.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_progress-bars.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_responsive-utilities.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_responsive-utilities.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_responsive-utilities.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_scaffolding.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_scaffolding.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_scaffolding.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_tables.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_tables.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_tables.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_theme.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_theme.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_theme.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_thumbnails.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_thumbnails.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_thumbnails.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_tooltip.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_tooltip.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_tooltip.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_type.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_type.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_type.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_utilities.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_utilities.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_utilities.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_variables.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_variables.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_variables.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_wells.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_wells.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/_wells.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/bootstrap.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/bootstrap.scss",
+		"outputAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/css\/bootstrap.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/content.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/content.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content.jade",
+		"outputAbbreviatedPath": "\/content.html",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/images\/hero-image.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 118676,
+		"inputAbbreviatedPath": "\/images\/hero-image.jpg",
+		"outputAbbreviatedPath": "\/images\/hero-image.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/hero-image.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 942097,
+		"inputAbbreviatedPath": "\/images\/hero-image.png",
+		"outputAbbreviatedPath": "\/images\/hero-image.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/index.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.kit",
+		"outputAbbreviatedPath": "\/index.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/scripts\/main.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scripts\/main.js",
+		"outputAbbreviatedPath": "\/scripts\/min\/main-min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/scripts\/min\/main-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scripts\/min\/main-min.js",
+		"outputAbbreviatedPath": "\/scripts\/min\/min\/main-min-min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/style\/css\/style.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/style\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/style\/sass\/_mixins.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/style\/sass\/_mixins.scss",
+		"outputAbbreviatedPath": "\/style\/css\/_mixins.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/style\/sass\/_primary.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/style\/sass\/_primary.scss",
+		"outputAbbreviatedPath": "\/style\/css\/_primary.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/style\/sass\/_typography.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/style\/sass\/_typography.scss",
+		"outputAbbreviatedPath": "\/style\/css\/_typography.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/style\/sass\/_variables.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/style\/sass\/_variables.scss",
+		"outputAbbreviatedPath": "\/style\/css\/_variables.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/style\/sass\/style.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/style\/sass\/style.scss",
+		"outputAbbreviatedPath": "\/style\/css\/style.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		}
+	},
+"hooks": [
+	],
+"lastSavedByUser": "Mattan Ingram",
+"manualImportLinks": {
+	"\/scripts\/main.js": [
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/affix.js",
+			"position": 0,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/alert.js",
+			"position": 1,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/button.js",
+			"position": 2,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/carousel.js",
+			"position": 3,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/collapse.js",
+			"position": 4,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/dropdown.js",
+			"position": 5,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/modal.js",
+			"position": 6,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/popover.js",
+			"position": 7,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/scrollspy.js",
+			"position": 8,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/tab.js",
+			"position": 9,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/tooltip.js",
+			"position": 10,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/transition.js",
+			"position": 11,
+			"type": 0
+			}
+		]
+	},
+"projectAttributes": {
+	"bowerAbbreviatedPath": "",
+	"displayValue": "canvs-website",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "globe_blue"
+	},
+"projectSettings": {
+	"alwaysUseExternalServer": 0,
+	"animateCSSInjections": 1,
+	"autoApplyPSLanguageSettingsStyle": 0,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, ff 17, opera 12.1",
+	"autoSyncProjectSettingsFile": 1,
+	"browserRefreshDelay": 0,
+	"coffeeAutoOutputPathRelativePath": "",
+	"coffeeAutoOutputPathReplace1": "",
+	"coffeeAutoOutputPathReplace2": "",
+	"coffeeAutoOutputPathStyle": 0,
+	"coffeeCreateSourceMap": 0,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no-unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"coffeeMinifyOutput": 1,
+	"coffeeOutputStyle": 0,
+	"coffeeSyntaxCheckerStyle": 1,
+	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerPreviewPathAddition": "",
+	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
+	"hamlAutoOutputPathRelativePath": "",
+	"hamlAutoOutputPathReplace1": "",
+	"hamlAutoOutputPathReplace2": "",
+	"hamlAutoOutputPathStyle": 0,
+	"hamlEscapeHTMLCharacters": 0,
+	"hamlNoEscapeInAttributes": 0,
+	"hamlOutputFormat": 2,
+	"hamlOutputStyle": 0,
+	"hamlUseCDATA": 0,
+	"hamlUseDoubleQuotes": 0,
+	"hamlUseUnixNewlines": 0,
+	"jadeAutoOutputPathRelativePath": "",
+	"jadeAutoOutputPathReplace1": "",
+	"jadeAutoOutputPathReplace2": "",
+	"jadeAutoOutputPathStyle": 0,
+	"jadeCompileDebug": 1,
+	"jadeOutputStyle": 0,
+	"javascriptAutoOutputPathRelativePath": "\/min",
+	"javascriptAutoOutputPathReplace1": "",
+	"javascriptAutoOutputPathReplace2": "",
+	"javascriptAutoOutputPathStyle": 2,
+	"javascriptCreateSourceMap": 1,
+	"javascriptOutputStyle": 1,
+	"javascriptOutputSuffix": "-min",
+	"javascriptSyntaxCheckerStyle": 1,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"gcl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onevar": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"smarttabs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"trailing": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"ass": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"closure": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"continue": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eqeq": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"newcap": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nomen": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sloppy": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"stupid": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"todo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unparam": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"kitAutoOutputPathRelativePath": "",
+	"kitAutoOutputPathReplace1": "",
+	"kitAutoOutputPathReplace2": "",
+	"kitAutoOutputPathStyle": 0,
+	"lessAllowInsecureImports": 0,
+	"lessAutoOutputPathRelativePath": "..\/css",
+	"lessAutoOutputPathReplace1": "less",
+	"lessAutoOutputPathReplace2": "css",
+	"lessAutoOutputPathStyle": 2,
+	"lessCreateSourceMap": 0,
+	"lessDisableJavascript": 0,
+	"lessIeCompatibility": 1,
+	"lessOutputStyle": 0,
+	"lessRelativeURLS": 0,
+	"lessStrictImports": 0,
+	"lessStrictMath": 0,
+	"lessStrictUnits": 0,
+	"markdownAutoOutputPathRelativePath": "",
+	"markdownAutoOutputPathReplace1": "",
+	"markdownAutoOutputPathReplace2": "",
+	"markdownAutoOutputPathStyle": 0,
+	"markdownEnableFootnotes": 0,
+	"markdownEnableSmartyPants": 1,
+	"markdownExpandTabs": 1,
+	"reloadFileURLs": 0,
+	"sassAutoOutputPathRelativePath": "..\/css",
+	"sassAutoOutputPathReplace1": "sass",
+	"sassAutoOutputPathReplace2": "css",
+	"sassAutoOutputPathStyle": 2,
+	"sassCreateSourceMap": 1,
+	"sassDebugStyle": 0,
+	"sassDecimalPrecision": 10,
+	"sassOutputStyle": 0,
+	"sassUseLibsass": 0,
+	"shouldRunAutoprefixer": 1,
+	"shouldRunBless": 0,
+	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs",
+	"slimAutoOutputPathRelativePath": "",
+	"slimAutoOutputPathReplace1": "",
+	"slimAutoOutputPathReplace2": "",
+	"slimAutoOutputPathStyle": 0,
+	"slimCompileOnly": 0,
+	"slimLogicless": 0,
+	"slimOutputStyle": 1,
+	"slimRailsCompatible": 0,
+	"stylusAutoOutputPathRelativePath": "..\/css",
+	"stylusAutoOutputPathReplace1": "stylus",
+	"stylusAutoOutputPathReplace2": "css",
+	"stylusAutoOutputPathStyle": 2,
+	"stylusDebugStyle": 0,
+	"stylusImportCSS": 0,
+	"stylusOutputStyle": 0,
+	"stylusResolveRelativeURLS": 0,
+	"typescriptAutoOutputPathRelativePath": "\/js",
+	"typescriptAutoOutputPathReplace1": "",
+	"typescriptAutoOutputPathReplace2": "",
+	"typescriptAutoOutputPathStyle": 2,
+	"typescriptCreateDeclarationFile": 0,
+	"typescriptCreateSourceMap": 0,
+	"typescriptMinifyOutput": 0,
+	"typescriptModuleType": 0,
+	"typescriptNoImplicitAny": 0,
+	"typescriptNoResolve": 0,
+	"typescriptRemoveComments": 0,
+	"typescriptTargetECMAVersion": 0,
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "2"
+}
