@@ -7,6 +7,12 @@ html {
   font-size: 62.5%; /* Sets up the Base 10 stuff */
 }
 
+body {
+  font-family: $sansFontFamily;
+  @include rem('font-size',16px);
+  font-smoothing: antialiased;
+}
+
 a {
   color: $gold;
   &:hover {
@@ -16,4 +22,11 @@ a {
 
 h1,h2,h3,h4 {
   text-align: center;
+  margin: 0;
+}
+
+h1.site-header {
+  font-family: $slabFontFamily;
+  font-weight: 400;
+  @include rem('font-size',48px);
 }
