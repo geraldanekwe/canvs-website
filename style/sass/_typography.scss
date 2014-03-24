@@ -17,6 +17,7 @@ a {
   color: $gold;
   &:hover {
     color: shade($gold, .5);
+    pointer: cursor;
   }
 }
 
