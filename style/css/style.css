@@ -4869,13 +4869,13 @@ button.close {
 
   .carousel-indicators {
     bottom: 20px; } }
-.clearfix:before, .content:before, .section-header-wrap:before, .clearfix:after, .content:after, .section-header-wrap:after {
+.clearfix:before, .content:before, section:before, .section:before, .section-header-wrap:before, .clearfix:after, .content:after, section:after, .section:after, .section-header-wrap:after {
   content: " ";
   display: table; }
-.clearfix:after, .content:after, .section-header-wrap:after {
+.clearfix:after, .content:after, section:after, .section:after, .section-header-wrap:after {
   clear: both; }
 
-.center-block, .branding-wrap, .video-play-btn, .site-header, .about-canvs-box p, .actionable-insights-box p {
+.center-block, .branding-wrap, .video-play-btn, .site-header, .about-canvs-box p, .actionable-insights-box p, .single-solution-box p {
   display: block;
   margin-left: auto;
   margin-right: auto; }
@@ -5004,7 +5004,8 @@ html {
 body {
   font-family: "source-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  color: #4b4b4b; }
 
 a {
   color: #9d854f; }
@@ -5064,7 +5065,7 @@ p.section-description {
   display: inline-block;
   color: white;
   background-color: #30bcae;
-  padding: 0 20px;
+  padding: 0 10px;
   margin: 0;
   font-family: "jaf-bernino-sans-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
@@ -5072,7 +5073,7 @@ p.section-description {
   font-size: 2.1rem;
   letter-spacing: 1px;
   text-decoration: none;
-  width: auto;
+  width: 240px;
   height: 45px;
   line-height: 45px;
   line-height: 4.5rem; }
@@ -5090,7 +5091,7 @@ p.section-description {
   display: inline-block;
   color: white;
   background-color: #a0a0a0;
-  padding: 0 20px;
+  padding: 0 10px;
   margin: 0;
   font-family: "jaf-bernino-sans-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
@@ -5098,7 +5099,7 @@ p.section-description {
   font-size: 2.1rem;
   letter-spacing: 1px;
   text-decoration: none;
-  width: auto;
+  width: 240px;
   height: 45px;
   line-height: 45px;
   line-height: 4.5rem; }
@@ -5126,17 +5127,13 @@ body {
   height: 100%; }
 
 section, .section {
-  margin-left: -15px;
-  margin-right: -15px;
   padding-bottom: 40px; }
-  section:after, .section:after {
-    content: "";
-    display: table;
-    clear: both; }
 
 .section-header-wrap {
-  margin: 40px 0;
-  margin-bottom: 50px; }
+  margin: 40px 0; }
+
+.content-box {
+  margin-bottom: 30px; }
 
 .hero-header {
   width: 100%;
@@ -5222,14 +5219,13 @@ section, .section {
   margin-bottom: 50px; }
 
 .action-btn {
-  width: 200px;
   display: inline-block; }
 
 .learn-more-btn {
   position: absolute;
   bottom: 40px;
   left: 50%;
-  margin-left: -100px; }
+  margin-left: -120px; }
 
 .about-canvs-section {
   text-align: center; }
@@ -5238,8 +5234,7 @@ section, .section {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
-  padding-right: 15px;
-  margin-bottom: 20px; }
+  padding-right: 15px; }
   @media (min-width: 768px) {
     .about-canvs-box {
       float: left;
@@ -5258,9 +5253,6 @@ section, .section {
   text-align: center;
   background-color: #e8e8e8; }
 
-.updates-btn {
-  width: 220px; }
-
 .blog-btn {
   margin: 0 10px;
   margin-bottom: 15px; }
@@ -5278,8 +5270,7 @@ section, .section {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
-  padding-right: 15px;
-  margin-bottom: 20px; }
+  padding-right: 15px; }
   @media (min-width: 768px) {
     .actionable-insights-box {
       float: left;
@@ -5303,5 +5294,32 @@ section, .section {
       position: relative;
       margin: 0 auto;
       margin-top: 25px; }
+
+.single-solution-section {
+  text-align: center; }
+
+.single-solution-box {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 50px; }
+  @media (min-width: 768px) {
+    .single-solution-box {
+      float: left;
+      width: 50%; } }
+  .single-solution-box p {
+    width: 75%; }
+    @media screen and (max-width: 767px) {
+      .single-solution-box p {
+        width: 100%; } }
+  .single-solution-box .single-solution-illustration {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 20px; }
+
+@media (min-width: 768px) {
+  .intelligent-box {
+    margin-left: 25%; } }
 
 /*# sourceMappingURL=style.css.map */

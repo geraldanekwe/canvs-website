@@ -1068,6 +1068,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/content.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
 	"\/content.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -1077,6 +1085,26 @@
 		"outputAbbreviatedPath": "\/content.html",
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
+		},
+	"\/images\/3E00B1E31C5BC4CC.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/3E00B1E31C5BC4CC.jpg",
+		"outputAbbreviatedPath": "\/images\/3E00B1E31C5BC4CC.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/3E00B1E31C5BC4CF.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/3E00B1E31C5BC4CF.jpg",
+		"outputAbbreviatedPath": "\/images\/3E00B1E31C5BC4CF.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/72A21AB048430905.jpg": {
 		"fileType": 16384,
@@ -1095,6 +1123,26 @@
 		"initialSize": 712,
 		"inputAbbreviatedPath": "\/images\/A1091DAE1B55C93D.jpg",
 		"outputAbbreviatedPath": "\/images\/A1091DAE1B55C93D.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ABE37994B618444B.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 712,
+		"inputAbbreviatedPath": "\/images\/ABE37994B618444B.jpg",
+		"outputAbbreviatedPath": "\/images\/ABE37994B618444B.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/FEA3D43238D05870.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 712,
+		"inputAbbreviatedPath": "\/images\/FEA3D43238D05870.jpg",
+		"outputAbbreviatedPath": "\/images\/FEA3D43238D05870.jpg",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},

@@ -2,7 +2,7 @@
 	display: inline-block;
 	color: $textColor;
 	background-color: $color;
-	padding: 0 20px;
+	padding: 0 10px;
 	margin: 0;
 	font-family: $headerFontFamily;
 	text-align: center;
@@ -21,7 +21,7 @@
 	}
 }
 
-@mixin button-size($height: 45px, $width: auto) {
+@mixin button-size($height: 45px, $width: 240px) {
 	width: $width;
 	height: $height;
 	@include rem('line-height',$height);

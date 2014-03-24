@@ -15,14 +15,17 @@ body {
 }
 
 section, .section {
-  @include make-row();
   padding-bottom: 40px;
+  @extend .clearfix;
 }
 
 .section-header-wrap {
   margin: 40px 0;
-  margin-bottom: 50px;
   @extend .clearfix;
+}
+
+.content-box {
+  margin-bottom: 30px;
 }
 
 //HERO HEADER
@@ -118,7 +121,6 @@ section, .section {
 
 .action-btn {
   @extend .btn-teal;
-  width: 200px;
   display: inline-block;
 }
 
@@ -126,7 +128,7 @@ section, .section {
   position: absolute;
   bottom: 40px;
   left: 50%;
-  margin-left: -100px;
+  margin-left: -120px;
 }
 
 //About Canvs section
@@ -137,7 +139,6 @@ section, .section {
 
 .about-canvs-box {
   @include make-sm-column(6);
-  margin-bottom: 20px;
   p {
     width: 75%;
     @extend .center-block;
@@ -161,7 +162,6 @@ section, .section {
 
 .updates-btn {
   @extend .btn-gray;
-  width: 220px;
 }
 
 .blog-btn {
@@ -186,7 +186,6 @@ section, .section {
 
 .actionable-insights-box {
   @include make-sm-column(4);
-  margin-bottom: 20px;
   p {
     color: white;
     width: 80%;
@@ -208,4 +207,31 @@ section, .section {
       margin-top: 25px;
     }
   }
+}
+
+
+//Single solution section
+
+.single-solution-section {
+  text-align: center;
+}
+
+.single-solution-box {
+  @include make-sm-column(6);
+  margin-bottom: 50px;
+  p {
+    width: 75%;
+    @extend .center-block;
+    @include max-width($screen-sm) {
+      width: 100%;
+    }
+  }
+  .single-solution-illustration {
+    @include size(180px);
+    margin-bottom: 20px;
+  }
+}
+
+.intelligent-box {
+  @include make-sm-column-offset(3);
 }
