@@ -10,15 +10,20 @@ html {
 body {
   font-family: $sansFontFamily;
   @include rem('font-size',16px);
-  font-smoothing: antialiased;
 }
 
 a {
   color: $gold;
   &:hover {
     color: shade($gold, .5);
-    pointer: cursor;
+    cursor: pointer;
   }
+}
+
+p {
+  @include rem('font-size', 18px);
+  @include rem('line-height', 24px);
+  font-weight: 300;
 }
 
 h1,h2,h3,h4 {
@@ -26,8 +31,39 @@ h1,h2,h3,h4 {
   margin: 0;
 }
 
-h1.site-header {
+h1 {
   font-family: $slabFontFamily;
   font-weight: 400;
-  @include rem('font-size',48px);
+}
+
+h2 {
+  font-family: $headerFontFamily;
+  font-weight: 400;
+}
+
+h1.site-header {
+  @include rem('font-size', 48px);
+}
+
+h1.section-header {
+  padding: 0 15px;
+  margin-bottom: 20px;
+  color: $grayDark;
+  @include rem('font-size', 36px);
+  @include rem('line-height', 42px);
+}
+
+p.section-description {
+  color: $gold;
+  @include rem('font-size', 21px);
+  letter-spacing: 0.5px;
+  margin-bottom: 0;
+}
+
+.content-box h2 {
+  color: $gold;
+  font-weight: 400;
+  @include rem('font-size', 30px);
+  @include rem('line-height', 36px); 
+  margin-bottom: 20px;
 }

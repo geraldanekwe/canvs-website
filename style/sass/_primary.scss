@@ -11,6 +11,18 @@ body {
 
 .content {
   @include size(100%);
+  @extend .clearfix;
+}
+
+section, .section {
+  @include make-row();
+  padding-bottom: 40px;
+}
+
+.section-header-wrap {
+  margin: 40px 0;
+  margin-bottom: 50px;
+  @extend .clearfix;
 }
 
 //HERO HEADER
@@ -25,7 +37,6 @@ body {
   background-size: cover;
 }
 
-
 .branding-wrap {
   margin-top: 35px;
   margin-bottom: 40px;
@@ -39,8 +50,10 @@ body {
   .canvs-logo {
     width: 280px;
   }
+  a:hover {
+    text-decoration: none;
+  }
 }
-
 
 .canvs-logo-link .powered-by-wrap {
   padding-top: 5px;
@@ -74,12 +87,21 @@ body {
   border-radius: 100%;
   margin: 0 auto;
   margin-bottom: 40px;
+  transition: background-color .25s linear, transform .25s $easeOutBack;
   .play-btn-triangle {
     width: 40px;
     height: 50px;
     position: relative;
     margin-top: 45px;
     margin-left: 8px;
+    transition: transform .25s $easeOutBack;
+  }
+  &:hover {
+    background-color: transparentize(white, .5);
+    transform: scale(1.2);
+    .play-btn-triangle {
+      transform: scale(1.2);
+    }
   }
 }
 
@@ -91,14 +113,99 @@ body {
   display: block;
   @extend .center-block;
   @include font-smoothing;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
+}
+
+.action-btn {
+  @extend .btn-teal;
+  width: 200px;
+  display: inline-block;
 }
 
 .learn-more-btn {
-  @extend .btn-teal;
-  width: 180px;
   position: absolute;
-  bottom: 30px;
+  bottom: 40px;
   left: 50%;
-  margin-left: -90px;
+  margin-left: -100px;
+}
+
+//About Canvs section
+
+.about-canvs-section {
+  text-align: center;
+}
+
+.about-canvs-box {
+  @include make-sm-column(6);
+  margin-bottom: 20px;
+  p {
+    width: 75%;
+    @extend .center-block;
+    @include max-width($screen-sm) {
+      width: 100%;
+    }
+  }
+  .about-canvs-illustration {
+    @include size(180px);
+    margin-bottom: 20px;
+  }
+}
+
+
+//Updates section
+
+.updates-section {
+  text-align: center;
+  background-color: shade($offWhite, 5%);
+}
+
+.updates-btn {
+  @extend .btn-gray;
+  width: 220px;
+}
+
+.blog-btn {
+  margin: 0 10px;
+  margin-bottom: 15px;
+}
+.newsletter-btn {
+  margin: 0 10px;
+}
+
+
+//Actionable insights section
+
+.actionable-insights-section {
+  h1 {
+    color: white;
+  }
+  text-align: center;
+  background: $offBlack url("/images/hero-image.jpg") no-repeat center center fixed;
+}
+
+
+.actionable-insights-box {
+  @include make-sm-column(4);
+  margin-bottom: 20px;
+  p {
+    color: white;
+    width: 80%;
+    @extend .center-block;
+    @include max-width($screen-sm) {
+      width: 100%;
+    }
+  }
+  .icon-circle {
+    @include size(100px);
+    margin: 0 auto;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    background-color: transparentize(white, .65);
+    .actionable-insights-illustration {
+      @include size(50px);
+      position: relative;
+      margin: 0 auto;
+      margin-top: 25px;
+    }
+  }
 }

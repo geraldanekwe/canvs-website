@@ -5,9 +5,9 @@
 	padding: 0 20px;
 	margin: 0;
 	font-family: $headerFontFamily;
+	text-align: center;
 	@include rem('font-size', 21px);
 	letter-spacing: 1px;
-	text-transform: capitalize;
 	text-decoration: none;
 	&:hover {
 		color: $textColor;
@@ -15,7 +15,9 @@
 		text-decoration: none;
 	}
 	&:active {
-
+		color: $textColor;
+		background-color: shade($color, 15%);
+		box-shadow: inset 0 2px 2px shade($color, 25%);
 	}
 }
 
@@ -27,5 +29,10 @@
 
 .btn-teal {
 	@include button-color();
+	@include button-size();
+}
+
+.btn-gray {
+	@include button-color($gray);
 	@include button-size();
 }
