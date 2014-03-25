@@ -4869,10 +4869,10 @@ button.close {
 
   .carousel-indicators {
     bottom: 20px; } }
-.clearfix:before, .content:before, section:before, .section:before, .section-header-wrap:before, .clearfix:after, .content:after, section:after, .section:after, .section-header-wrap:after {
+.clearfix:before, .content:before, section:before, .section:before, .section-header-wrap:before, .page-footer:before, .clearfix:after, .content:after, section:after, .section:after, .section-header-wrap:after, .page-footer:after {
   content: " ";
   display: table; }
-.clearfix:after, .content:after, section:after, .section:after, .section-header-wrap:after {
+.clearfix:after, .content:after, section:after, .section:after, .section-header-wrap:after, .page-footer:after {
   clear: both; }
 
 .center-block, .branding-wrap, .video-play-btn, .site-header, .about-canvs-box p, .actionable-insights-box p, .single-solution-box p {
@@ -5034,7 +5034,9 @@ h2 {
 
 h1.site-header {
   font-size: 48px;
-  font-size: 4.8rem; }
+  font-size: 4.8rem;
+  line-height: 62px;
+  line-height: 6.2rem; }
 
 h1.section-header {
   padding: 0 15px;
@@ -5150,6 +5152,50 @@ section, .section {
   -webkit-background-size: cover;
   background-size: cover; }
 
+.canvs-login {
+  position: absolute;
+  z-index: 9999;
+  top: 15px;
+  right: 15px;
+  height: 30px;
+  line-height: 26px;
+  padding: 0;
+  margin: 0;
+  color: white;
+  opacity: .65;
+  font-family: "jaf-bernino-sans-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-size: 1.8rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: opacity .25s linear;
+  transition: opacity .25s linear; }
+  .canvs-login span {
+    display: inline-block;
+    margin-right: 5px; }
+  .canvs-login .login-icon {
+    margin-left: 10px;
+    border-radius: 100%;
+    width: 26px;
+    height: 26px;
+    background-color: #30bcae;
+    vertical-align: middle;
+    -webkit-transition: -webkit-transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+    .canvs-login .login-icon img {
+      width: 12px;
+      height: 12px;
+      display: inline-block;
+      vertical-align: middle; }
+  .canvs-login:hover {
+    opacity: 1;
+    color: white;
+    text-decoration: none; }
+    .canvs-login:hover .login-icon {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2); }
+
 .branding-wrap {
   margin-top: 35px;
   margin-bottom: 30px;
@@ -5167,7 +5213,7 @@ section, .section {
 .hero-header-content {
   position: relative;
   top: 45%;
-  margin-top: -250px; }
+  margin-top: -260px; }
 
 .canvs-logo-link .powered-by-wrap {
   padding-top: 5px; }
@@ -5276,7 +5322,9 @@ section, .section {
   -webkit-background-size: cover;
   background-size: cover; }
   .actionable-insights-section h1 {
-    color: white; }
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
 
 .actionable-insights-box {
   position: relative;
@@ -5335,13 +5383,14 @@ section, .section {
     margin-left: 25%; } }
 
 .page-footer {
-  height: 200px;
   background-color: #282828;
+  padding: 30px 15px;
   text-align: center; }
 
 .social-links {
   list-style: none;
-  margin: 30px 0;
+  margin: 0;
+  margin-bottom: 20px;
   padding: 0;
   display: inline-block; }
   .social-links li {
@@ -5372,6 +5421,10 @@ section, .section {
     transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
 
 .copyright {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 5px;
+  margin-bottom: 0.5rem;
   color: rgba(255, 255, 255, 0.75);
   font-size: 14px;
   font-size: 1.4rem; }
@@ -5379,10 +5432,19 @@ section, .section {
     color: rgba(255, 255, 255, 0.75); }
 
 .contact-info {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 15px;
   color: #9d854f;
   font-size: 16px;
   font-size: 1.6rem; }
   .contact-info a {
     margin: 0 7px; }
+
+.made-in-ny {
+  margin: 0; }
+  .made-in-ny img {
+    width: 50px;
+    height: 50px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -46,6 +46,48 @@ section, .section {
   background-size: cover;
 }
 
+.canvs-login {
+  position: absolute;
+  z-index: 9999;
+  top: 15px;
+  right: 15px;
+  height: 30px;
+  line-height: 26px;
+  padding: 0;
+  margin: 0;
+  color: white;
+  opacity: .65;
+  font-family: $headerFontFamily;
+  @include rem('font-size', 18px);
+  @include font-smoothing;
+  transition: opacity .25s linear;
+  span {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .login-icon {
+    margin-left: 10px;
+    border-radius: 100%;
+    @include size(26px);
+    background-color: $teal;
+    vertical-align: middle;
+    transition: transform .25s $easeOutBack;
+    img {
+      @include size(12px);
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+  &:hover {
+    opacity: 1;
+    color: white;
+    text-decoration: none;
+    .login-icon {
+      transform: scale(1.2);
+    }
+  }
+}
+
 .branding-wrap {
   margin-top: 35px;
   margin-bottom: 30px;
@@ -67,7 +109,7 @@ section, .section {
 .hero-header-content {
   position: relative;
   top: 45%;
-  margin-top: -250px;  
+  margin-top: -260px;  
 }
 
 .canvs-logo-link .powered-by-wrap {
@@ -190,6 +232,7 @@ section, .section {
 .actionable-insights-section {
   h1 {
     color: white;
+    @include font-smoothing;
   }
   text-align: center;
   background: $offBlack url("/images/hero-image.jpg") no-repeat center center fixed;
@@ -253,14 +296,16 @@ section, .section {
 //Page footer
 
 .page-footer {
-  height: 200px;
   background-color: $offBlack;
+  padding: 30px 15px;
   text-align: center;
+  @extend .clearfix;
 }
 
 .social-links {
   list-style: none;
-  margin: 30px 0;
+  margin: 0;
+  margin-bottom: 20px;
   padding: 0;
   display: inline-block;
   li {
@@ -290,6 +335,9 @@ section, .section {
 }
 
 .copyright {
+  padding: 0;
+  margin: 0;
+  @include rem('margin-bottom', 5px);
   color: transparentize(white, .25);
   @include rem('font-size', 14px);
   a {
@@ -298,9 +346,19 @@ section, .section {
 }
 
 .contact-info {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 15px;
   color: $gold;
   @include rem('font-size', 16px);
   a {
     margin: 0 7px;
+  }
+}
+
+.made-in-ny {
+  margin: 0;
+  img {
+    @include size(50px);
   }
 }
