@@ -4875,7 +4875,7 @@ button.close {
 .clearfix:after, .content:after, section:after, .section:after, .section-header-wrap:after, .page-footer:after {
   clear: both; }
 
-.center-block, .branding-wrap, .video-play-btn, .site-header, .about-canvs-box p, .actionable-insights-box p, .single-solution-box p {
+.center-block, .branding-wrap, .video-play-btn, .site-header, .about-canvs-box p, .actionable-insights-box p, .single-solution-box p, .core-beliefs-box p {
   display: block;
   margin-left: auto;
   margin-right: auto; }
@@ -5197,7 +5197,7 @@ section, .section {
       transform: scale(1.2); }
 
 .branding-wrap {
-  margin-top: 35px;
+  margin-top: 0;
   margin-bottom: 30px;
   width: 280px; }
   .branding-wrap .logo-introducing {
@@ -5446,5 +5446,78 @@ section, .section {
   .made-in-ny img {
     width: 50px;
     height: 50px; }
+
+.about-content .hero-header {
+  height: auto;
+  background: #282828 url("/images/about-hero-image.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  background-size: cover; }
+.about-content .hero-header-content {
+  top: 0;
+  margin-top: 30px; }
+.about-content .branding-wrap {
+  margin-top: 0;
+  margin-bottom: 40px; }
+
+.core-beliefs-box {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    .core-beliefs-box {
+      float: left;
+      width: 33.3333333333%; } }
+  .core-beliefs-box p {
+    color: white;
+    width: 90%; }
+    @media screen and (max-width: 767px) {
+      .core-beliefs-box p {
+        width: 100%; } }
+  .core-beliefs-box .icon-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.35); }
+    .core-beliefs-box .icon-circle .core-beliefs-illustration {
+      width: 50px;
+      height: 50px;
+      position: relative;
+      margin: 0 auto;
+      margin-top: 25px; }
+
+.canvs-origins-section {
+  text-align: center; }
+
+.canvs-origins-box {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    .canvs-origins-box {
+      float: left;
+      width: 66.6666666667%; } }
+  @media (min-width: 768px) {
+    .canvs-origins-box {
+      margin-left: 16.6666666667%; } }
+  .canvs-origins-box .content-box {
+    position: relative;
+    float: left;
+    width: 50%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    .canvs-origins-box .content-box h2 {
+      font-family: "adelle", Georgia, "Times New Roman", Times, serif;
+      font-size: 24px;
+      font-size: 2.4rem; }
+  .canvs-origins-box .canvs-origins-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-bottom: 20px; }
 
 /*# sourceMappingURL=style.css.map */
