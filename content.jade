@@ -17,7 +17,7 @@ header.hero-header
       a.video-play-btn(href='/')
         img.play-btn-triangle(src="images/play-btn-triangle.svg")
 
-    a.action-btn.learn-more-btn(href='/') Learn More
+    a.action-btn.learn-more-btn(data-toggle="modal", data-target=".contactModal") Learn More
 
 section.about-canvs-section
   div.container
@@ -107,4 +107,17 @@ section.single-solution-section
           | so you can see that Canvs is really as good at categorizing reactions as we say it is. Trust Us. (Or Don’t.)
 
     a.action-btn.info-sheet-btn(href='/') Canvs Info Sheet
+
+.contactModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='contactModalTitle', aria-hidden='true')
+  .modal-dialog
+    .modal-content
+      .modal-header
+        button.close(type='button', data-dismiss='modal', aria-hidden='true') ×
+        h1#contactModalTitle.modal-title Contact us for a Canvs demo.
+        p.section-description All fields are mandatory.
+      .modal-body
+        | ...
+      .modal-footer
+        button.action-btn.submit-demo-request-btn(type='button') Request demo
+
 
