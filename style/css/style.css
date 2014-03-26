@@ -5161,7 +5161,7 @@ section, .section {
   position: relative;
   min-height: 640px;
   text-align: center;
-  background: #282828 url("/images/hero-image.jpg") no-repeat center center fixed;
+  background: #282828 url("../../images/hero-image.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   background-size: cover; }
 
@@ -5331,7 +5331,7 @@ section, .section {
 
 .actionable-insights-section {
   text-align: center;
-  background: #282828 url("/images/hero-image.jpg") no-repeat center center fixed;
+  background: #282828 url("../../images/hero-image.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   background-size: cover; }
   .actionable-insights-section h1 {
@@ -5480,7 +5480,7 @@ section, .section {
 
 .about-content .hero-header {
   height: auto;
-  background: #282828 url("/images/about-hero-image.jpg") no-repeat center center fixed;
+  background: #282828 url("../../images/about-hero-image.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   background-size: cover; }
 .about-content .hero-header-content {

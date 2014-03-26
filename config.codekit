@@ -1102,6 +1102,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/content.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/content.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
 	"\/content.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -1111,14 +1119,6 @@
 		"outputAbbreviatedPath": "\/content.html",
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
-		},
-	"\/footer.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/footer.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
 		},
 	"\/footer.jade": {
 		"compileDebug": 1,
@@ -1237,16 +1237,6 @@
 		"initialSize": 118676,
 		"inputAbbreviatedPath": "\/images\/hero-image.jpg",
 		"outputAbbreviatedPath": "\/images\/hero-image.jpg",
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/images\/hero-image.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 942097,
-		"inputAbbreviatedPath": "\/images\/hero-image.png",
-		"outputAbbreviatedPath": "\/images\/hero-image.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
@@ -1477,31 +1467,31 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/popover.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/scrollspy.js",
 			"position": 7,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/scrollspy.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/tab.js",
 			"position": 8,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/tab.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/tooltip.js",
 			"position": 9,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/tooltip.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/transition.js",
 			"position": 10,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/transition.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/popover.js",
 			"position": 11,
 			"type": 0
 			}

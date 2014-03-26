@@ -42,7 +42,7 @@ section, .section {
   position: relative;
   min-height: 640px;
   text-align: center;
-  background: $offBlack url("/images/hero-image.jpg") no-repeat center center fixed;
+  background: $offBlack url("../../images/hero-image.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -235,7 +235,7 @@ section, .section {
     @include font-smoothing;
   }
   text-align: center;
-  background: $offBlack url("/images/hero-image.jpg") no-repeat center center fixed;
+  background: $offBlack url("../../images/hero-image.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
