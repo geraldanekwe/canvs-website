@@ -1,34 +1,43 @@
 .about-content {
 
-	.hero-header {
-		height: auto;
-		background: $offBlack url("/images/about-hero-image.jpg") no-repeat center center fixed;
-		background-size: cover;
-	}
+  .hero-header {
+    height: auto;
+    background: $offBlack url("/images/about-hero-image.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
 
-	.hero-header-content {
-		top: 0;
-		margin-top: 30px;
-	}
+  .hero-header-content {
+    top: 0;
+    margin-top: 30px;
+  }
 
-	.branding-wrap {
-	  margin-top: 0;
-	  margin-bottom: 40px;
-	}
+  .branding-wrap {
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    font-family: $slabFontFamily;
+    @include rem('font-size', 21px);
+    @include rem('line-height', 24px);
+    margin-bottom: 5px;
+  }
 
 }
 
+//Core Beliefs Section
+
 .core-beliefs-box {
-	@include make-sm-column(4);
-	p {
-		color: white;
-		width: 90%;
-		@extend .center-block;
+  @include make-sm-column(4);
+  p {
+    color: white;
+    width: 90%;
+    @extend .center-block;
     @include max-width($screen-sm) {
       width: 100%;
     }
-	}
-	.icon-circle {
+  }
+  .icon-circle {
     @include size(100px);
     margin: 0 auto;
     border-radius: 100%;
@@ -43,24 +52,73 @@
   }
 }
 
+.core-beliefs-box {
+  &.context {
+    .core-beliefs-illustration {
+      @include size(60px);
+      margin-top: 20px;
+    }
+  }
+}
+
+//Canvs Origins Section
+
+
 .canvs-origins-section {
-	text-align: center;
+  text-align: center;
+
+  .section-header {
+    margin-bottom: 30px;
+  }
 }
 
 .canvs-origins-box {
-	@include make-sm-column(8);
-	@include make-sm-column-offset(2);
-	
-	.content-box {
-		@include make-xs-column(6);
-		h2 {
-			font-family: $slabFontFamily;
-			@include rem('font-size', 24px);
-		}
-	}
-	.canvs-origins-image {
-		@include size(200px);
-		border-radius: 100%;
-		margin-bottom: 20px;
-	}
+  @include make-md-column(8);
+  @include make-md-column-offset(2);
+  margin-bottom: 30px;
+  .content-box {
+    @include make-xs-column(6);
+    margin-bottom: 40px;
+  }
+  .canvs-origins-image {
+    @include size(200px);
+    border-radius: 100%;
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: 100%;
+  }
+}
+
+//Canvs Advisors Section
+
+.canvs-advisors-section {
+  background-color: $offBlack;
+  text-align: center;
+  @include font-smoothing;
+  @extend .clearfix;
+  p, h1, h3 {
+    color: white;
+  }
+  .content-box {
+    @include make-sm-column(4);
+    @include make-xs-column(6);
+    img {
+      @include size(130px);
+      border-radius: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  .shaula-yemini {
+    @include max-width($screen-sm) {
+      float: none;
+      margin: 0 auto;
+    }
+  }
+}
+
+
+//Join Us Section
+
+.join-us-section {
+  text-align: center;
 }

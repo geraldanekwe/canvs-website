@@ -2,14 +2,6 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "16877",
 "files": {
-	"\/about\/about-content.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/about\/about-content.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
 	"\/about\/about-content.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -1102,14 +1094,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/content.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/content.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
 	"\/content.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -1117,6 +1101,24 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/content.jade",
 		"outputAbbreviatedPath": "\/content.html",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/footer.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/footer.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/footer.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/footer.jade",
+		"outputAbbreviatedPath": "\/footer.html",
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
@@ -1177,6 +1179,36 @@
 		"initialSize": 364898,
 		"inputAbbreviatedPath": "\/images\/about-hero-image.jpg",
 		"outputAbbreviatedPath": "\/images\/about-hero-image.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/advisors\/michoel-ogince.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18883,
+		"inputAbbreviatedPath": "\/images\/advisors\/michoel-ogince.jpg",
+		"outputAbbreviatedPath": "\/images\/advisors\/michoel-ogince.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/advisors\/shaula-yemini.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16016,
+		"inputAbbreviatedPath": "\/images\/advisors\/shaula-yemini.jpg",
+		"outputAbbreviatedPath": "\/images\/advisors\/shaula-yemini.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/advisors\/stephen-gatfield.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13266,
+		"inputAbbreviatedPath": "\/images\/advisors\/stephen-gatfield.jpg",
+		"outputAbbreviatedPath": "\/images\/advisors\/stephen-gatfield.jpg",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
