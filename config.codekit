@@ -20,56 +20,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/app\/images\/3E00B1E31C5BC4CC.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 265705,
-		"inputAbbreviatedPath": "\/app\/images\/3E00B1E31C5BC4CC.jpg",
-		"outputAbbreviatedPath": "\/app\/images\/3E00B1E31C5BC4CC.jpg",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/app\/images\/3E00B1E31C5BC4CF.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 265705,
-		"inputAbbreviatedPath": "\/app\/images\/3E00B1E31C5BC4CF.jpg",
-		"outputAbbreviatedPath": "\/app\/images\/3E00B1E31C5BC4CF.jpg",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/app\/images\/72A21AB048430905.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 712,
-		"inputAbbreviatedPath": "\/app\/images\/72A21AB048430905.jpg",
-		"outputAbbreviatedPath": "\/app\/images\/72A21AB048430905.jpg",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/app\/images\/A1091DAE1B55C93D.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 712,
-		"inputAbbreviatedPath": "\/app\/images\/A1091DAE1B55C93D.jpg",
-		"outputAbbreviatedPath": "\/app\/images\/A1091DAE1B55C93D.jpg",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/app\/images\/ABE37994B618444B.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 712,
-		"inputAbbreviatedPath": "\/app\/images\/ABE37994B618444B.jpg",
-		"outputAbbreviatedPath": "\/app\/images\/ABE37994B618444B.jpg",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/app\/images\/about-hero-image.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -107,16 +57,6 @@
 		"initialSize": 13266,
 		"inputAbbreviatedPath": "\/app\/images\/advisors\/stephen-gatfield.jpg",
 		"outputAbbreviatedPath": "\/app\/images\/advisors\/stephen-gatfield.jpg",
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/app\/images\/FEA3D43238D05870.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 712,
-		"inputAbbreviatedPath": "\/app\/images\/FEA3D43238D05870.jpg",
-		"outputAbbreviatedPath": "\/app\/images\/FEA3D43238D05870.jpg",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -201,14 +141,6 @@
 		"outputAbbreviatedPath": "\/build\/about\/about-content.html",
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
-		},
-	"\/build\/about\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/about\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
 		},
 	"\/build\/about\/index.kit": {
 		"fileType": 2048,
@@ -1274,14 +1206,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/build\/content.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/content.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
 	"\/build\/content.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -1439,14 +1363,6 @@
 		"outputAbbreviatedPath": "\/build\/images\/team\/sam.jpg",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/build\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
 		},
 	"\/build\/index.kit": {
 		"fileType": 2048,

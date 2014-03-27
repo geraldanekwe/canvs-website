@@ -5238,7 +5238,7 @@ body {
   height: 100%; }
 
 section, .section {
-  padding-bottom: 40px; }
+  padding: 40px 0; }
 
 .section-header-wrap {
   margin: 40px 0;

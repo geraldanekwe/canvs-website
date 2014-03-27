@@ -2,14 +2,23 @@
 # The humans responsible & technology colophon
 
 # TEAM
-
-    <name> -- <role> -- <twitter>
+		
+		Megan O'Brian -- Designer -- @megaobri
+    Mattan Ingram -- Designer & Developer -- @mattaningram
+    Nicholas DeStefano -- Blog Development -- @destefan
+    Sheila Seles -- Copy & Concept -- @shelila
+    Jared -- Copy & Concept & Company -- @iamjaredf
 
 # THANKS
 
-    <name>
+    The Mashwork Team -- @mashwork
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
+    Jade to HTML5
+    SASS to CSS3
+    HTML5 Boilerplate
     Normalize.css, jQuery, Modernizr
+    Bootstrap SASS
+    Rem SASS Mixin
+    Codekit 2
