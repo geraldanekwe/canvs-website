@@ -20,6 +20,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/app\/images\/A70E4215B293E2EE.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/app\/images\/A70E4215B293E2EE.jpg",
+		"outputAbbreviatedPath": "\/app\/images\/A70E4215B293E2EE.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/images\/about-hero-image.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1205,6 +1215,14 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/build\/content.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/content.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
 		},
 	"\/build\/content.jade": {
 		"compileDebug": 1,

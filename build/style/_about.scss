@@ -2,8 +2,17 @@
 
   .hero-header {
     height: auto;
+    min-height: 0;
     background: $offBlack url("../../images/about-hero-image.jpg") no-repeat center center fixed;
     background-size: cover;
+    @include max-width($screen-xs) {
+      .container {
+        position: relative;
+        top: 0;
+        width: 100%;
+        padding-top: 0;
+      }
+    }  
   }
 
   .hero-header-content {
@@ -29,6 +38,12 @@
 
 .core-beliefs-box {
   @include make-sm-column(4);
+  h2 {
+    @include rem('font-size', 32px);
+    @include rem('line-height', 36px);
+    @include font-smoothing;
+    margin-bottom: 20px;
+  }
   p {
     color: white;
     width: 90%;
@@ -69,6 +84,13 @@
 
   .section-header {
     margin-bottom: 30px;
+  }
+
+  .section-description {
+    width: 830px;
+    max-width: 100%;
+    padding: 0 15px;
+    @extend .center-block;
   }
 }
 
