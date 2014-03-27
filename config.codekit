@@ -10,6 +10,86 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
+	"\/app\/apple-touch-icon-114x114.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3885,
+		"inputAbbreviatedPath": "\/app\/apple-touch-icon-114x114.png",
+		"outputAbbreviatedPath": "\/app\/apple-touch-icon-114x114.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/apple-touch-icon-120x120.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4110,
+		"inputAbbreviatedPath": "\/app\/apple-touch-icon-120x120.png",
+		"outputAbbreviatedPath": "\/app\/apple-touch-icon-120x120.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/apple-touch-icon-144x144.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5011,
+		"inputAbbreviatedPath": "\/app\/apple-touch-icon-144x144.png",
+		"outputAbbreviatedPath": "\/app\/apple-touch-icon-144x144.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/apple-touch-icon-152x152.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5334,
+		"inputAbbreviatedPath": "\/app\/apple-touch-icon-152x152.png",
+		"outputAbbreviatedPath": "\/app\/apple-touch-icon-152x152.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/apple-touch-icon-57x57.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2094,
+		"inputAbbreviatedPath": "\/app\/apple-touch-icon-57x57.png",
+		"outputAbbreviatedPath": "\/app\/apple-touch-icon-57x57.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/apple-touch-icon-60x60.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2151,
+		"inputAbbreviatedPath": "\/app\/apple-touch-icon-60x60.png",
+		"outputAbbreviatedPath": "\/app\/apple-touch-icon-60x60.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/apple-touch-icon-72x72.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2465,
+		"inputAbbreviatedPath": "\/app\/apple-touch-icon-72x72.png",
+		"outputAbbreviatedPath": "\/app\/apple-touch-icon-72x72.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/apple-touch-icon-76x76.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2592,
+		"inputAbbreviatedPath": "\/app\/apple-touch-icon-76x76.png",
+		"outputAbbreviatedPath": "\/app\/apple-touch-icon-76x76.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/apple-touch-icon-precomposed.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -20,13 +100,53 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/app\/images\/A70E4215B293E2EE.jpg": {
-		"fileType": 16384,
+	"\/app\/apple-touch-icon.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/app\/images\/A70E4215B293E2EE.jpg",
-		"outputAbbreviatedPath": "\/app\/images\/A70E4215B293E2EE.jpg",
+		"initialSize": 5334,
+		"inputAbbreviatedPath": "\/app\/apple-touch-icon.png",
+		"outputAbbreviatedPath": "\/app\/apple-touch-icon.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/favicon-160x160.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5564,
+		"inputAbbreviatedPath": "\/app\/favicon-160x160.png",
+		"outputAbbreviatedPath": "\/app\/favicon-160x160.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/favicon-16x16.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1018,
+		"inputAbbreviatedPath": "\/app\/favicon-16x16.png",
+		"outputAbbreviatedPath": "\/app\/favicon-16x16.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/favicon-32x32.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1277,
+		"inputAbbreviatedPath": "\/app\/favicon-32x32.png",
+		"outputAbbreviatedPath": "\/app\/favicon-32x32.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/favicon-96x96.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3339,
+		"inputAbbreviatedPath": "\/app\/favicon-96x96.png",
+		"outputAbbreviatedPath": "\/app\/favicon-96x96.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -107,6 +227,46 @@
 		"inputAbbreviatedPath": "\/app\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
+		},
+	"\/app\/mstile-144x144.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2084,
+		"inputAbbreviatedPath": "\/app\/mstile-144x144.png",
+		"outputAbbreviatedPath": "\/app\/mstile-144x144.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/mstile-150x150.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2201,
+		"inputAbbreviatedPath": "\/app\/mstile-150x150.png",
+		"outputAbbreviatedPath": "\/app\/mstile-150x150.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/mstile-310x310.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3399,
+		"inputAbbreviatedPath": "\/app\/mstile-310x310.png",
+		"outputAbbreviatedPath": "\/app\/mstile-310x310.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/mstile-70x70.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1080,
+		"inputAbbreviatedPath": "\/app\/mstile-70x70.png",
+		"outputAbbreviatedPath": "\/app\/mstile-70x70.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/app\/scripts\/main-min.js": {
 		"fileType": 64,
@@ -1215,6 +1375,24 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/build\/canvs-contact-modal.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/canvs-contact-modal.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/canvs-contact-modal.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/canvs-contact-modal.jade",
+		"outputAbbreviatedPath": "\/build\/canvs-contact-modal.html",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
 		},
 	"\/build\/content.html": {
 		"fileType": 8192,

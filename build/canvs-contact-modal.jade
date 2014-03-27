@@ -1,0 +1,40 @@
+.contactModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='contactModalTitle', aria-hidden='true')
+  .modal-dialog
+    .modal-content
+      button.close(type='button', data-dismiss='modal', aria-hidden='true') ×
+
+      .modal-body
+        .modal-center-wrap
+          div.modal-form-header
+            h1#contactModalTitle.modal-title Contact us for a Canvs demo.
+            p.section-description All fields are mandatory.
+
+          div#mc_embed_signup.canvsContactForm
+            form#mc-embedded-subscribe-form.validate.form-horizontal(action='http://mashwork.us6.list-manage.com/subscribe/post?u=27226eff753800aa4ae740776&id=bfb67acc2a', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='')
+              div.form-group.form-name-group   
+                .mc-field-group
+                  label(for='mce-FNAME') First Name 
+                  input#mce-FNAME.required.form-control(type='text', value='', name='FNAME', placeholder='First Name')
+                .mc-field-group
+                  label(for='mce-LNAME') Last Name 
+                  input#mce-LNAME.required.form-control(type='text', value='', name='LNAME', placeholder='Last Name')
+              div.form-group
+                .mc-field-group
+                  label(for='mce-EMAIL') Email Address 
+                  input#mce-EMAIL.required.email.form-control(type='email', value='', name='EMAIL', placeholder='Email')
+              div.form-group
+                .mc-field-group
+                  label(for='mce-COMPANY') Company &amp; Position 
+                  input#mce-COMPANY.required.form-control(type='text', value='', name='COMPANY', placeholder='Company & Position')
+              div.form-group
+                .mc-field-group
+                  label(for='mce-PHONE') Phone 
+                  input#mce-PHONE.required.form-control(type='tel', value='', name='PHONE', placeholder='Phone')
+              #mce-responses.clear
+                #mce-error-response.response(style='display:none')
+                #mce-success-response.response(style='display:none')
+              // real people should not fill this in and expect good things - do not remove this or risk form bot signups
+              div(style='position: absolute; left: -5000px;')
+                input(type='text', name='b_27226eff753800aa4ae740776_bfb67acc2a', value='')
+              
+              button#mc-embedded-subscribe.action-btn.canvsContactform-submit(type='submit', value='Subscribe', name='subscribe') Request demo

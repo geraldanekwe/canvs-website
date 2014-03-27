@@ -5265,7 +5265,7 @@ section, .section {
   min-height: 480px;
   text-align: center;
   padding-bottom: 50px;
-  background: #282828 url("../../images/hero-image.jpg") no-repeat center center fixed;
+  background: #282828 url("../images/hero-image.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   background-size: cover; }
   @media screen and (min-width: 768px) {
@@ -5493,7 +5493,7 @@ section, .section {
 
 .actionable-insights-section {
   text-align: center;
-  background: #282828 url("../../images/hero-image.jpg") no-repeat center center fixed;
+  background: #282828 url("../images/hero-image.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   background-size: cover; }
   .actionable-insights-section h1 {
@@ -5688,7 +5688,7 @@ section, .section {
 .about-content .hero-header {
   height: auto;
   min-height: 0;
-  background: #282828 url("../../images/about-hero-image.jpg") no-repeat center center fixed;
+  background: #282828 url("../images/about-hero-image.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   background-size: cover; }
   @media screen and (max-width: 479px) {

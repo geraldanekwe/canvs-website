@@ -3,7 +3,7 @@
   .hero-header {
     height: auto;
     min-height: 0;
-    background: $offBlack url("../../images/about-hero-image.jpg") no-repeat center center fixed;
+    background: $offBlack url("../images/about-hero-image.jpg") no-repeat center center fixed;
     background-size: cover;
     @include max-width($screen-xs) {
       .container {
