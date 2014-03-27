@@ -1,5 +1,8 @@
-#canvsContactForm {
+.canvsContactForm {
   margin-bottom: 30px;
+  label {
+    display: none;
+  }
   .form-control {
     @extend .input-lg;
     border-radius: 0;
@@ -25,6 +28,22 @@
         transition: opacity 0.5s 0.5s ease; 
         opacity: 0;
       }
+    }
+  }
+}
+
+.canvsContactForm {
+  .form-group {
+    margin-bottom: 0;
+  }
+  .mc-field-group {
+    margin-bottom: 30px;
+    @include make-sm-column(12);
+  }
+  .form-name-group {
+    @extend .row;
+    .mc-field-group {
+      @include make-sm-column(6);
     }
   }
 }
