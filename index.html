@@ -32,7 +32,8 @@
           <div class="powered-by-wrap"><span class="powered-by">powered by</span><img src="images/logos/mashwork-logo-white-red.svg" class="mashwork-logo"/></div></a>
       </div>
       <h1 class="site-header">The next generation in social TV analytics.</h1><a href="/" class="video-play-btn"><img src="images/play-btn-triangle.svg" class="play-btn-triangle"/></a>
-    </div><a data-toggle="modal" data-target=".contactModal" class="action-btn learn-more-btn">Learn More</a>
+    </div>
+    <button data-toggle="modal" data-target=".contactModal" class="action-btn learn-more-btn">Learn More</button>
   </div>
 </header>
 <section class="about-canvs-section">
@@ -49,7 +50,8 @@
         <h2>Forget sentiment.<br>Discover meaning.</h2>
         <p>We know that social media sentiment tools suck because we’ve used them all. We don’t even believe in positive, negative, and neutral sentiment. Canvs uncovers nuanced audience emotions and lets you decide what they mean for your show.</p>
       </div>
-    </div><a href="/" class="action-btn request-demo-btn">Request a Demo</a>
+    </div>
+    <button data-toggle="modal" data-target=".contactModal" class="action-btn request-demo-btn">Request a Demo</button>
   </div>
 </section>
 <section class="updates-section">
@@ -57,7 +59,7 @@
     <header class="section-header-wrap">
       <h1 class="section-header">Updates</h1>
       <p class="section-description">The latest and greatest Canvs news</p>
-    </header><a href="http://mashwork.com/blog" class="updates-btn blog-btn">Visit our Blog</a><a href="/" class="updates-btn newsletter-btn">Get our Newsletter</a>
+    </header><a href="http://mashwork.com/blog" class="updates-btn blog-btn">Visit our Blog</a><a data-toggle="modal" data-target=".contactModal" class="updates-btn newsletter-btn">Get our Newsletter</a>
   </div>
 </section>
 <section class="actionable-insights-section">
@@ -81,7 +83,8 @@
         <h2>Production</h2>
         <p>Use Canvs to get feedback in real time. Know immediately if that joke in the third act landed and if viewers hate the new villain as much as you want them to.</p>
       </div>
-    </div><a href="/" class="action-btn get-started-btn">Get started with Canvs</a>
+    </div>
+    <button data-toggle="modal" data-target=".contactModal" class="action-btn get-started-btn">Get started with Canvs</button>
   </div>
 </section>
 <section class="single-solution-section">
@@ -117,17 +120,37 @@
     </div><a href="/" class="action-btn info-sheet-btn">Canvs Info Sheet</a>
   </div>
 </section>
+<iframe src="//player.vimeo.com/video/13209929?api=1;title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;color=30bcae&amp;amp;autoplay=1" width="1140" height="640" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
 <div tabindex="-1" role="dialog" aria-labelledby="contactModalTitle" aria-hidden="true" class="contactModal modal fade">
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button>
-        <h1 id="contactModalTitle" class="modal-title">Contact us for a Canvs demo.</h1>
-        <p class="section-description">All fields are mandatory.</p>
-      </div>
-      <div class="modal-body">...</div>
-      <div class="modal-footer">
-        <button type="button" class="action-btn submit-demo-request-btn">Request demo</button>
+      <button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button>
+      <div class="modal-body">
+        <div class="modal-center-wrap">
+          <div class="modal-form-header">
+            <h1 id="contactModalTitle" class="modal-title">Contact us for a Canvs demo.</h1>
+            <p class="section-description">All fields are mandatory.</p>
+          </div>
+          <form id="canvsContactForm" role="form">
+            <div class="form-group">
+              <label for="canvsContactName"></label>
+              <input id="exampleInputEmail1" type="text" placeholder="First &amp; Last Name" class="form-control"/>
+            </div>
+            <div class="form-group">
+              <label for="canvsContactEmail"></label>
+              <input id="exampleInputPassword1" type="email" placeholder="Email" class="form-control"/>
+            </div>
+            <div class="form-group">
+              <label for="canvsContactPosition"></label>
+              <input id="exampleInputPassword1" type="text" placeholder="Company &amp; Position" class="form-control"/>
+            </div>
+            <div class="form-group">
+              <label for="canvsContactPhone"></label>
+              <input id="exampleInputPassword1" type="tel" placeholder="Phone" class="form-control"/>
+            </div>
+            <button type="button" class="action-btn canvsContactform-submit">Request demo</button>
+          </form>
+        </div>
       </div>
     </div>
   </div>
@@ -135,12 +158,12 @@
     
 <footer class="page-footer">
   <ul class="social-links">
-    <li class="twitter-link"><a href="https://www.twitter.com/mashwork" target="_blank"><img src="http://www.mashwork.com/canvs/images/twitter-icon.svg" class="social-icon"/></a></li>
-    <li class="facebook-link"><a href="https://www.facebook.com/mashwork" target="_blank"><img src="http://www.mashwork.com/canvs/images/facebook-icon.svg" class="social-icon"/></a></li>
-    <li class="linkedin-link"><a href="https://www.linkedin.com/company/mashwork" target="_blank"><img src="http://www.mashwork.com/canvs/images/linkedin-icon.svg" class="social-icon"/></a></li>
+    <li class="twitter-link"><a href="https://www.twitter.com/mashwork" target="_blank"><img src="http://mashwork.com/canvs/images/twitter-icon.svg" class="social-icon"/></a></li>
+    <li class="facebook-link"><a href="https://www.facebook.com/mashwork" target="_blank"><img src="http://mashwork.com/canvs/images/facebook-icon.svg" class="social-icon"/></a></li>
+    <li class="linkedin-link"><a href="https://www.linkedin.com/company/mashwork" target="_blank"><img src="http://mashwork.com/canvs/images/linkedin-icon.svg" class="social-icon"/></a></li>
   </ul>
   <p class="copyright">&copy; 2014 Mashwork, Inc. &nbsp;•&nbsp; All rights reserved. &nbsp;•&nbsp; <a href="/privacy" target="_blank">Privacy Policy</a></p>
-  <p class="contact-info"><a href="https://goo.gl/maps/slKfo" target="_blank">11 W. 25th St, 7th Fl, New York, NY 10010</a>• <a href="tel:1-646-201-9124">646-201-9124</a>• <a href="/canvs/about">About Us </a>• <a href="http://mashwork.com/blog">News</a></p><a href="http://wearemadeinny.com/" class="made-in-ny"><img src="http://www.mashwork.com/canvs/images/logos/made-in-ny-logo.svg"/></a>
+  <p class="contact-info"><a href="https://goo.gl/maps/slKfo" target="_blank">11 W. 25th St, 7th Fl, New York, NY 10010</a>• <a href="tel:1-646-201-9124">646-201-9124</a>• <a href="/about">About Us </a>• <a href="http://mashwork.com/blog">New</a></p><a href="http://wearemadeinny.com/" class="made-in-ny"><img src="http://mashwork.com/canvs/images/logos/made-in-ny-logo.svg"/></a>
 </footer>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="bower_components/html5-boilerplate/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>

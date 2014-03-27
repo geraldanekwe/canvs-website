@@ -377,9 +377,47 @@ section, .section {
   background-color: shade($offWhite, 5%);
 }
 
-.modal-header {
+.modal .close {
+  z-index: 9000;
+  @include rem('font-size', 36px);
+  line-height: 44px;
+  font-weight: 300;
+  text-shadow: none;
+  color: $grayMed;
+  opacity: 1;
+  @include size(40px);
+  border-radius: 100%;
+  background-color: shade($grayLight, 5%);
+  position: absolute;
+  top: 15px;
+  right: 15px; 
+  &:hover {
+    background-color: shade($grayLight, 15%);
+    color: $grayDark;
+  }
+}
+
+.modal-title {
+  @include rem('line-height', 42px);
+  margin-bottom: 10px;
+}
+
+.modal-body {
   text-align: center;
-  border: none;
+  height: 100%;
+}
+
+.modal-form-header {
+  margin-bottom: 20px;
+}
+
+.modal-center-wrap {
+  height: 500px;
+  position: relative;
+  top: 50%;
+  margin-top: -250px;
+  @include make-sm-column(8);
+  @include make-sm-column-offset(2);
 }
 
 .modal-footer {

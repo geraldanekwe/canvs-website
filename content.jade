@@ -17,7 +17,7 @@ header.hero-header
       a.video-play-btn(href='/')
         img.play-btn-triangle(src="images/play-btn-triangle.svg")
 
-    a.action-btn.learn-more-btn(data-toggle="modal", data-target=".contactModal") Learn More
+    button.action-btn.learn-more-btn(data-toggle="modal", data-target=".contactModal") Learn More
 
 section.about-canvs-section
   div.container
@@ -33,7 +33,7 @@ section.about-canvs-section
         h2 Forget sentiment.<br>Discover meaning.
         p We know that social media sentiment tools suck because we’ve used them all. We don’t even believe in positive, negative, and neutral sentiment. Canvs uncovers nuanced audience emotions and lets you decide what they mean for your show.
 
-    a.action-btn.request-demo-btn(href='/') Request a Demo
+    button.action-btn.request-demo-btn(data-toggle="modal", data-target=".contactModal") Request a Demo
 
 section.updates-section
   div.container
@@ -42,7 +42,7 @@ section.updates-section
       p.section-description The latest and greatest Canvs news
 
     a.updates-btn.blog-btn(href='http://mashwork.com/blog') Visit our Blog
-    a.updates-btn.newsletter-btn(href='/') Get our Newsletter
+    a.updates-btn.newsletter-btn(data-toggle="modal", data-target=".contactModal") Get our Newsletter
 
 section.actionable-insights-section
   div.container
@@ -65,7 +65,7 @@ section.actionable-insights-section
         h2 Production
         p Use Canvs to get feedback in real time. Know immediately if that joke in the third act landed and if viewers hate the new villain as much as you want them to.
 
-    a.action-btn.get-started-btn(href='/') Get started with Canvs
+    button.action-btn.get-started-btn(data-toggle="modal", data-target=".contactModal") Get started with Canvs
 
 section.single-solution-section
   div.container
@@ -108,16 +108,32 @@ section.single-solution-section
 
     a.action-btn.info-sheet-btn(href='/') Canvs Info Sheet
 
+iframe(src="//player.vimeo.com/video/13209929?api=1;title=0&amp;byline=0&amp;portrait=0&amp;color=30bcae&amp;autoplay=1" width="1140" height="640" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen)
+
 .contactModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='contactModalTitle', aria-hidden='true')
   .modal-dialog
     .modal-content
-      .modal-header
-        button.close(type='button', data-dismiss='modal', aria-hidden='true') ×
-        h1#contactModalTitle.modal-title Contact us for a Canvs demo.
-        p.section-description All fields are mandatory.
+      button.close(type='button', data-dismiss='modal', aria-hidden='true') ×
+
       .modal-body
-        | ...
-      .modal-footer
-        button.action-btn.submit-demo-request-btn(type='button') Request demo
+        .modal-center-wrap
+          div.modal-form-header
+            h1#contactModalTitle.modal-title Contact us for a Canvs demo.
+            p.section-description All fields are mandatory.
+          form#canvsContactForm(role='form')
+            .form-group
+              label(for='canvsContactName')
+              input#exampleInputEmail1.form-control(type='text', placeholder='First & Last Name')
+            .form-group
+              label(for='canvsContactEmail')
+              input#exampleInputPassword1.form-control(type='email', placeholder='Email')
+            .form-group
+              label(for='canvsContactPosition')
+              input#exampleInputPassword1.form-control(type='text', placeholder='Company & Position')
+            .form-group
+              label(for='canvsContactPhone')
+              input#exampleInputPassword1.form-control(type='tel', placeholder='Phone')
+
+            button.action-btn.canvsContactform-submit(type='button') Request demo
 
 

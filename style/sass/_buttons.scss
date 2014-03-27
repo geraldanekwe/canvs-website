@@ -38,3 +38,9 @@
 	@include button-color($gray);
 	@include button-size();
 }
+
+button {
+	&:focus {
+		outline: none;
+	}
+}
