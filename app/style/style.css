@@ -5206,27 +5206,34 @@ button:focus {
         transition: opacity 0.5s 0.5s ease;
         opacity: 0; }
 
-.canvsContactForm .form-group {
+.canvsContactForm {
   margin-bottom: 0; }
-.canvsContactForm .mc-field-group {
-  margin-bottom: 30px;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px; }
-  @media (min-width: 768px) {
+  .canvsContactForm .form-group {
+    margin-bottom: 0; }
+  .canvsContactForm .mc-field-group {
+    margin-bottom: 30px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 768px) {
+      .canvsContactForm .mc-field-group {
+        float: left;
+        width: 100%; } }
+  .canvsContactForm .form-name-group .mc-field-group {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 768px) {
+      .canvsContactForm .form-name-group .mc-field-group {
+        float: left;
+        width: 50%; } }
+  @media screen and (max-width: 479px) {
     .canvsContactForm .mc-field-group {
-      float: left;
-      width: 100%; } }
-.canvsContactForm .form-name-group .mc-field-group {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px; }
-  @media (min-width: 768px) {
-    .canvsContactForm .form-name-group .mc-field-group {
-      float: left;
-      width: 50%; } }
+      margin-bottom: 15px; }
+    .canvsContactForm .canvsContactform-submit {
+      margin-top: 15px; } }
 
 .canvsContactform-submit {
   margin-top: 30px; }
@@ -5334,7 +5341,7 @@ section, .section {
   @media screen and (max-width: 479px) {
     .hero-header-content {
       top: 0;
-      margin-top: 20px; } }
+      margin-top: 0; } }
 
 .branding-wrap {
   margin-top: 0;
@@ -5659,10 +5666,14 @@ section, .section {
 
 .modal-body {
   text-align: center;
-  height: 100%; }
+  height: 100%;
+  padding: 0; }
 
 .modal-form-header {
   margin-bottom: 40px; }
+  @media screen and (max-width: 479px) {
+    .modal-form-header {
+      margin-bottom: 20px; } }
 
 .modal-center-wrap {
   height: 500px;
@@ -5684,6 +5695,11 @@ section, .section {
 .modal-footer {
   text-align: center;
   border: none; }
+
+.featherlight .featherlight-content {
+  padding: 0;
+  width: 80%;
+  background: transparent; }
 
 .about-content .hero-header {
   height: auto;

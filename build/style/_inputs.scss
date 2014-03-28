@@ -33,6 +33,7 @@
 }
 
 .canvsContactForm {
+  margin-bottom: 0;
   .form-group {
     margin-bottom: 0;
   }
@@ -46,8 +47,16 @@
       @include make-sm-column(6);
     }
   }
+  @include max-width($screen-xs) {
+    .mc-field-group {
+      margin-bottom: 15px;
+    }
+    .canvsContactform-submit {
+      margin-top: 15px;
+    }
+  }
 }
-
+ 
 .canvsContactform-submit {
   margin-top: 30px;
 }

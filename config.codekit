@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "16877",
+"creatorBuild": "16895",
 "files": {
 	"\/app\/about\/index.html": {
 		"fileType": 8192,
@@ -8,6 +8,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/app\/about\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/app\/apple-touch-icon-114x114.png": {
@@ -17,6 +18,7 @@
 		"initialSize": 3885,
 		"inputAbbreviatedPath": "\/app\/apple-touch-icon-114x114.png",
 		"outputAbbreviatedPath": "\/app\/apple-touch-icon-114x114.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -27,6 +29,7 @@
 		"initialSize": 4110,
 		"inputAbbreviatedPath": "\/app\/apple-touch-icon-120x120.png",
 		"outputAbbreviatedPath": "\/app\/apple-touch-icon-120x120.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -37,6 +40,7 @@
 		"initialSize": 5011,
 		"inputAbbreviatedPath": "\/app\/apple-touch-icon-144x144.png",
 		"outputAbbreviatedPath": "\/app\/apple-touch-icon-144x144.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -47,6 +51,7 @@
 		"initialSize": 5334,
 		"inputAbbreviatedPath": "\/app\/apple-touch-icon-152x152.png",
 		"outputAbbreviatedPath": "\/app\/apple-touch-icon-152x152.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -57,6 +62,7 @@
 		"initialSize": 2094,
 		"inputAbbreviatedPath": "\/app\/apple-touch-icon-57x57.png",
 		"outputAbbreviatedPath": "\/app\/apple-touch-icon-57x57.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -67,6 +73,7 @@
 		"initialSize": 2151,
 		"inputAbbreviatedPath": "\/app\/apple-touch-icon-60x60.png",
 		"outputAbbreviatedPath": "\/app\/apple-touch-icon-60x60.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -77,6 +84,7 @@
 		"initialSize": 2465,
 		"inputAbbreviatedPath": "\/app\/apple-touch-icon-72x72.png",
 		"outputAbbreviatedPath": "\/app\/apple-touch-icon-72x72.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -87,6 +95,7 @@
 		"initialSize": 2592,
 		"inputAbbreviatedPath": "\/app\/apple-touch-icon-76x76.png",
 		"outputAbbreviatedPath": "\/app\/apple-touch-icon-76x76.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -97,6 +106,7 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/app\/apple-touch-icon-precomposed.png",
 		"outputAbbreviatedPath": "\/app\/apple-touch-icon-precomposed.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -107,6 +117,7 @@
 		"initialSize": 5334,
 		"inputAbbreviatedPath": "\/app\/apple-touch-icon.png",
 		"outputAbbreviatedPath": "\/app\/apple-touch-icon.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -117,6 +128,7 @@
 		"initialSize": 5564,
 		"inputAbbreviatedPath": "\/app\/favicon-160x160.png",
 		"outputAbbreviatedPath": "\/app\/favicon-160x160.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -127,6 +139,7 @@
 		"initialSize": 1018,
 		"inputAbbreviatedPath": "\/app\/favicon-16x16.png",
 		"outputAbbreviatedPath": "\/app\/favicon-16x16.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -137,6 +150,7 @@
 		"initialSize": 1277,
 		"inputAbbreviatedPath": "\/app\/favicon-32x32.png",
 		"outputAbbreviatedPath": "\/app\/favicon-32x32.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -147,6 +161,7 @@
 		"initialSize": 3339,
 		"inputAbbreviatedPath": "\/app\/favicon-96x96.png",
 		"outputAbbreviatedPath": "\/app\/favicon-96x96.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -157,6 +172,7 @@
 		"initialSize": 210044,
 		"inputAbbreviatedPath": "\/app\/images\/about-hero-image.jpg",
 		"outputAbbreviatedPath": "\/app\/images\/about-hero-image.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -167,6 +183,7 @@
 		"initialSize": 18883,
 		"inputAbbreviatedPath": "\/app\/images\/advisors\/michoel-ogince.jpg",
 		"outputAbbreviatedPath": "\/app\/images\/advisors\/michoel-ogince.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -177,6 +194,7 @@
 		"initialSize": 16016,
 		"inputAbbreviatedPath": "\/app\/images\/advisors\/shaula-yemini.jpg",
 		"outputAbbreviatedPath": "\/app\/images\/advisors\/shaula-yemini.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -187,6 +205,7 @@
 		"initialSize": 13266,
 		"inputAbbreviatedPath": "\/app\/images\/advisors\/stephen-gatfield.jpg",
 		"outputAbbreviatedPath": "\/app\/images\/advisors\/stephen-gatfield.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -197,6 +216,7 @@
 		"initialSize": 115632,
 		"inputAbbreviatedPath": "\/app\/images\/hero-image.jpg",
 		"outputAbbreviatedPath": "\/app\/images\/hero-image.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -207,6 +227,7 @@
 		"initialSize": 82954,
 		"inputAbbreviatedPath": "\/app\/images\/team\/jared.jpg",
 		"outputAbbreviatedPath": "\/app\/images\/team\/jared.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -217,6 +238,7 @@
 		"initialSize": 31102,
 		"inputAbbreviatedPath": "\/app\/images\/team\/sam.jpg",
 		"outputAbbreviatedPath": "\/app\/images\/team\/sam.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -226,6 +248,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/app\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/app\/mstile-144x144.png": {
@@ -235,6 +258,7 @@
 		"initialSize": 2084,
 		"inputAbbreviatedPath": "\/app\/mstile-144x144.png",
 		"outputAbbreviatedPath": "\/app\/mstile-144x144.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -245,6 +269,7 @@
 		"initialSize": 2201,
 		"inputAbbreviatedPath": "\/app\/mstile-150x150.png",
 		"outputAbbreviatedPath": "\/app\/mstile-150x150.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -255,6 +280,7 @@
 		"initialSize": 3399,
 		"inputAbbreviatedPath": "\/app\/mstile-310x310.png",
 		"outputAbbreviatedPath": "\/app\/mstile-310x310.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -265,8 +291,51 @@
 		"initialSize": 1080,
 		"inputAbbreviatedPath": "\/app\/mstile-70x70.png",
 		"outputAbbreviatedPath": "\/app\/mstile-70x70.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/app\/plugins\/featherlight.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/plugins\/featherlight.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/plugins\/featherlight.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/plugins\/featherlight.min.js",
+		"outputAbbreviatedPath": "\/app\/plugins\/featherlight.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/app\/plugins\/froogaloop.min-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/plugins\/froogaloop.min-min.js",
+		"outputAbbreviatedPath": "\/app\/plugins\/froogaloop.min-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/app\/plugins\/froogaloop.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/plugins\/froogaloop.min.js",
+		"outputAbbreviatedPath": "\/app\/plugins\/froogaloop.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/app\/scripts\/main-min.js": {
 		"fileType": 64,
@@ -274,6 +343,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/app\/scripts\/main-min.js",
 		"outputAbbreviatedPath": "\/app\/scripts\/main-min-min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -284,6 +354,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/app\/style\/style.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/_google-analytics.html": {
@@ -292,6 +363,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/_google-analytics.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/about\/about-content.html": {
@@ -300,6 +372,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/about\/about-content.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/about\/about-content.jade": {
@@ -309,6 +382,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/about\/about-content.jade",
 		"outputAbbreviatedPath": "\/build\/about\/about-content.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
@@ -318,6 +392,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/about\/index.kit",
 		"outputAbbreviatedPath": "\/app\/about\/index.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/bower_components\/html5-boilerplate\/404.html": {
@@ -326,6 +401,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/404.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/bower_components\/html5-boilerplate\/apple-touch-icon-precomposed.png": {
@@ -335,6 +411,7 @@
 		"initialSize": 1226,
 		"inputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/apple-touch-icon-precomposed.png",
 		"outputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/apple-touch-icon-precomposed.png",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -347,6 +424,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/CHANGELOG.md",
 		"outputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/CHANGELOG.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/bower_components\/html5-boilerplate\/CONTRIBUTING.md": {
@@ -358,6 +436,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/CONTRIBUTING.md",
 		"outputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/CONTRIBUTING.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/bower_components\/html5-boilerplate\/css\/main.css": {
@@ -366,6 +445,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/css\/main.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/bower_components\/html5-boilerplate\/css\/normalize.css": {
@@ -374,6 +454,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/css\/normalize.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/bower_components\/html5-boilerplate\/doc\/crossdomain.md": {
@@ -385,6 +466,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/doc\/crossdomain.md",
 		"outputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/doc\/crossdomain.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/bower_components\/html5-boilerplate\/doc\/css.md": {
@@ -396,6 +478,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/doc\/css.md",
 		"outputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/doc\/css.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/bower_components\/html5-boilerplate\/doc\/extend.md": {
@@ -407,6 +490,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/doc\/extend.md",
 		"outputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/doc\/extend.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/bower_components\/html5-boilerplate\/doc\/faq.md": {
@@ -418,6 +502,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/doc\/faq.md",
 		"outputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/doc\/faq.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/bower_components\/html5-boilerplate\/doc\/html.md": {
@@ -429,6 +514,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/doc\/html.md",
 		"outputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/doc\/html.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/bower_components\/html5-boilerplate\/doc\/js.md": {
@@ -440,6 +526,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/doc\/js.md",
 		"outputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/doc\/js.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/bower_components\/html5-boilerplate\/doc\/misc.md": {
@@ -451,6 +538,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/doc\/misc.md",
 		"outputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/doc\/misc.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/bower_components\/html5-boilerplate\/doc\/TOC.md": {
@@ -462,6 +550,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/doc\/TOC.md",
 		"outputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/doc\/TOC.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/bower_components\/html5-boilerplate\/doc\/usage.md": {
@@ -473,6 +562,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/doc\/usage.md",
 		"outputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/doc\/usage.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/bower_components\/html5-boilerplate\/index.html": {
@@ -481,6 +571,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/bower_components\/html5-boilerplate\/js\/main.js": {
@@ -489,6 +580,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/js\/main.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/html5-boilerplate\/js\/main-min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -499,6 +591,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/js\/plugins.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/html5-boilerplate\/js\/plugins-min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -509,6 +602,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/js\/vendor\/jquery-1.10.2.min.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/html5-boilerplate\/js\/vendor\/jquery-1.10.2.min-min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -519,6 +613,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/js\/vendor\/modernizr-2.6.2.min.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/html5-boilerplate\/js\/vendor\/modernizr-2.6.2.min-min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -532,6 +627,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/LICENSE.md",
 		"outputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/LICENSE.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/bower_components\/html5-boilerplate\/README.md": {
@@ -543,6 +639,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/README.md",
 		"outputAbbreviatedPath": "\/build\/bower_components\/html5-boilerplate\/README.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/bower_components\/sass_mixin_rem\/stylesheets\/_rem.sass": {
@@ -554,6 +651,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/sass_mixin_rem\/stylesheets\/_rem.sass",
 		"outputAbbreviatedPath": "\/app\/css\/_rem.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -569,6 +667,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/sass_mixin_rem\/stylesheets\/_rem.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_rem.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -581,6 +680,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/sass_mixin_rem\/test\/css\/screen.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/bower_components\/sass_mixin_rem\/test\/sass\/screen.sass": {
@@ -592,6 +692,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/sass_mixin_rem\/test\/sass\/screen.sass",
 		"outputAbbreviatedPath": "\/app\/css\/screen.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -607,6 +708,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/CHANGELOG.md",
 		"outputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/CHANGELOG.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/CONTRIBUTING.md": {
@@ -618,6 +720,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/CONTRIBUTING.md",
 		"outputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/CONTRIBUTING.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/README.md": {
@@ -629,6 +732,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/README.md",
 		"outputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/README.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap.js": {
@@ -637,6 +741,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap-min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -647,6 +752,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/affix.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/affix-min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -657,6 +763,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/alert.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/alert-min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -667,6 +774,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/button.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/button-min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -677,6 +785,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/carousel.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/carousel-min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -687,6 +796,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/collapse.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/collapse-min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -697,6 +807,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/dropdown.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/dropdown-min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -707,6 +818,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/modal.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/modal-min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -717,6 +829,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/popover.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/popover-min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -727,6 +840,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/scrollspy.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/scrollspy-min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -737,6 +851,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/tab.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/tab-min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -747,6 +862,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/tooltip.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/tooltip-min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -757,6 +873,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/transition.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/transition-min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -770,6 +887,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap.scss",
 		"outputAbbreviatedPath": "\/app\/css\/bootstrap.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -785,6 +903,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_alerts.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_alerts.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -800,6 +919,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_badges.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_badges.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -815,6 +935,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_breadcrumbs.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_breadcrumbs.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -830,6 +951,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_button-groups.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_button-groups.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -845,6 +967,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_buttons.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_buttons.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -860,6 +983,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_carousel.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_carousel.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -875,6 +999,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_close.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_close.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -890,6 +1015,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_code.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_code.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -905,6 +1031,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_component-animations.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_component-animations.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -920,6 +1047,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_dropdowns.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_dropdowns.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -935,6 +1063,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_forms.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_forms.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -950,6 +1079,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_glyphicons.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_glyphicons.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -965,6 +1095,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_grid.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_grid.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -980,6 +1111,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_input-groups.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_input-groups.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -995,6 +1127,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_jumbotron.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_jumbotron.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1010,6 +1143,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_labels.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_labels.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1025,6 +1159,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_list-group.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_list-group.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1040,6 +1175,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_media.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_media.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1055,6 +1191,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_mixins.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_mixins.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1070,6 +1207,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_modals.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_modals.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1085,6 +1223,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_navbar.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_navbar.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1100,6 +1239,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_navs.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_navs.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1115,6 +1255,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_normalize.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_normalize.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1130,6 +1271,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_pager.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_pager.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1145,6 +1287,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_pagination.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_pagination.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1160,6 +1303,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_panels.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_panels.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1175,6 +1319,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_popovers.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_popovers.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1190,6 +1335,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_print.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_print.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1205,6 +1351,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_progress-bars.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_progress-bars.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1220,6 +1367,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_responsive-utilities.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_responsive-utilities.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1235,6 +1383,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_scaffolding.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_scaffolding.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1250,6 +1399,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_tables.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_tables.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1265,6 +1415,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_theme.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_theme.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1280,6 +1431,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_thumbnails.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_thumbnails.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1295,6 +1447,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_tooltip.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_tooltip.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1310,6 +1463,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_type.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_type.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1325,6 +1479,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_utilities.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_utilities.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1340,6 +1495,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_variables.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_variables.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1355,6 +1511,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_wells.scss",
 		"outputAbbreviatedPath": "\/app\/css\/_wells.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1370,6 +1527,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/bootstrap.scss",
 		"outputAbbreviatedPath": "\/app\/css\/bootstrap.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1382,6 +1540,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/canvs-contact-modal.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/canvs-contact-modal.jade": {
@@ -1391,6 +1550,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/canvs-contact-modal.jade",
 		"outputAbbreviatedPath": "\/build\/canvs-contact-modal.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
@@ -1400,6 +1560,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/content.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/content.jade": {
@@ -1409,6 +1570,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/content.jade",
 		"outputAbbreviatedPath": "\/build\/content.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
@@ -1418,6 +1580,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/footer.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/footer.jade": {
@@ -1427,6 +1590,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/footer.jade",
 		"outputAbbreviatedPath": "\/build\/footer.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
@@ -1437,6 +1601,7 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/build\/images\/3E00B1E31C5BC4CC.jpg",
 		"outputAbbreviatedPath": "\/build\/images\/3E00B1E31C5BC4CC.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1447,6 +1612,7 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/build\/images\/3E00B1E31C5BC4CF.jpg",
 		"outputAbbreviatedPath": "\/build\/images\/3E00B1E31C5BC4CF.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1457,6 +1623,7 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/build\/images\/72A21AB048430905.jpg",
 		"outputAbbreviatedPath": "\/build\/images\/72A21AB048430905.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1467,6 +1634,7 @@
 		"initialSize": 712,
 		"inputAbbreviatedPath": "\/build\/images\/A1091DAE1B55C93D.jpg",
 		"outputAbbreviatedPath": "\/build\/images\/A1091DAE1B55C93D.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1477,6 +1645,7 @@
 		"initialSize": 712,
 		"inputAbbreviatedPath": "\/build\/images\/ABE37994B618444B.jpg",
 		"outputAbbreviatedPath": "\/build\/images\/ABE37994B618444B.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1487,6 +1656,7 @@
 		"initialSize": 364898,
 		"inputAbbreviatedPath": "\/build\/images\/about-hero-image.jpg",
 		"outputAbbreviatedPath": "\/build\/images\/about-hero-image.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1497,6 +1667,7 @@
 		"initialSize": 18883,
 		"inputAbbreviatedPath": "\/build\/images\/advisors\/michoel-ogince.jpg",
 		"outputAbbreviatedPath": "\/build\/images\/advisors\/michoel-ogince.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1507,6 +1678,7 @@
 		"initialSize": 16016,
 		"inputAbbreviatedPath": "\/build\/images\/advisors\/shaula-yemini.jpg",
 		"outputAbbreviatedPath": "\/build\/images\/advisors\/shaula-yemini.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1517,6 +1689,7 @@
 		"initialSize": 13266,
 		"inputAbbreviatedPath": "\/build\/images\/advisors\/stephen-gatfield.jpg",
 		"outputAbbreviatedPath": "\/build\/images\/advisors\/stephen-gatfield.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1527,6 +1700,7 @@
 		"initialSize": 712,
 		"inputAbbreviatedPath": "\/build\/images\/FEA3D43238D05870.jpg",
 		"outputAbbreviatedPath": "\/build\/images\/FEA3D43238D05870.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1537,6 +1711,7 @@
 		"initialSize": 118676,
 		"inputAbbreviatedPath": "\/build\/images\/hero-image.jpg",
 		"outputAbbreviatedPath": "\/build\/images\/hero-image.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
@@ -1547,6 +1722,7 @@
 		"initialSize": 82954,
 		"inputAbbreviatedPath": "\/build\/images\/team\/jared.jpg",
 		"outputAbbreviatedPath": "\/build\/images\/team\/jared.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1557,6 +1733,7 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/build\/images\/team\/sam.jpg",
 		"outputAbbreviatedPath": "\/build\/images\/team\/sam.jpg",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1566,6 +1743,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/index.kit",
 		"outputAbbreviatedPath": "\/app\/index.html",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/scripts\/main.js": {
@@ -1574,6 +1752,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/scripts\/main.js",
 		"outputAbbreviatedPath": "\/app\/scripts\/main-min.js",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -1587,6 +1766,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/style\/_about.scss",
 		"outputAbbreviatedPath": "\/app\/style\/_about.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1602,6 +1782,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/style\/_buttons.scss",
 		"outputAbbreviatedPath": "\/app\/style\/_buttons.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1617,6 +1798,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/style\/_inputs.scss",
 		"outputAbbreviatedPath": "\/app\/style\/_inputs.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1632,6 +1814,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/style\/_mixins.scss",
 		"outputAbbreviatedPath": "\/app\/style\/_mixins.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1647,6 +1830,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/style\/_primary.scss",
 		"outputAbbreviatedPath": "\/app\/style\/_primary.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1662,6 +1846,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/style\/_typography.scss",
 		"outputAbbreviatedPath": "\/app\/style\/_typography.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1677,6 +1862,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/style\/_variables.scss",
 		"outputAbbreviatedPath": "\/app\/style\/_variables.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
@@ -1692,6 +1878,7 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/style\/style.scss",
 		"outputAbbreviatedPath": "\/app\/style\/style.css",
+		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,

@@ -12,6 +12,7 @@
 
     <!-- favicon.ico and apple-touch-icon.png in the root directory -->
 
+    <link rel="stylesheet" href="plugins/featherlight.min.css">
     <link rel="stylesheet" href="style/style.css">
 
     <script type="text/javascript" src="//use.typekit.net/nxm7llc.js"></script>
@@ -31,7 +32,7 @@
         <p class="logo-introducing">Introducing</p><a href="/" class="canvs-logo-link"><img src="images/logos/canvs-logo-white.svg" class="canvs-logo"/>
           <div class="powered-by-wrap"><span class="powered-by">powered by</span><img src="images/logos/mashwork-logo-white-red.svg" class="mashwork-logo"/></div></a>
       </div>
-      <h1 class="site-header">The next generation in social TV analytics.</h1><a href="/" class="video-play-btn"><img src="images/play-btn-triangle.svg" class="play-btn-triangle"/></a>
+      <h1 class="site-header">The next generation in social TV analytics.</h1><a href="#" data-featherlight=".canvs-video" class="video-play-btn"><img src="images/play-btn-triangle.svg" class="play-btn-triangle"/></a>
     </div>
     <button data-toggle="modal" data-target=".contactModal" class="action-btn learn-more-btn">Learn More</button>
   </div>
@@ -117,6 +118,7 @@
     </div><a href="/files/Canvs_Info_Sheet.pdf" class="action-btn info-sheet-btn">Canvs Info Sheet</a>
   </div>
 </section>
+<iframe id="canvs-video" src="//player.vimeo.com/video/13209929?api=1&amp;amp;title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;color=30bcae&amp;amp;&amp;player_id=canvs-video" width="1140" height="641" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" class="featherlight canvs-video"></iframe>
     
 <footer class="page-footer">
   <ul class="social-links">
@@ -186,6 +188,8 @@
 </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="bower_components/html5-boilerplate/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="plugins/featherlight.min.js"></script>
+    <script src="plugins/froogaloop.min.js"></script>
     <script src="scripts/main-min.js"></script>
 
     <!-- Google Analytics -->

@@ -14,7 +14,7 @@ header.hero-header
 
       h1.site-header The next generation in social TV analytics.
 
-      a.video-play-btn(href='/')
+      a.video-play-btn(href='#', data-featherlight=".canvs-video")
         img.play-btn-triangle(src="images/play-btn-triangle.svg")
 
     button.action-btn.learn-more-btn(data-toggle="modal", data-target=".contactModal") Learn More
@@ -110,6 +110,4 @@ section.single-solution-section
 
     a.action-btn.info-sheet-btn(href='/files/Canvs_Info_Sheet.pdf') Canvs Info Sheet
 
-
-//- iframe(src="//player.vimeo.com/video/13209929?api=1;title=0&amp;byline=0&amp;portrait=0&amp;color=30bcae&amp;autoplay=1" width="1140" height="640" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen)
-
+iframe#canvs-video.featherlight.canvs-video(src="//player.vimeo.com/video/13209929?api=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;color=30bcae&amp;&player_id=canvs-video" width="1140" height="641" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen)

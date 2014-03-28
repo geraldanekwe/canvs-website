@@ -112,7 +112,7 @@ section, .section {
   margin-top: -260px;  
   @include max-width($screen-xs) {
     top: 0;
-    margin-top: 20px;
+    margin-top: 0;
   }
 }
 
@@ -470,10 +470,14 @@ section, .section {
 .modal-body {
   text-align: center;
   height: 100%;
+  padding: 0;
 }
 
 .modal-form-header {
   margin-bottom: 40px;
+  @include max-width($screen-xs) {
+    margin-bottom: 20px;
+  }
 }
 
 .modal-center-wrap {
@@ -488,4 +492,12 @@ section, .section {
 .modal-footer {
   text-align: center;
   border: none;
+}
+
+//FEATHERLIGHT LIGHTBOX STYLING
+
+.featherlight .featherlight-content {
+  padding: 0;
+  width: 80%;
+  background: transparent;  
 }
