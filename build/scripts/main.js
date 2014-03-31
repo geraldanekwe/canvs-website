@@ -46,7 +46,7 @@ function register($form) {
       
       if (data.result != "success") {
         var message = data.msg;
-        $('.section-description').addClass('error').html(message);
+        $('.canvs-demo-form-modal .section-description').addClass('error').html(message);
         $('#canvs-demo-form .form-control').addClass('submitted');
       }
  
