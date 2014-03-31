@@ -36,9 +36,15 @@ h1,h2,h3,h4 {
   margin: 0;
 }
 
-h1 {
+h1, .modal-title {
   font-family: $slabFontFamily;
   font-weight: 400;
+  @include rem('font-size', 36px);
+  @include rem('line-height', 42px);
+  @include max-width($screen-xs) {
+    @include rem('font-size', 28px);
+    @include rem('line-height', 34px);
+  }
 }
 
 h2, h3     {
@@ -60,10 +66,6 @@ h1.section-header {
   @include rem('line-height', 42px);
   @extend .center-block;
   letter-spacing: .5px;
-  @include max-width($screen-xs) {
-    @include rem('font-size', 28px);
-    @include rem('line-height', 38px);
-  }
 }
 
 h3 {
@@ -80,6 +82,9 @@ p.section-description {
   @include rem('font-size', 21px);
   letter-spacing: 0.5px;
   margin-bottom: 0;
+  @include max-width($screen-xs) {
+    @include rem('font-size', 18px);
+  }
 }
 
 .content-box h2 {

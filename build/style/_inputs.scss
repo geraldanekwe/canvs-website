@@ -1,4 +1,4 @@
-.canvsContactForm {
+.canvs-demo-form-wrap {
   margin-bottom: 30px;
   label {
     display: none;
@@ -8,7 +8,7 @@
     border-radius: 0;
     border: none;
     box-shadow: none;
-    background-color: tint($gray, 40%);
+    background-color: tint($gray, 50%);
     font-weight: 300;
     padding: 0 15px;
     height: 45px;
@@ -21,6 +21,9 @@
       @include rem('font-size', 21px);
       @include rem('line-height', 32px);
       color: $grayMed;
+      @include max-width($screen-xs) {
+        @include rem('font-size', 18px);
+      }
     }
     &:focus {
       background-color: white;
@@ -29,10 +32,18 @@
         opacity: 0;
       }
     }
+    &:valid {
+      background-color: white;
+    }
+    &.submitted {
+      &:invalid {
+        border-bottom: 1px solid $red;
+      }
+    }
   }
 }
 
-.canvsContactForm {
+.canvs-demo-form-wrap {
   margin-bottom: 0;
   .form-group {
     margin-bottom: 0;
@@ -51,12 +62,24 @@
     .mc-field-group {
       margin-bottom: 15px;
     }
-    .canvsContactform-submit {
+    .canvs-demo-form-submit {
       margin-top: 15px;
     }
   }
 }
  
-.canvsContactform-submit {
+.canvs-demo-form-submit {
   margin-top: 30px;
+}
+
+form:invalid .canvs-demo-form-submit {
+  background-color: $red;
+}
+
+.modal-form-header {
+  .section-description {
+    &.error {
+      color: $red;
+    }
+  }
 }

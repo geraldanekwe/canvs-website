@@ -703,13 +703,13 @@ pre {
   .container-fluid:after {
     clear: both; }
 
-.row, .canvsContactForm .form-name-group {
+.row, .canvs-demo-form-wrap .form-name-group {
   margin-left: -15px;
   margin-right: -15px; }
-  .row:before, .canvsContactForm .form-name-group:before, .row:after, .canvsContactForm .form-name-group:after {
+  .row:before, .canvs-demo-form-wrap .form-name-group:before, .row:after, .canvs-demo-form-wrap .form-name-group:after {
     content: " ";
     display: table; }
-  .row:after, .canvsContactForm .form-name-group:after {
+  .row:after, .canvs-demo-form-wrap .form-name-group:after {
     clear: both; }
 
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
@@ -1717,7 +1717,7 @@ select[multiple].input-sm,
 
 .input-lg, .input-group-lg > .form-control,
 .input-group-lg > .input-group-addon,
-.input-group-lg > .input-group-btn > .btn, .canvsContactForm .form-control {
+.input-group-lg > .input-group-btn > .btn, .canvs-demo-form-wrap .form-control {
   height: 46px;
   padding: 10px 16px;
   font-size: 18px;
@@ -1726,18 +1726,18 @@ select[multiple].input-sm,
 
 select.input-lg, .input-group-lg > select.form-control,
 .input-group-lg > select.input-group-addon,
-.input-group-lg > .input-group-btn > select.btn, .canvsContactForm select.form-control {
+.input-group-lg > .input-group-btn > select.btn, .canvs-demo-form-wrap select.form-control {
   height: 46px;
   line-height: 46px; }
 
 textarea.input-lg, .input-group-lg > textarea.form-control,
 .input-group-lg > textarea.input-group-addon,
-.input-group-lg > .input-group-btn > textarea.btn, .canvsContactForm textarea.form-control,
+.input-group-lg > .input-group-btn > textarea.btn, .canvs-demo-form-wrap textarea.form-control,
 select[multiple].input-lg,
 .input-group-lg > select[multiple].form-control,
 .input-group-lg > select[multiple].input-group-addon,
 .input-group-lg > .input-group-btn > select[multiple].btn,
-.canvsContactForm select[multiple].form-control {
+.canvs-demo-form-wrap select[multiple].form-control {
   height: auto; }
 
 .has-feedback {
@@ -3079,7 +3079,7 @@ input[type="button"].btn-block {
     border-radius: 3px; }
   .input-group-addon.input-lg,
   .input-group-lg > .input-group-addon,
-  .input-group-lg > .input-group-btn > .input-group-addon.btn, .canvsContactForm .input-group-addon.form-control {
+  .input-group-lg > .input-group-btn > .input-group-addon.btn, .canvs-demo-form-wrap .input-group-addon.form-control {
     padding: 10px 16px;
     font-size: 18px;
     border-radius: 6px; }
@@ -4968,7 +4968,7 @@ button.close {
   td.visible-lg {
     display: table-cell !important; } }
 @media (max-width: 767px) {
-  .hidden-xs, .canvs-login .login-icon {
+  .hidden-xs {
     display: none !important; } }
 @media (min-width: 768px) and (max-width: 991px) {
   .hidden-sm {
@@ -5028,9 +5028,19 @@ h1, h2, h3, h4 {
   text-align: center;
   margin: 0; }
 
-h1 {
+h1, .modal-title {
   font-family: "adelle", Georgia, "Times New Roman", Times, serif;
-  font-weight: 400; }
+  font-weight: 400;
+  font-size: 36px;
+  font-size: 3.6rem;
+  line-height: 42px;
+  line-height: 4.2rem; }
+  @media screen and (max-width: 479px) {
+    h1, .modal-title {
+      font-size: 28px;
+      font-size: 2.8rem;
+      line-height: 34px;
+      line-height: 3.4rem; } }
 
 h2, h3 {
   font-family: "jaf-bernino-sans-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -5052,12 +5062,6 @@ h1.section-header {
   line-height: 42px;
   line-height: 4.2rem;
   letter-spacing: .5px; }
-  @media screen and (max-width: 479px) {
-    h1.section-header {
-      font-size: 28px;
-      font-size: 2.8rem;
-      line-height: 38px;
-      line-height: 3.8rem; } }
 
 h3 {
   font-size: 18px;
@@ -5074,6 +5078,10 @@ p.section-description {
   font-size: 2.1rem;
   letter-spacing: 0.5px;
   margin-bottom: 0; }
+  @media screen and (max-width: 479px) {
+    p.section-description {
+      font-size: 18px;
+      font-size: 1.8rem; } }
 
 .content-box h2 {
   color: #9d854f;
@@ -5143,16 +5151,16 @@ p.section-description {
 button:focus {
   outline: none; }
 
-.canvsContactForm {
+.canvs-demo-form-wrap {
   margin-bottom: 30px; }
-  .canvsContactForm label {
+  .canvs-demo-form-wrap label {
     display: none; }
-  .canvsContactForm .form-control {
+  .canvs-demo-form-wrap .form-control {
     border-radius: 0;
     border: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    background-color: #c6c6c6;
+    background-color: #cfcfcf;
     font-weight: 300;
     padding: 0 15px;
     height: 45px;
@@ -5162,81 +5170,107 @@ button:focus {
     font-size: 2.1rem;
     color: #4b4b4b;
     vertical-align: middle; }
-    .canvsContactForm .form-control::-webkit-input-placeholder {
+    .canvs-demo-form-wrap .form-control::-webkit-input-placeholder {
       font-weight: 300;
       font-size: 21px;
       font-size: 2.1rem;
       line-height: 32px;
       line-height: 3.2rem;
       color: #777777; }
-    .canvsContactForm .form-control::-moz-placeholder {
+      @media screen and (max-width: 479px) {
+        .canvs-demo-form-wrap .form-control::-webkit-input-placeholder {
+          font-size: 18px;
+          font-size: 1.8rem; } }
+    .canvs-demo-form-wrap .form-control::-moz-placeholder {
       font-weight: 300;
       font-size: 21px;
       font-size: 2.1rem;
       line-height: 32px;
       line-height: 3.2rem;
       color: #777777; }
-    .canvsContactForm .form-control:-moz-placeholder {
+      @media screen and (max-width: 479px) {
+        .canvs-demo-form-wrap .form-control::-moz-placeholder {
+          font-size: 18px;
+          font-size: 1.8rem; } }
+    .canvs-demo-form-wrap .form-control:-moz-placeholder {
       font-weight: 300;
       font-size: 21px;
       font-size: 2.1rem;
       line-height: 32px;
       line-height: 3.2rem;
       color: #777777; }
-    .canvsContactForm .form-control:-ms-input-placeholder {
+      @media screen and (max-width: 479px) {
+        .canvs-demo-form-wrap .form-control:-moz-placeholder {
+          font-size: 18px;
+          font-size: 1.8rem; } }
+    .canvs-demo-form-wrap .form-control:-ms-input-placeholder {
       font-weight: 300;
       font-size: 21px;
       font-size: 2.1rem;
       line-height: 32px;
       line-height: 3.2rem;
       color: #777777; }
-    .canvsContactForm .form-control:focus {
+      @media screen and (max-width: 479px) {
+        .canvs-demo-form-wrap .form-control:-ms-input-placeholder {
+          font-size: 18px;
+          font-size: 1.8rem; } }
+    .canvs-demo-form-wrap .form-control:focus {
       background-color: white; }
-      .canvsContactForm .form-control:focus::-webkit-input-placeholder {
+      .canvs-demo-form-wrap .form-control:focus::-webkit-input-placeholder {
         -webkit-transition: opacity 0.5s 0.5s ease;
         transition: opacity 0.5s 0.5s ease;
         opacity: 0; }
-      .canvsContactForm .form-control:focus::-moz-placeholder {
+      .canvs-demo-form-wrap .form-control:focus::-moz-placeholder {
         transition: opacity 0.5s 0.5s ease;
         opacity: 0; }
-      .canvsContactForm .form-control:focus:-moz-placeholder {
+      .canvs-demo-form-wrap .form-control:focus:-moz-placeholder {
         transition: opacity 0.5s 0.5s ease;
         opacity: 0; }
-      .canvsContactForm .form-control:focus:-ms-input-placeholder {
+      .canvs-demo-form-wrap .form-control:focus:-ms-input-placeholder {
         transition: opacity 0.5s 0.5s ease;
         opacity: 0; }
+    .canvs-demo-form-wrap .form-control:valid {
+      background-color: white; }
+    .canvs-demo-form-wrap .form-control.submitted:invalid {
+      border-bottom: 1px solid #ed2326; }
 
-.canvsContactForm {
+.canvs-demo-form-wrap {
   margin-bottom: 0; }
-  .canvsContactForm .form-group {
+  .canvs-demo-form-wrap .form-group {
     margin-bottom: 0; }
-  .canvsContactForm .mc-field-group {
+  .canvs-demo-form-wrap .mc-field-group {
     margin-bottom: 30px;
     position: relative;
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px; }
     @media (min-width: 768px) {
-      .canvsContactForm .mc-field-group {
+      .canvs-demo-form-wrap .mc-field-group {
         float: left;
         width: 100%; } }
-  .canvsContactForm .form-name-group .mc-field-group {
+  .canvs-demo-form-wrap .form-name-group .mc-field-group {
     position: relative;
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px; }
     @media (min-width: 768px) {
-      .canvsContactForm .form-name-group .mc-field-group {
+      .canvs-demo-form-wrap .form-name-group .mc-field-group {
         float: left;
         width: 50%; } }
   @media screen and (max-width: 479px) {
-    .canvsContactForm .mc-field-group {
+    .canvs-demo-form-wrap .mc-field-group {
       margin-bottom: 15px; }
-    .canvsContactForm .canvsContactform-submit {
+    .canvs-demo-form-wrap .canvs-demo-form-submit {
       margin-top: 15px; } }
 
-.canvsContactform-submit {
+.canvs-demo-form-submit {
   margin-top: 30px; }
+
+form:invalid .canvs-demo-form-submit {
+  background-color: #ed2326; }
+
+.modal-form-header .section-description.error {
+  color: #ed2326; }
 
 html {
   width: 100%;
@@ -5272,12 +5306,9 @@ section, .section {
   min-height: 480px;
   text-align: center;
   padding-bottom: 50px;
-  background: #282828 url("../images/hero-image.jpg") no-repeat center center fixed;
+  background: #282828 url("../images/canvs-header-image-test.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   background-size: cover; }
-  @media screen and (min-width: 768px) {
-    .hero-header {
-      height: 90%; } }
   @media screen and (max-width: 479px) {
     .hero-header .container {
       position: absolute;
@@ -5320,6 +5351,9 @@ section, .section {
       height: 12px;
       display: inline-block;
       vertical-align: middle; }
+    @media screen and (max-width: 479px) {
+      .canvs-login .login-icon {
+        display: none; } }
   .canvs-login:hover {
     opacity: 1;
     color: white;
@@ -5357,7 +5391,9 @@ section, .section {
     text-decoration: none; }
   @media screen and (max-width: 991px) {
     .branding-wrap .logo-introducing {
-      margin-bottom: 5px; }
+      margin-bottom: 5px;
+      font-size: 18px;
+      font-size: 1.8rem; }
     .branding-wrap .canvs-logo {
       width: 240px; } }
   @media screen and (max-width: 767px) {
@@ -5500,7 +5536,7 @@ section, .section {
 
 .actionable-insights-section {
   text-align: center;
-  background: #282828 url("../images/hero-image.jpg") no-repeat center center fixed;
+  background: #282828 url("../images/canvs-header-image-test.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   background-size: cover; }
   .actionable-insights-section h1 {
@@ -5633,41 +5669,60 @@ section, .section {
   width: 100%;
   height: 100%;
   margin: 0; }
+  @media screen and (max-width: 479px) {
+    .modal-dialog {
+      height: auto; } }
 
 .modal-content {
   height: 100%;
   border-radius: 0;
   background-color: #e8e8e8; }
 
-.modal .close {
-  z-index: 9000;
-  font-size: 36px;
-  font-size: 3.6rem;
-  line-height: 44px;
-  font-weight: 300;
-  text-shadow: none;
-  color: #777777;
-  opacity: 1;
-  width: 40px;
-  height: 40px;
-  border-radius: 100%;
-  background-color: #d1d1d1;
-  position: absolute;
-  top: 15px;
-  right: 15px; }
-  .modal .close:hover {
-    background-color: #bbbbbb;
-    color: #4b4b4b; }
+.modal-controls-wrap {
+  width: 100%;
+  display: block;
+  padding: 30px;
+  text-align: right; }
+  @media screen and (max-width: 479px) {
+    .modal-controls-wrap {
+      text-align: center;
+      padding: 10px; } }
+  .modal-controls-wrap .close {
+    z-index: 9000;
+    float: none;
+    font-size: 42px;
+    font-size: 4.2rem;
+    line-height: 54px;
+    font-weight: 300;
+    text-shadow: none;
+    color: #777777;
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #d1d1d1; }
+    .modal-controls-wrap .close:hover {
+      background-color: #bbbbbb;
+      color: #4b4b4b; }
+    @media screen and (max-width: 479px) {
+      .modal-controls-wrap .close {
+        width: 40px;
+        height: 40px;
+        font-size: 36px;
+        font-size: 3.6rem;
+        line-height: 44px; } }
 
 .modal-title {
-  line-height: 42px;
-  line-height: 4.2rem;
   margin-bottom: 10px; }
 
 .modal-body {
   text-align: center;
   height: 100%;
   padding: 0; }
+  @media screen and (max-width: 479px) {
+    .modal-body {
+      height: auto;
+      padding-bottom: 20px; } }
 
 .modal-form-header {
   margin-bottom: 40px; }
@@ -5676,10 +5731,9 @@ section, .section {
       margin-bottom: 20px; } }
 
 .modal-center-wrap {
-  height: 500px;
   position: relative;
   top: 50%;
-  margin-top: -250px;
+  margin-top: -350px;
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -5691,15 +5745,38 @@ section, .section {
   @media (min-width: 768px) {
     .modal-center-wrap {
       margin-left: 16.6666666667%; } }
+  @media screen and (max-width: 479px) {
+    .modal-center-wrap {
+      top: initial;
+      margin-top: 0; } }
 
 .modal-footer {
   text-align: center;
   border: none; }
 
 .featherlight .featherlight-content {
-  padding: 0;
-  width: 80%;
-  background: transparent; }
+  width: 80%; }
+
+.featherlight .featherlight-close {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+  line-height: 44px;
+  font-size: 28px;
+  font-size: 2.8rem;
+  font-weight: 300;
+  border-radius: 100%;
+  background: rgba(255, 255, 255, 0.4);
+  color: white;
+  -webkit-transition: -webkit-transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+  .featherlight .featherlight-close:hover {
+    background: rgba(255, 255, 255, 0.6);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2); }
 
 .about-content .hero-header {
   height: auto;
