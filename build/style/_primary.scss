@@ -42,10 +42,10 @@ section, .section {
   position: relative;
   min-height: 600px;
   text-align: center;
-  background: $offBlack url("../images/canvs-header-image-test.jpg") no-repeat center center;
+  background: $offBlack url("../images/canvs-header-image-test2.jpg") no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
-  @include max-width($screen-sm) {
+  @include max-width(1025px) {
     background-attachment: scroll;
   }
   @include max-width($screen-xs) {
@@ -307,7 +307,7 @@ section, .section {
     @include font-smoothing;
   }
   text-align: center;
-  background: $offBlack url("../images/canvs-header-image-test.jpg") no-repeat center center fixed;
+  background: $offBlack url("../images/canvs-header-image-test2.jpg") no-repeat center center fixed;
   background-attachment: fixed;
   background-size: cover;
   @include max-width($screen-sm) {
@@ -527,30 +527,66 @@ section, .section {
   border: none;
 }
 
-//FEATHERLIGHT LIGHTBOX STYLING
+//VIDEO LIGHTBOX STYLING
 
-.canvs-video {
-  display: none;
-}
-
-.featherlight .featherlight-content {
-  width: 80%;
-}
-
-.featherlight .featherlight-close {
+.canvs-video-wrap-container {
   position: fixed;
-  top: 30px;
-  right: 30px;
-  @include size(40px);
-  line-height: 44px;
-  @include rem('font-size', 28px);
-  font-weight: 300;
-  border-radius: 100%;
-  background: transparentize(white,.6);
-  color: white;
-  transition: transform .25s $easeOutBack;
-  &:hover {
-    background: transparentize(white,.4);
-    transform: scale(1.2);
+  width: 100%;
+  height: 100%;
+  padding: 10%;
+  top: 0;
+  background-color: transparentize($black,.25);
+  z-index: 9000;
+  display: none;
+  opacity: 0;
+  transition: opacity .5s linear;
+  &.active {
+    display: block;
+    opacity: 1;
   }
+}
+
+.canvs-video-wrap {
+  position: absolute;
+  left: 0; right: 0;
+  top: 50%;
+  margin-top: -25%;
+  /* video height / video width */
+  padding-bottom: 63%;
+  height: 0;
+  overflow: hidden;
+  .canvs-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    left: 5%;
+  }
+}
+
+.canvs-video-close {
+    z-index: 9100;
+    text-align: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    @include rem('font-size', 42px);
+    line-height: 50px;
+    font-weight: 300;
+    color: $white;
+    @include size(50px);
+    border-radius: 100%;
+    background-color: transparentize($white, .7);
+    transition: transform .25s $easeOutBack;
+    &:hover {
+      background-color: transparentize($white, .5);
+      cursor: pointer;
+      transform: scale(1.2);
+    }
+    @include max-width($screen-xs) {
+      @include size(40px);
+      @include rem('font-size', 36px);
+      line-height: 44px;
+    }
 }

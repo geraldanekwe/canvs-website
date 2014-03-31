@@ -44,7 +44,7 @@ section.updates-section
       p.section-description The latest and greatest Canvs news
 
     a.updates-btn.blog-btn(href='http://mashwork.com/blog') Visit our Blog
-    a.updates-btn.newsletter-btn(data-toggle="modal", data-target=".contactModal") Get our Newsletter
+    a.updates-btn.newsletter-btn(data-toggle="modal", data-target=".newsletter-modal") Subscribe to Newsletter
 
 section.actionable-insights-section
   div.container
@@ -55,7 +55,7 @@ section.actionable-insights-section
         div.icon-circle
           img.actionable-insights-illustration(src="images/marketing-icon.svg")
         h2 Marketing
-        p You know how many people are talking about your show, but only Canvs can automatically tell you what they’re feeling. 
+        p Use Canvs to identify plots and characters that resonate. Cut your trailers, bumpers, and promos accordingly and watch tune-in skyrocket. 
       div.content-box.actionable-insights-box
         div.icon-circle
           img.actionable-insights-illustration(src="images/adsales-icon.svg")
@@ -67,7 +67,7 @@ section.actionable-insights-section
         h2 Production
         p Use Canvs to get feedback in real time. Know immediately if that joke in the third act landed and if viewers hate the new villain as much as you want them to.
 
-    button.action-btn.get-started-btn(data-toggle="modal", data-target=".contactModal") Get started with Canvs
+    button.action-btn.info-sheet-btn(href='/files/Canvs_Info_Sheet.pdf') Canvs Info Sheet
 
 section.single-solution-section
   div.container
@@ -78,13 +78,13 @@ section.single-solution-section
         img.single-solution-illustration(src="images/immediate-icon.svg")
         h2 Immediate
         p 
-          strong No more settling for shaky sentiment. 
+          strong No more settling for shaky sentiment.<br> 
           | No more hours manually calculating it yourself. Canvs gives you immediate, actionable insights about how your audience feels with the click of a mouse.
       div.content-box.single-solution-box.credible-box
         img.single-solution-illustration(src="images/credible-icon.svg")
         h2 Credible
         p 
-          strong Our pedigree speaks for itself: 
+          strong Our pedigree speaks for itself.<br> 
           | Canvs was built by New York City’s best social TV analysts and data scientists as a tool for themselves. See what it can do for you. 
 
     div.row
@@ -92,8 +92,8 @@ section.single-solution-section
         img.single-solution-illustration(src="images/transparent-icon.svg")
         h2 Transparent
         p 
-          strong Canvs gives you visibility into all conversation 
-          | so you can see that Canvs is really as good at categorizing reactions as we say it is.
+          strong Canvs gives you visibility into all conversation. 
+          | You can see that Canvs is really as good at categorizing reactions as we say it is.
       div.content-box.single-solution-box.credible-box
         img.single-solution-illustration(src="images/beautiful-icon.svg")
         h2 Beautiful
@@ -108,6 +108,9 @@ section.single-solution-section
           strong Canvs was conceived in 2010 by some of the best minds in data science. 
           | Our expert analysts continually teach the platform the ever-evolving vernacular of social media. The result is a dynamically intelligent tool that reflects the way real people are talking right now.
 
-    a.action-btn.info-sheet-btn(href='/files/Canvs_Info_Sheet.pdf') Canvs Info Sheet
+    a.action-btn.contact-demo-btn(data-toggle="modal", data-target=".contactModal") Contact us for a Demo
 
-iframe#canvs-video.canvs-video(src="//player.vimeo.com/video/13209929?api=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;color=30bcae&amp;&player_id=canvs-video" width="1140" height="641" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen)
+div.canvs-video-wrap-container
+  div.canvs-video-close x
+  div.canvs-video-wrap
+    iframe.canvs-video(src="//player.vimeo.com/video/13209929?api=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;color=30bcae&amp;&player_id=canvs-video" width="1140" height="640" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen)

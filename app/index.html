@@ -10,9 +10,6 @@
     <meta name="description" content="Canvs is the first platform that automatically and transparently reveals the nuanced emotion around social TV conversation. Canvs was created by Mashwork, a leading social media insights firm.">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=, minimal-ui">
 
-    <!-- favicon.ico and apple-touch-icon.png in the root directory -->
-
-    <link rel="stylesheet" href="plugins/featherlight.min.css">
     <link rel="stylesheet" href="style/style.css">
 
     <script type="text/javascript" src="//use.typekit.net/nxm7llc.js"></script>
@@ -57,7 +54,7 @@
     <header class="section-header-wrap">
       <h1 class="section-header">Updates</h1>
       <p class="section-description">The latest and greatest Canvs news</p>
-    </header><a href="http://mashwork.com/blog" class="updates-btn blog-btn">Visit our Blog</a><a data-toggle="modal" data-target=".contactModal" class="updates-btn newsletter-btn">Get our Newsletter</a>
+    </header><a href="http://mashwork.com/blog" class="updates-btn blog-btn">Visit our Blog</a><a data-toggle="modal" data-target=".newsletter-modal" class="updates-btn newsletter-btn">Subscribe to Newsletter</a>
   </div>
 </section>
 <section class="actionable-insights-section">
@@ -69,7 +66,7 @@
       <div class="content-box actionable-insights-box">
         <div class="icon-circle"><img src="images/marketing-icon.svg" class="actionable-insights-illustration"/></div>
         <h2>Marketing</h2>
-        <p>You know how many people are talking about your show, but only Canvs can automatically tell you what they’re feeling. </p>
+        <p>Use Canvs to identify plots and characters that resonate. Cut your trailers, bumpers, and promos accordingly and watch tune-in skyrocket. </p>
       </div>
       <div class="content-box actionable-insights-box">
         <div class="icon-circle"><img src="images/adsales-icon.svg" class="actionable-insights-illustration"/></div>
@@ -82,7 +79,7 @@
         <p>Use Canvs to get feedback in real time. Know immediately if that joke in the third act landed and if viewers hate the new villain as much as you want them to.</p>
       </div>
     </div>
-    <button data-toggle="modal" data-target=".contactModal" class="action-btn get-started-btn">Get started with Canvs</button>
+    <button href="/files/Canvs_Info_Sheet.pdf" class="action-btn info-sheet-btn">Canvs Info Sheet</button>
   </div>
 </section>
 <section class="single-solution-section">
@@ -93,17 +90,17 @@
       </header>
       <div class="content-box single-solution-box immediate-box"><img src="images/immediate-icon.svg" class="single-solution-illustration"/>
         <h2>Immediate</h2>
-        <p><strong>No more settling for shaky sentiment. </strong>No more hours manually calculating it yourself. Canvs gives you immediate, actionable insights about how your audience feels with the click of a mouse.</p>
+        <p><strong>No more settling for shaky sentiment.<br> </strong>No more hours manually calculating it yourself. Canvs gives you immediate, actionable insights about how your audience feels with the click of a mouse.</p>
       </div>
       <div class="content-box single-solution-box credible-box"><img src="images/credible-icon.svg" class="single-solution-illustration"/>
         <h2>Credible</h2>
-        <p><strong>Our pedigree speaks for itself: </strong>Canvs was built by New York City’s best social TV analysts and data scientists as a tool for themselves. See what it can do for you. </p>
+        <p><strong>Our pedigree speaks for itself.<br> </strong>Canvs was built by New York City’s best social TV analysts and data scientists as a tool for themselves. See what it can do for you. </p>
       </div>
     </div>
     <div class="row">
       <div class="content-box single-solution-box transparent-box"><img src="images/transparent-icon.svg" class="single-solution-illustration"/>
         <h2>Transparent</h2>
-        <p><strong>Canvs gives you visibility into all conversation </strong>so you can see that Canvs is really as good at categorizing reactions as we say it is.</p>
+        <p><strong>Canvs gives you visibility into all conversation. </strong>You can see that Canvs is really as good at categorizing reactions as we say it is.</p>
       </div>
       <div class="content-box single-solution-box credible-box"><img src="images/beautiful-icon.svg" class="single-solution-illustration"/>
         <h2>Beautiful</h2>
@@ -113,12 +110,17 @@
     <div class="row">
       <div class="content-box single-solution-box intelligent-box"><img src="images/intelligent-icon.svg" class="single-solution-illustration"/>
         <h2>Intelligent</h2>
-        <p><strong>Canvs was conceived in 2010 by some of the best minds in data science. </strong>Our expert analysts continually teach the platform the ever-evolving vernacular of social media. The result is a dynamically intelligent tool that reflects the real people are talking right now.</p>
+        <p><strong>Canvs was conceived in 2010 by some of the best minds in data science. </strong>Our expert analysts continually teach the platform the ever-evolving vernacular of social media. The result is a dynamically intelligent tool that reflects the way real people are talking right now.</p>
       </div>
-    </div><a href="/files/Canvs_Info_Sheet.pdf" class="action-btn info-sheet-btn">Canvs Info Sheet</a>
+    </div><a data-toggle="modal" data-target=".contactModal" class="action-btn contact-demo-btn">Contact us for a Demo</a>
   </div>
 </section>
-<iframe id="canvs-video" src="//player.vimeo.com/video/13209929?api=1&amp;amp;title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;color=30bcae&amp;amp;&amp;player_id=canvs-video" width="1140" height="641" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" class="canvs-video"></iframe>
+<div class="canvs-video-wrap-container">
+  <div class="canvs-video-close">x</div>
+  <div class="canvs-video-wrap">
+    <iframe src="//player.vimeo.com/video/13209929?api=1&amp;amp;title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;color=30bcae&amp;amp;&amp;player_id=canvs-video" width="1140" height="640" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" class="canvs-video"></iframe>
+  </div>
+</div>
     
 <footer class="page-footer">
   <ul class="social-links">
@@ -186,9 +188,8 @@
 </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="bower_components/html5-boilerplate/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-    <script src="plugins/featherlight.min.js"></script>
-    <!--<script src="plugins/jquery.ajaxchimp.min.js"></script> -->
     <script src="plugins/froogaloop.min.js"></script>
+    <script src="plugins/jquery.fitvids.js"></script>
     <script src="scripts/main-min.js"></script>
 
     <!-- Google Analytics -->

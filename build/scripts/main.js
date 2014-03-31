@@ -13,12 +13,22 @@
 
 $(document).ready(function(){
 
-  $('.video-play-btn').click(function() {
-    setTimeout(function() {
-    $f($('#canvs-video')[0]).api('play');      
-  },0);
+  // $(document).ready(function(){
+  //   // Target your .container, .wrapper, .post, etc.
+  //   $(".canvs-video-wrap").fitVids();
+  // });
 
+  $('.video-play-btn').click(function() {
+
+    $('.canvs-video-wrap-container').addClass('active');
+  //   setTimeout(function() {
+  //   $f($('#canvs-video')[0]).api('play');      
+  // },0);
   });
+
+  $('.canvs-video-close').click(function () {
+    $('.canvs-video-wrap-container').removeClass('active');
+  })
 
 });
 
