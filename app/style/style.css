@@ -5112,6 +5112,9 @@ p.section-description {
   height: 45px;
   line-height: 45px;
   line-height: 4.5rem; }
+  @media screen and (max-width: 767px) {
+    .btn-teal, .action-btn {
+      font-weight: 600; } }
   .btn-teal:hover, .action-btn:hover {
     color: white;
     background-color: #4fc6ba;
@@ -5140,6 +5143,9 @@ p.section-description {
   height: 45px;
   line-height: 45px;
   line-height: 4.5rem; }
+  @media screen and (max-width: 767px) {
+    .btn-gray, .updates-btn {
+      font-weight: 600; } }
   .btn-gray:hover, .updates-btn:hover {
     color: white;
     background-color: #aeaeae;
@@ -5307,12 +5313,16 @@ section, .section {
   position: relative;
   min-height: 600px;
   text-align: center;
-  background: #282828 url("../images/canvs-header-image-test.jpg") no-repeat center center fixed;
+  background: #282828 url("../images/canvs-header-image-test.jpg") no-repeat center center;
+  background-attachment: fixed;
   -webkit-background-size: cover;
   background-size: cover; }
+  @media screen and (max-width: 767px) {
+    .hero-header {
+      background-attachment: scroll; } }
   @media screen and (max-width: 479px) {
     .hero-header {
-      min-height: 568px; } }
+      min-height: 500px; } }
   .hero-header .container {
     width: 100%;
     padding: 0 5px; }
@@ -5543,12 +5553,16 @@ section, .section {
 .actionable-insights-section {
   text-align: center;
   background: #282828 url("../images/canvs-header-image-test.jpg") no-repeat center center fixed;
+  background-attachment: fixed;
   -webkit-background-size: cover;
   background-size: cover; }
   .actionable-insights-section h1 {
     color: white;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
+  @media screen and (max-width: 767px) {
+    .actionable-insights-section {
+      background-attachment: scroll; } }
 
 .actionable-insights-box {
   position: relative;

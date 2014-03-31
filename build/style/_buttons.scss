@@ -11,6 +11,9 @@
 	@include rem('font-size', 21px);
 	letter-spacing: 1px;
 	text-decoration: none;
+	@include max-width($screen-sm) {
+    font-weight: 600;
+  }
 	&:hover {
 		color: $textColor;
 		background-color: tint($color, 15%);

@@ -42,10 +42,14 @@ section, .section {
   position: relative;
   min-height: 600px;
   text-align: center;
-  background: $offBlack url("../images/canvs-header-image-test.jpg") no-repeat center center fixed;
+  background: $offBlack url("../images/canvs-header-image-test.jpg") no-repeat center center;
+  background-attachment: fixed;
   background-size: cover;
+  @include max-width($screen-sm) {
+    background-attachment: scroll;
+  }
   @include max-width($screen-xs) {
-    min-height: 568px;
+    min-height: 500px;
   }
   .container {
     width: 100%;
@@ -304,7 +308,11 @@ section, .section {
   }
   text-align: center;
   background: $offBlack url("../images/canvs-header-image-test.jpg") no-repeat center center fixed;
+  background-attachment: fixed;
   background-size: cover;
+  @include max-width($screen-sm) {
+    background-attachment: scroll;
+  }
 }
 
 
