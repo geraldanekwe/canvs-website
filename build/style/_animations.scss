@@ -1,0 +1,62 @@
+.animated {
+  animation-duration: .5s;
+  animation-fill-mode: both;
+}
+
+//growIn
+
+@keyframes growIn {
+  0% {
+    opacity: 0;
+    transform: scale(.2);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.growIn {
+  animation-name: growIn;
+}
+
+//shrinkOut
+
+@keyframes shrinkOut {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(.2);
+  }
+}
+
+.shrinkOut {
+  animation-name: shrinkOut;
+}
+
+//fadeIn
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+//fadeOut
+
+@keyframes fadeOut {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+.fadeOut {
+  animation-name: fadeOut;
+}

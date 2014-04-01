@@ -19,16 +19,24 @@ $(document).ready(function(){
   // });
 
   $('.video-play-btn').click(function() {
-
-    $('.canvs-video-wrap-container').addClass('active');
-  //   setTimeout(function() {
-  //   $f($('#canvs-video')[0]).api('play');      
-  // },0);
+    $('.canvs-video-wrap-container').addClass('active animated fadeIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+      $(this).removeClass('fadeOut');
+    });
+    $('.canvs-video-wrap').addClass('animated growIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+      $(this).removeClass('growIn');
+      $f($('#canvs-video')[0]).api('play');      
+    });
   });
 
   $('.canvs-video-close').click(function () {
-    $('.canvs-video-wrap-container').removeClass('active');
-  })
+    $('.canvs-video-wrap').addClass('animated shrinkOut').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+      $(this).removeClass('shrinkOut');
+      $f($('#canvs-video')[0]).api('pause');
+    });
+    $('.canvs-video-wrap-container').addClass('animated fadeout').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+      $(this).removeClass('active fadeOut');
+    });
+  });
 
 });
 
