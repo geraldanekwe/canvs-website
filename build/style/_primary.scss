@@ -454,6 +454,10 @@ section, .section {
   height: 100%;
   border-radius: 0;
   background-color: shade($offWhite, 5%);
+  @include max-width($screen-xs) {
+    height: auto;
+    padding-bottom: 20px;
+  }
 }
 
 .modal-controls-wrap {

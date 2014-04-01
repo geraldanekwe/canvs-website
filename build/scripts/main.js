@@ -73,7 +73,7 @@ $(document).ready(function(){
           var message = data.msg;
           $('.canvs-demo-form-title').html("Thank you for your interest in Canvs.");
           $('.canvs-demo-form-description').removeClass('error').html(message + "<br>Someone will contact you about scheduling a demo within the next 48 hours.");
-          $('.canvs-demo-form-wrap').fadeOut();
+          $('.canvs-form-wrap').fadeOut();
         }
       }
     });

@@ -5792,6 +5792,10 @@ section, .section {
   height: 100%;
   border-radius: 0;
   background-color: #e8e8e8; }
+  @media screen and (max-width: 479px) {
+    .modal-content {
+      height: auto;
+      padding-bottom: 20px; } }
 
 .modal-controls-wrap {
   position: absolute;
