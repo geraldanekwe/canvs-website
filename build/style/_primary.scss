@@ -42,7 +42,7 @@ section, .section {
   position: relative;
   min-height: 600px;
   text-align: center;
-  background: $offBlack url("../images/canvs-header-image-test2.jpg") no-repeat center center;
+  background: $offBlack url("../images/canvs-header-image.jpg") no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
   @include max-width(1025px) {
@@ -307,7 +307,7 @@ section, .section {
     @include font-smoothing;
   }
   text-align: center;
-  background: $offBlack url("../images/canvs-header-image-test2.jpg") no-repeat center center fixed;
+  background: $offBlack url("../images/canvs-header-image.jpg") no-repeat center center fixed;
   background-attachment: fixed;
   background-size: cover;
   @include max-width($screen-sm) {

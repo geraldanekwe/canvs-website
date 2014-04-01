@@ -38,82 +38,82 @@ $(document).ready(function(){
     });
   });
 
-});
 
 //Mailchimp AJAX Script for Canvs Demo Form - Source: http://designshack.net/articles/css/custom-mailchimp-email-signup-form/
 
-$(function () {
   var $form = $('#canvs-demo-form');
  
-  $('#canvs-demo-form').on('submit', function(event) {
+  $form.on('submit', function(event) {
     console.log('Demo Form Submit Click');
     if(event) event.preventDefault();
     register($form);
   });
-});
 
-function register($form) {
-  $.ajax({
-    type: $form.attr('method'),
-    url: $form.attr('action'),
-    data: $form.serialize(),
-    cache       : false,
-    dataType    : 'json',
-    contentType: "application/json; charset=utf-8",
-    error       : function(err) { $('.canvs-demo-form-description').html('<span class="alert">Could not connect to server. Please try again later.</span>'); },
-    success     : function(data) {
-      
-      if (data.result != "success") {
-        var message = data.msg;
-        $('.canvs-demo-form-description').addClass('error').html(message);
-        $('#canvs-demo-form .form-control').addClass('submitted');
+  function register($formElement) {
+    $.ajax({
+      type: $formElement.attr('method'),
+      url: $formElement.attr('action'),
+      data: $formElement.serialize(),
+      cache       : false,
+      dataType    : 'json',
+      contentType : 'application/json; charset=utf-8',
+      error       : function(err) { 
+        $('.canvs-demo-form-description')
+          .html('<span class="alert">Could not connect to server. Please try again later.</span>'); 
+      },
+      success     : function(data) {
+        
+        if (data.result != 'success') {
+          var message = data.msg;
+          $('.canvs-demo-form-description').addClass('error').html(message);
+          $('#canvs-demo-form .form-control').addClass('submitted');
+        }
+   
+        else {
+          var message = data.msg;
+          $('.canvs-demo-form-title').html("Thank you for your interest in Canvs.");
+          $('.canvs-demo-form-description').removeClass('error').html(message + "<br>Someone will contact you about scheduling a demo within the next 48 hours.");
+          $('.canvs-demo-form-wrap').fadeOut();
+        }
       }
- 
-      else {
-        var message = data.msg;
-        $('.canvs-demo-form-title').html("Thank you for your interest in Canvs.");
-        $('.canvs-demo-form-description').removeClass('error').html(message + "<br>Someone will contact you about scheduling a demo within the next 48 hours.");
-        $('.canvs-demo-form-wrap').fadeOut();
-      }
-    }
-  });
-}
+    });
+  }
 
 //Mailchimp AJAX Script for Newsletter Form
 
-$(function () {
   var $newsletterForm = $('#newsletter-form');
  
-  $('#newsletter-form').on('submit', function(event) {
+  $newsletterForm.on('submit', function(event) {
     console.log('Newsletter Form Submit Click');
     if(event) event.preventDefault();
-    register($newsletterForm);
+    newsletterRegister($newsletterForm);
   });
-});
 
-function register($newsletterForm) {
-  $.ajax({
-    type: $newsletterForm.attr('method'),
-    url: $newsletterForm.attr('action'),
-    data: $newsletterForm.serialize(),
-    cache       : false,
-    dataType    : 'json',
-    contentType: "application/json; charset=utf-8",
-    error       : function(err) { $('.newsletter-form-description').html('<span class="alert">Could not connect to server. Please try again later.</span>'); },
-    success     : function(data) {
-      
-      if (data.result != "success") {
-        var message = data.msg;
-        $('.newsletter-form-description').addClass('error').html(message);
-        $('#newsletter-form .form-control').addClass('submitted');
+  function newsletterRegister($newsletterForm) {
+    $.ajax({
+      type: $newsletterForm.attr('method'),
+      url: $newsletterForm.attr('action'),
+      data: $newsletterForm.serialize(),
+      cache       : false,
+      dataType    : 'json',
+      contentType: "application/json; charset=utf-8",
+      error       : function(err) { $('.newsletter-form-description').html('<span class="alert">Could not connect to server. Please try again later.</span>'); },
+      success     : function(data) {
+        
+        if (data.result != "success") {
+          var message = data.msg;
+          $('.newsletter-form-description').addClass('error').html(message);
+          $('#newsletter-form .form-control').addClass('submitted');
+        }
+   
+        else {
+          var message = data.msg;
+          $('.newsletter-form-title').html("Thank you for subscribing.");
+          $('.newsletter-form-description').removeClass('error').html(message);
+          $('.newsletter-form-wrap').fadeOut();
+        }
       }
- 
-      else {
-        var message = data.msg;
-        $('.newsletter-form-title').html("Thank you for subscribing.");
-        $('.newsletter-form-description').removeClass('error').html(message);
-        $('.newsletter-form-wrap').fadeOut();
-      }
-    }
-  });
-}
+    });
+  }
+
+});
