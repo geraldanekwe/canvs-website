@@ -31,7 +31,7 @@
       </div>
       <h1 class="site-header">The next generation in social TV analytics.</h1><a href="#" data-featherlight=".canvs-video" class="video-play-btn"><img src="images/play-btn-triangle.svg" class="play-btn-triangle"/></a>
     </div>
-    <button data-toggle="modal" data-target=".contactModal" class="action-btn learn-more-btn">Learn More</button>
+    <button data-toggle="modal" data-target=".canvs-demo-modal" class="action-btn learn-more-btn">Learn More</button>
   </div>
 </header>
 <section class="about-canvs-section">
@@ -46,7 +46,7 @@
         <p><strong>We know that social media sentiment tools aren’t accurate because we’ve used them all. </strong>We don’t even believe in positive, negative, and neutral sentiment. Canvs uncovers nuanced audience emotions and lets you decide what they mean for your show. </p>
       </div>
     </div>
-    <button data-toggle="modal" data-target=".contactModal" class="action-btn request-demo-btn">Request a Demo</button>
+    <button data-toggle="modal" data-target=".canvs-demo-modal" class="action-btn request-demo-btn">Request a Demo</button>
   </div>
 </section>
 <section class="updates-section">
@@ -78,8 +78,7 @@
         <h2>Production</h2>
         <p>Use Canvs to get feedback in real time. Know immediately if that joke in the third act landed and if viewers hate the new villain as much as you want them to.</p>
       </div>
-    </div>
-    <button href="/files/Canvs_Info_Sheet.pdf" class="action-btn info-sheet-btn">Canvs Info Sheet</button>
+    </div><a href="/files/Canvs_Info_Sheet.pdf" target="_blank" class="action-btn info-sheet-btn">Canvs Info Sheet</a>
   </div>
 </section>
 <section class="single-solution-section">
@@ -104,15 +103,15 @@
       </div>
       <div class="content-box single-solution-box credible-box"><img src="images/beautiful-icon.svg" class="single-solution-illustration"/>
         <h2>Beautiful</h2>
-        <p><strong>Gone are crowded dashboards and illegible charts. </strong>Canvs is clean, intuitive, and fun to use.</p>
+        <p><strong>Gone are crowded dashboards and illegible charts.  </strong>Canvs is clean, intuitive, and fun to use.</p>
       </div>
     </div>
     <div class="row">
       <div class="content-box single-solution-box intelligent-box"><img src="images/intelligent-icon.svg" class="single-solution-illustration"/>
         <h2>Intelligent</h2>
-        <p><strong>Canvs was conceived in 2010 by some of the best minds in data science. </strong>Our expert analysts continually teach the platform the ever-evolving vernacular of social media. The result is a dynamically intelligent tool that reflects the way real people are talking right now.</p>
+        <p><strong>Canvs was conceived in 2010 by some of the best minds in data science.  </strong>Our expert analysts continually teach the platform the ever-evolving vernacular of social media. The result is a dynamically intelligent tool that reflects the way real people are talking right now.</p>
       </div>
-    </div><a data-toggle="modal" data-target=".contactModal" class="action-btn contact-demo-btn">Contact us for a Demo</a>
+    </div><a data-toggle="modal" data-target=".canvs-demo-modal" class="action-btn contact-demo-btn">Contact us for a Demo</a>
   </div>
 </section>
 <div class="canvs-video-wrap-container">
@@ -132,7 +131,7 @@
   <p class="contact-info"><a href="https://goo.gl/maps/slKfo" target="_blank">11 W. 25th St, 7th Fl, New York, NY 10010</a>• <a href="tel:1-646-201-9124">646-201-9124</a>• <a href="/about">About Us </a>• <a href="http://mashwork.com/blog" target="_blank">News</a></p><a href="http://wearemadeinny.com/" target="_blank" class="made-in-ny"><img src="http://mashwork.com/canvs/images/logos/made-in-ny-logo.svg"/></a>
 </footer>
     
-<div tabindex="-1" role="dialog" aria-labelledby="contactModalTitle" aria-hidden="true" class="contactModal modal fade canvs-demo-form-modal">
+<div tabindex="-1" role="dialog" aria-labelledby="contactModalTitle" aria-hidden="true" class="contactModal modal fade canvs-demo-modal">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-controls-wrap">
@@ -142,9 +141,9 @@
         <div class="modal-center-wrap">
           <div class="modal-form-header">
             <h1 id="contactModalTitle" class="modal-title canvs-demo-form-title">Contact us for a Canvs demo.</h1>
-            <p class="section-description">All fields are mandatory.</p>
+            <p class="section-description canvs-demo-form-description">All fields are mandatory.</p>
           </div>
-          <div id="mc_embed_signup" class="canvs-demo-form-wrap">
+          <div id="mc_embed_signup" class="form-wrap canvs-form-wrap">
             <form id="canvs-demo-form" action="http://mashwork.us6.list-manage.com/subscribe/post-json?u=27226eff753800aa4ae740776&amp;id=bfb67acc2a&amp;c=?" method="post" name="canvs-demo-form" novalidate="" class="validate form-horizontal">
               <div class="form-group form-name-group">  
                 <div class="mc-field-group">
@@ -178,7 +177,40 @@
               <div style="position: absolute; left: -5000px;">
                 <input type="text" name="b_27226eff753800aa4ae740776_bfb67acc2a" value=""/>
               </div>
-              <input id="mc-embedded-subscribe" type="submit" value="Request demo" name="subscribe" class="action-btn canvs-demo-form-submit"/>
+              <input id="mc-embedded-subscribe" type="submit" value="Request demo" name="request" class="action-btn canvs-demo-form-submit"/>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+<div tabindex="-1" role="dialog" aria-labelledby="contactModalTitle" aria-hidden="true" class="contactModal modal fade newsletter-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-controls-wrap">
+        <button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-center-wrap">
+          <div class="modal-form-header">
+            <h1 class="modal-title newsletter-form-title">Subscribe to the Mashwork newsletter.</h1>
+            <p class="section-description newsletter-form-description">All fields are mandatory.</p>
+          </div>
+          <div class="form-wrap newsletter-form-wrap">
+            <form id="newsletter-form" action="http://mashwork.us6.list-manage.com/subscribe/post-json?u=27226eff753800aa4ae740776&amp;id=bca285c75d&amp;c=?" method="post" name="newsletter-form" novalidate="" class="validate form-horizontal">
+              <div class="form-group">
+                <div class="mc-field-group">
+                  <label for="mce-MERGE0">Email Address </label>
+                  <input id="mce-MERGE0" type="email" value="" name="MERGE0" placeholder="Email" required="required" class="required email form-control"/>
+                </div>
+              </div>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;">
+                <input type="text" name="b_27226eff753800aa4ae740776_bca285c75d" value=""/>
+              </div>
+              <input type="submit" value="Subscribe" name="subscribe" class="action-btn newsletter-form-submit form-submit"/>
             </form>
           </div>
         </div>
@@ -189,7 +221,6 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="bower_components/html5-boilerplate/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
     <script src="plugins/froogaloop.min.js"></script>
-    <script src="plugins/jquery.fitvids.js"></script>
     <script src="scripts/main-min.js"></script>
 
     <!-- Google Analytics -->

@@ -703,13 +703,13 @@ pre {
   .container-fluid:after {
     clear: both; }
 
-.row, .canvs-demo-form-wrap .form-name-group {
+.row, .form-wrap .form-name-group {
   margin-left: -15px;
   margin-right: -15px; }
-  .row:before, .canvs-demo-form-wrap .form-name-group:before, .row:after, .canvs-demo-form-wrap .form-name-group:after {
+  .row:before, .form-wrap .form-name-group:before, .row:after, .form-wrap .form-name-group:after {
     content: " ";
     display: table; }
-  .row:after, .canvs-demo-form-wrap .form-name-group:after {
+  .row:after, .form-wrap .form-name-group:after {
     clear: both; }
 
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
@@ -1717,7 +1717,7 @@ select[multiple].input-sm,
 
 .input-lg, .input-group-lg > .form-control,
 .input-group-lg > .input-group-addon,
-.input-group-lg > .input-group-btn > .btn, .canvs-demo-form-wrap .form-control {
+.input-group-lg > .input-group-btn > .btn, .form-wrap .form-control {
   height: 46px;
   padding: 10px 16px;
   font-size: 18px;
@@ -1726,18 +1726,18 @@ select[multiple].input-sm,
 
 select.input-lg, .input-group-lg > select.form-control,
 .input-group-lg > select.input-group-addon,
-.input-group-lg > .input-group-btn > select.btn, .canvs-demo-form-wrap select.form-control {
+.input-group-lg > .input-group-btn > select.btn, .form-wrap select.form-control {
   height: 46px;
   line-height: 46px; }
 
 textarea.input-lg, .input-group-lg > textarea.form-control,
 .input-group-lg > textarea.input-group-addon,
-.input-group-lg > .input-group-btn > textarea.btn, .canvs-demo-form-wrap textarea.form-control,
+.input-group-lg > .input-group-btn > textarea.btn, .form-wrap textarea.form-control,
 select[multiple].input-lg,
 .input-group-lg > select[multiple].form-control,
 .input-group-lg > select[multiple].input-group-addon,
 .input-group-lg > .input-group-btn > select[multiple].btn,
-.canvs-demo-form-wrap select[multiple].form-control {
+.form-wrap select[multiple].form-control {
   height: auto; }
 
 .has-feedback {
@@ -3079,7 +3079,7 @@ input[type="button"].btn-block {
     border-radius: 3px; }
   .input-group-addon.input-lg,
   .input-group-lg > .input-group-addon,
-  .input-group-lg > .input-group-btn > .input-group-addon.btn, .canvs-demo-form-wrap .input-group-addon.form-control {
+  .input-group-lg > .input-group-btn > .input-group-addon.btn, .form-wrap .input-group-addon.form-control {
     padding: 10px 16px;
     font-size: 18px;
     border-radius: 6px; }
@@ -5208,7 +5208,9 @@ p.section-description {
   line-height: 4.5rem; }
   @media screen and (max-width: 767px) {
     .btn-teal, .action-btn {
-      font-weight: 600; } }
+      font-weight: 600;
+      font-size: 18px;
+      font-size: 1.8rem; } }
   .btn-teal:hover, .action-btn:hover {
     color: white;
     background-color: #4fc6ba;
@@ -5239,7 +5241,9 @@ p.section-description {
   line-height: 4.5rem; }
   @media screen and (max-width: 767px) {
     .btn-gray, .updates-btn {
-      font-weight: 600; } }
+      font-weight: 600;
+      font-size: 18px;
+      font-size: 1.8rem; } }
   .btn-gray:hover, .updates-btn:hover {
     color: white;
     background-color: #aeaeae;
@@ -5253,11 +5257,11 @@ p.section-description {
 button:focus {
   outline: none; }
 
-.canvs-demo-form-wrap {
+.form-wrap {
   margin-bottom: 30px; }
-  .canvs-demo-form-wrap label {
+  .form-wrap label {
     display: none; }
-  .canvs-demo-form-wrap .form-control {
+  .form-wrap .form-control {
     border-radius: 0;
     border: none;
     -webkit-box-shadow: none;
@@ -5272,7 +5276,7 @@ button:focus {
     font-size: 2.1rem;
     color: #4b4b4b;
     vertical-align: middle; }
-    .canvs-demo-form-wrap .form-control::-webkit-input-placeholder {
+    .form-wrap .form-control::-webkit-input-placeholder {
       font-weight: 300;
       font-size: 21px;
       font-size: 2.1rem;
@@ -5280,10 +5284,10 @@ button:focus {
       line-height: 3.2rem;
       color: #777777; }
       @media screen and (max-width: 479px) {
-        .canvs-demo-form-wrap .form-control::-webkit-input-placeholder {
+        .form-wrap .form-control::-webkit-input-placeholder {
           font-size: 18px;
           font-size: 1.8rem; } }
-    .canvs-demo-form-wrap .form-control::-moz-placeholder {
+    .form-wrap .form-control::-moz-placeholder {
       font-weight: 300;
       font-size: 21px;
       font-size: 2.1rem;
@@ -5291,10 +5295,10 @@ button:focus {
       line-height: 3.2rem;
       color: #777777; }
       @media screen and (max-width: 479px) {
-        .canvs-demo-form-wrap .form-control::-moz-placeholder {
+        .form-wrap .form-control::-moz-placeholder {
           font-size: 18px;
           font-size: 1.8rem; } }
-    .canvs-demo-form-wrap .form-control:-moz-placeholder {
+    .form-wrap .form-control:-moz-placeholder {
       font-weight: 300;
       font-size: 21px;
       font-size: 2.1rem;
@@ -5302,10 +5306,10 @@ button:focus {
       line-height: 3.2rem;
       color: #777777; }
       @media screen and (max-width: 479px) {
-        .canvs-demo-form-wrap .form-control:-moz-placeholder {
+        .form-wrap .form-control:-moz-placeholder {
           font-size: 18px;
           font-size: 1.8rem; } }
-    .canvs-demo-form-wrap .form-control:-ms-input-placeholder {
+    .form-wrap .form-control:-ms-input-placeholder {
       font-weight: 300;
       font-size: 21px;
       font-size: 2.1rem;
@@ -5313,63 +5317,60 @@ button:focus {
       line-height: 3.2rem;
       color: #777777; }
       @media screen and (max-width: 479px) {
-        .canvs-demo-form-wrap .form-control:-ms-input-placeholder {
+        .form-wrap .form-control:-ms-input-placeholder {
           font-size: 18px;
           font-size: 1.8rem; } }
-    .canvs-demo-form-wrap .form-control:focus {
+    .form-wrap .form-control:focus {
       background-color: white; }
-      .canvs-demo-form-wrap .form-control:focus::-webkit-input-placeholder {
+      .form-wrap .form-control:focus::-webkit-input-placeholder {
         -webkit-transition: opacity 0.5s 0.5s ease;
         transition: opacity 0.5s 0.5s ease;
         opacity: 0; }
-      .canvs-demo-form-wrap .form-control:focus::-moz-placeholder {
+      .form-wrap .form-control:focus::-moz-placeholder {
         transition: opacity 0.5s 0.5s ease;
         opacity: 0; }
-      .canvs-demo-form-wrap .form-control:focus:-moz-placeholder {
+      .form-wrap .form-control:focus:-moz-placeholder {
         transition: opacity 0.5s 0.5s ease;
         opacity: 0; }
-      .canvs-demo-form-wrap .form-control:focus:-ms-input-placeholder {
+      .form-wrap .form-control:focus:-ms-input-placeholder {
         transition: opacity 0.5s 0.5s ease;
         opacity: 0; }
-    .canvs-demo-form-wrap .form-control:valid {
+    .form-wrap .form-control:valid {
       background-color: white; }
-    .canvs-demo-form-wrap .form-control.submitted:invalid {
+    .form-wrap .form-control.submitted:invalid {
       border-bottom: 1px solid #ed2326; }
 
-.canvs-demo-form-wrap {
+.form-wrap {
   margin-bottom: 0; }
-  .canvs-demo-form-wrap .form-group {
+  .form-wrap .form-group {
     margin-bottom: 0; }
-  .canvs-demo-form-wrap .mc-field-group {
+  .form-wrap .mc-field-group {
     margin-bottom: 30px;
     position: relative;
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px; }
     @media (min-width: 768px) {
-      .canvs-demo-form-wrap .mc-field-group {
+      .form-wrap .mc-field-group {
         float: left;
         width: 100%; } }
-  .canvs-demo-form-wrap .form-name-group .mc-field-group {
+  .form-wrap .form-name-group .mc-field-group {
     position: relative;
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px; }
     @media (min-width: 768px) {
-      .canvs-demo-form-wrap .form-name-group .mc-field-group {
+      .form-wrap .form-name-group .mc-field-group {
         float: left;
         width: 50%; } }
   @media screen and (max-width: 479px) {
-    .canvs-demo-form-wrap .mc-field-group {
+    .form-wrap .mc-field-group {
       margin-bottom: 15px; }
-    .canvs-demo-form-wrap .canvs-demo-form-submit {
+    .form-wrap .form-submit {
       margin-top: 15px; } }
 
-.canvs-demo-form-submit {
+.form-submit {
   margin-top: 30px; }
-
-form:invalid .canvs-demo-form-submit {
-  background-color: #ed2326; }
 
 .modal-form-header .section-description.error {
   color: #ed2326; }
@@ -5701,7 +5702,10 @@ section, .section {
       float: left;
       width: 50%; } }
   .single-solution-box p {
-    width: 75%; }
+    width: 78%; }
+    @media screen and (max-width: 991px) {
+      .single-solution-box p {
+        width: 90%; } }
     @media screen and (max-width: 767px) {
       .single-solution-box p {
         width: 100%; } }
@@ -5783,9 +5787,6 @@ section, .section {
   width: 100%;
   height: 100%;
   margin: 0; }
-  @media screen and (max-width: 479px) {
-    .modal-dialog {
-      height: auto; } }
 
 .modal-content {
   height: 100%;
@@ -5793,12 +5794,16 @@ section, .section {
   background-color: #e8e8e8; }
 
 .modal-controls-wrap {
+  position: absolute;
+  top: 0;
+  z-index: 9000;
   width: 100%;
   display: block;
   padding: 30px;
   text-align: right; }
   @media screen and (max-width: 479px) {
     .modal-controls-wrap {
+      position: initial;
       text-align: center;
       padding: 10px; } }
   .modal-controls-wrap .close {
@@ -5847,7 +5852,7 @@ section, .section {
 .modal-center-wrap {
   position: relative;
   top: 50%;
-  margin-top: -350px;
+  margin-top: -230px;
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -5862,6 +5867,12 @@ section, .section {
   @media screen and (max-width: 479px) {
     .modal-center-wrap {
       top: initial;
+      margin-top: 0; } }
+
+.newsletter-modal .modal-center-wrap {
+  margin-top: -130px; }
+  @media screen and (max-width: 479px) {
+    .newsletter-modal .modal-center-wrap {
       margin-top: 0; } }
 
 .modal-footer {

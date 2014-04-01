@@ -1,4 +1,4 @@
-.contactModal.modal.fade.canvs-demo-form-modal(tabindex='-1', role='dialog', aria-labelledby='contactModalTitle', aria-hidden='true')
+.contactModal.modal.fade.canvs-demo-modal(tabindex='-1', role='dialog', aria-labelledby='contactModalTitle', aria-hidden='true')
   .modal-dialog
     .modal-content
       .modal-controls-wrap
@@ -7,9 +7,9 @@
         .modal-center-wrap
           div.modal-form-header
             h1#contactModalTitle.modal-title.canvs-demo-form-title Contact us for a Canvs demo.
-            p.section-description All fields are mandatory.
+            p.section-description.canvs-demo-form-description All fields are mandatory.
 
-          div#mc_embed_signup.canvs-demo-form-wrap
+          div#mc_embed_signup.form-wrap.canvs-form-wrap
             form#canvs-demo-form.validate.form-horizontal(action='http://mashwork.us6.list-manage.com/subscribe/post-json?u=27226eff753800aa4ae740776&id=bfb67acc2a&c=?', method='post', name='canvs-demo-form', novalidate='')
               div.form-group.form-name-group   
                 .mc-field-group
@@ -35,4 +35,4 @@
               div(style='position: absolute; left: -5000px;')
                 input(type='text', name='b_27226eff753800aa4ae740776_bfb67acc2a', value='')
               
-              input#mc-embedded-subscribe.action-btn.canvs-demo-form-submit(type='submit', value='Request demo', name='subscribe')
+              input#mc-embedded-subscribe.action-btn.canvs-demo-form-submit(type='submit', value='Request demo', name='request')

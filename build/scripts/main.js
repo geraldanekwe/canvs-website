@@ -46,6 +46,7 @@ $(function () {
   var $form = $('#canvs-demo-form');
  
   $('#canvs-demo-form').on('submit', function(event) {
+    console.log('Demo Form Submit Click');
     if(event) event.preventDefault();
     register($form);
   });
@@ -59,20 +60,59 @@ function register($form) {
     cache       : false,
     dataType    : 'json',
     contentType: "application/json; charset=utf-8",
-    error       : function(err) { $('.section-description').html('<span class="alert">Could not connect to server. Please try again later.</span>'); },
+    error       : function(err) { $('.canvs-demo-form-description').html('<span class="alert">Could not connect to server. Please try again later.</span>'); },
     success     : function(data) {
       
       if (data.result != "success") {
         var message = data.msg;
-        $('.canvs-demo-form-modal .section-description').addClass('error').html(message);
+        $('.canvs-demo-form-description').addClass('error').html(message);
         $('#canvs-demo-form .form-control').addClass('submitted');
       }
  
       else {
         var message = data.msg;
         $('.canvs-demo-form-title').html("Thank you for your interest in Canvs.");
-        $('.section-description').removeClass('error').html(message + "<br>Someone will contact you about scheduling a demo within the next 48 hours.");
+        $('.canvs-demo-form-description').removeClass('error').html(message + "<br>Someone will contact you about scheduling a demo within the next 48 hours.");
         $('.canvs-demo-form-wrap').fadeOut();
+      }
+    }
+  });
+}
+
+//Mailchimp AJAX Script for Newsletter Form
+
+$(function () {
+  var $newsletterForm = $('#newsletter-form');
+ 
+  $('#newsletter-form').on('submit', function(event) {
+    console.log('Newsletter Form Submit Click');
+    if(event) event.preventDefault();
+    register($newsletterForm);
+  });
+});
+
+function register($newsletterForm) {
+  $.ajax({
+    type: $newsletterForm.attr('method'),
+    url: $newsletterForm.attr('action'),
+    data: $newsletterForm.serialize(),
+    cache       : false,
+    dataType    : 'json',
+    contentType: "application/json; charset=utf-8",
+    error       : function(err) { $('.newsletter-form-description').html('<span class="alert">Could not connect to server. Please try again later.</span>'); },
+    success     : function(data) {
+      
+      if (data.result != "success") {
+        var message = data.msg;
+        $('.newsletter-form-description').addClass('error').html(message);
+        $('#newsletter-form .form-control').addClass('submitted');
+      }
+ 
+      else {
+        var message = data.msg;
+        $('.newsletter-form-title').html("Thank you for subscribing.");
+        $('.newsletter-form-description').removeClass('error').html(message);
+        $('.newsletter-form-wrap').fadeOut();
       }
     }
   });

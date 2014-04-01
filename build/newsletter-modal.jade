@@ -1,0 +1,23 @@
+.contactModal.modal.fade.newsletter-modal(tabindex='-1', role='dialog', aria-labelledby='newsletterModalTitle', aria-hidden='true')
+  .modal-dialog
+    .modal-content
+      .modal-controls-wrap
+        button.close(type='button', data-dismiss='modal', aria-hidden='true') ×
+      .modal-body
+        .modal-center-wrap
+          div.modal-form-header
+            h1.modal-title.newsletter-form-title Subscribe to the Mashwork newsletter.
+            p.section-description.newsletter-form-description All fields are mandatory.
+
+          div.form-wrap.newsletter-form-wrap
+            form#newsletter-form.validate.form-horizontal(action='http://mashwork.us6.list-manage.com/subscribe/post-json?u=27226eff753800aa4ae740776&id=bca285c75d&c=?', method='post', name='newsletter-form', novalidate='')
+              div.form-group
+                .mc-field-group
+                  label(for='mce-MERGE0') Email Address 
+                  input#mce-MERGE0.required.email.form-control(type='email', value='', name='MERGE0', placeholder='Email', required)
+
+              // real people should not fill this in and expect good things - do not remove this or risk form bot signups
+              div(style='position: absolute; left: -5000px;')
+                input(type='text', name='b_27226eff753800aa4ae740776_bca285c75d', value='')
+              
+              input.action-btn.newsletter-form-submit.form-submit(type='submit', value='Subscribe', name='subscribe')

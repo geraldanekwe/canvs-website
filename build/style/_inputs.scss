@@ -1,4 +1,4 @@
-.canvs-demo-form-wrap {
+.form-wrap {
   margin-bottom: 30px;
   label {
     display: none;
@@ -43,7 +43,7 @@
   }
 }
 
-.canvs-demo-form-wrap {
+.form-wrap {
   margin-bottom: 0;
   .form-group {
     margin-bottom: 0;
@@ -62,18 +62,14 @@
     .mc-field-group {
       margin-bottom: 15px;
     }
-    .canvs-demo-form-submit {
+    .form-submit {
       margin-top: 15px;
     }
   }
 }
  
-.canvs-demo-form-submit {
+.form-submit {
   margin-top: 30px;
-}
-
-form:invalid .canvs-demo-form-submit {
-  background-color: $red;
 }
 
 .modal-form-header {
