@@ -339,6 +339,16 @@ section, .section {
       margin-top: 15px;
     }
   }
+  @include max-width($screen-sm) {
+    .icon-circle {
+      @include size(180px);
+      .actionable-insights-illustration {
+        @include size(120px);
+        margin-top: 30px;
+      }
+    }
+
+  }
 }
 
 

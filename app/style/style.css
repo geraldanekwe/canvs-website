@@ -5687,6 +5687,14 @@ section, .section {
       position: relative;
       margin: 0 auto;
       margin-top: 15px; }
+  @media screen and (max-width: 767px) {
+    .actionable-insights-box .icon-circle {
+      width: 180px;
+      height: 180px; }
+      .actionable-insights-box .icon-circle .actionable-insights-illustration {
+        width: 120px;
+        height: 120px;
+        margin-top: 30px; } }
 
 .single-solution-section {
   text-align: center; }
