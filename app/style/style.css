@@ -5682,11 +5682,11 @@ section, .section {
     margin-bottom: 20px;
     background-color: rgba(255, 255, 255, 0.35); }
     .actionable-insights-box .icon-circle .actionable-insights-illustration {
-      width: 50px;
-      height: 50px;
+      width: 70px;
+      height: 70px;
       position: relative;
       margin: 0 auto;
-      margin-top: 25px; }
+      margin-top: 15px; }
 
 .single-solution-section {
   text-align: center; }

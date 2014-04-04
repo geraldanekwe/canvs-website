@@ -333,10 +333,10 @@ section, .section {
     margin-bottom: 20px;
     background-color: transparentize(white, .65);
     .actionable-insights-illustration {
-      @include size(50px);
+      @include size(70px);
       position: relative;
       margin: 0 auto;
-      margin-top: 25px;
+      margin-top: 15px;
     }
   }
 }
