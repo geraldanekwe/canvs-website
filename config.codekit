@@ -2753,6 +2753,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/build\/includes\/_google-analytics.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/includes\/_google-analytics.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/build\/index.kit": {
 		"fileType": 2048,
 		"ignore": 0,
