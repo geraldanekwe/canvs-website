@@ -42,7 +42,7 @@ section, .section {
   position: relative;
   min-height: 600px;
   text-align: center;
-  background: $offBlack url("../images/canvs-header-image.jpg") no-repeat center center;
+  background: $offBlack url("../images/canvs-header-image5.jpg") no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
   @include max-width(1025px) {
@@ -591,27 +591,27 @@ section, .section {
 }
 
 .canvs-video-close {
-    z-index: 9100;
-    text-align: center;
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    @include rem('font-size', 42px);
-    line-height: 50px;
-    font-weight: 300;
-    color: $white;
-    @include size(50px);
-    border-radius: 100%;
-    background-color: transparentize($white, .8);
-    transition: transform .25s $easeOutBack;
-    &:hover {
-      background-color: transparentize($white, .5);
-      cursor: pointer;
-      transform: scale(1.2);
-    }
-    @include max-width($screen-xs) {
-      @include size(40px);
-      @include rem('font-size', 36px);
-      line-height: 44px;
-    }
+  z-index: 9100;
+  text-align: center;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  @include rem('font-size', 42px);
+  line-height: 50px;
+  font-weight: 300;
+  color: $white;
+  @include size(50px);
+  border-radius: 100%;
+  background-color: transparentize($white, .8);
+  transition: transform .25s $easeOutBack;
+  &:hover {
+    background-color: transparentize($white, .5);
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  @include max-width($screen-xs) {
+    @include size(40px);
+    @include rem('font-size', 36px);
+    line-height: 44px;
+  }
 }
