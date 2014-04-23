@@ -129,6 +129,7 @@ section, .section {
   @extend .center-block;
   .logo-introducing {
     color: white;
+    margin-bottom: 7px;
     @include rem('font-size', 21px);
     font-weight: 300;
   }
@@ -143,13 +144,13 @@ section, .section {
       margin-bottom: 5px;
       @include rem('font-size', 18px);
     }
-    .canvs-logo {
-      width: 240px;
-    }
+    // .canvs-logo {
+    //   width: 240px;
+    // }
   }
   @include max-width($screen-sm) {
     .canvs-logo {
-      width: 180px;
+      width: 240px;
     }
   }
   @include max-width($screen-xs) {
