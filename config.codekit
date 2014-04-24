@@ -372,17 +372,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 0
 		},
-	"\/app\/plugins\/jquery.fitvids.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/plugins\/jquery.fitvids.js",
-		"outputAbbreviatedPath": "\/app\/plugins\/jquery.fitvids-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
-		},
 	"\/app\/scripts\/main-min.js": {
 		"fileType": 64,
 		"ignore": 1,
