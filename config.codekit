@@ -103,7 +103,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6318,
+		"initialSize": 0,
 		"inputAbbreviatedPath": "\/app\/apple-touch-icon-precomposed.png",
 		"outputAbbreviatedPath": "\/app\/apple-touch-icon-precomposed.png",
 		"outputPathIsOutsideProject": 0,
@@ -213,7 +213,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
+		"initialSize": 73237,
 		"inputAbbreviatedPath": "\/app\/images\/canvs-header-image1.jpg",
 		"outputAbbreviatedPath": "\/app\/images\/canvs-header-image1.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -257,7 +257,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 86548,
+		"initialSize": 80938,
 		"inputAbbreviatedPath": "\/app\/images\/canvs-header-image5.jpg",
 		"outputAbbreviatedPath": "\/app\/images\/canvs-header-image5.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -359,7 +359,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/app\/plugins\/froogaloop.min.js": {
 		"fileType": 64,
@@ -370,7 +370,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
+<<<<<<< HEAD
 		"syntaxCheckerStyle": 0
+=======
+		"syntaxCheckerStyle": 1
+>>>>>>> FETCH_HEAD
 		},
 	"\/app\/scripts\/main-min.js": {
 		"fileType": 64,
@@ -381,7 +385,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/app\/style\/style.css": {
 		"fileType": 16,
@@ -419,7 +423,7 @@
 		"outputAbbreviatedPath": "\/build\/about\/about-content.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
+		"outputStyle": 0
 		},
 	"\/build\/about\/index.kit": {
 		"fileType": 2048,
@@ -451,7 +455,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/FitVids\/README.md": {
 		"enableFootnoteSupport": 0,
@@ -662,7 +666,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/html5-boilerplate\/js\/plugins.js": {
 		"fileType": 64,
@@ -673,7 +677,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/html5-boilerplate\/js\/vendor\/jquery-1.10.2.min.js": {
 		"fileType": 64,
@@ -684,7 +688,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/html5-boilerplate\/js\/vendor\/modernizr-2.6.2.min.js": {
 		"fileType": 64,
@@ -695,7 +699,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/html5-boilerplate\/LICENSE.md": {
 		"enableFootnoteSupport": 0,
@@ -730,7 +734,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/dist\/jquery.min.js": {
 		"fileType": 64,
@@ -741,7 +745,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/ajax.js": {
 		"fileType": 64,
@@ -752,7 +756,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/ajax\/jsonp.js": {
 		"fileType": 64,
@@ -763,7 +767,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/ajax\/load.js": {
 		"fileType": 64,
@@ -774,7 +778,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/ajax\/parseJSON.js": {
 		"fileType": 64,
@@ -785,7 +789,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/ajax\/parseXML.js": {
 		"fileType": 64,
@@ -796,7 +800,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/ajax\/script.js": {
 		"fileType": 64,
@@ -807,7 +811,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/ajax\/var\/nonce.js": {
 		"fileType": 64,
@@ -818,7 +822,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/ajax\/var\/rquery.js": {
 		"fileType": 64,
@@ -829,7 +833,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/ajax\/xhr.js": {
 		"fileType": 64,
@@ -840,7 +844,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/attributes.js": {
 		"fileType": 64,
@@ -851,7 +855,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/attributes\/attr.js": {
 		"fileType": 64,
@@ -862,7 +866,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/attributes\/classes.js": {
 		"fileType": 64,
@@ -873,7 +877,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/attributes\/prop.js": {
 		"fileType": 64,
@@ -884,7 +888,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/attributes\/support.js": {
 		"fileType": 64,
@@ -895,7 +899,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/attributes\/val.js": {
 		"fileType": 64,
@@ -906,7 +910,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/callbacks.js": {
 		"fileType": 64,
@@ -917,7 +921,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/core.js": {
 		"fileType": 64,
@@ -928,7 +932,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/core\/access.js": {
 		"fileType": 64,
@@ -939,7 +943,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/core\/init.js": {
 		"fileType": 64,
@@ -950,7 +954,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/core\/parseHTML.js": {
 		"fileType": 64,
@@ -961,7 +965,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/core\/ready.js": {
 		"fileType": 64,
@@ -972,7 +976,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/core\/var\/rsingleTag.js": {
 		"fileType": 64,
@@ -983,7 +987,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/css.js": {
 		"fileType": 64,
@@ -994,7 +998,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/css\/addGetHookIf.js": {
 		"fileType": 64,
@@ -1005,7 +1009,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/css\/curCSS.js": {
 		"fileType": 64,
@@ -1016,7 +1020,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/css\/defaultDisplay.js": {
 		"fileType": 64,
@@ -1027,7 +1031,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/css\/hiddenVisibleSelectors.js": {
 		"fileType": 64,
@@ -1038,7 +1042,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/css\/support.js": {
 		"fileType": 64,
@@ -1049,7 +1053,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/css\/swap.js": {
 		"fileType": 64,
@@ -1060,7 +1064,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/css\/var\/cssExpand.js": {
 		"fileType": 64,
@@ -1071,7 +1075,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/css\/var\/getStyles.js": {
 		"fileType": 64,
@@ -1082,7 +1086,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/css\/var\/isHidden.js": {
 		"fileType": 64,
@@ -1093,7 +1097,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/css\/var\/rmargin.js": {
 		"fileType": 64,
@@ -1104,7 +1108,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/css\/var\/rnumnonpx.js": {
 		"fileType": 64,
@@ -1115,7 +1119,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/data.js": {
 		"fileType": 64,
@@ -1126,7 +1130,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/data\/accepts.js": {
 		"fileType": 64,
@@ -1137,7 +1141,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/data\/Data.js": {
 		"fileType": 64,
@@ -1148,7 +1152,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/data\/var\/data_priv.js": {
 		"fileType": 64,
@@ -1159,7 +1163,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/data\/var\/data_user.js": {
 		"fileType": 64,
@@ -1170,7 +1174,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/deferred.js": {
 		"fileType": 64,
@@ -1181,7 +1185,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/deprecated.js": {
 		"fileType": 64,
@@ -1192,7 +1196,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/dimensions.js": {
 		"fileType": 64,
@@ -1203,7 +1207,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/effects.js": {
 		"fileType": 64,
@@ -1214,7 +1218,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/effects\/animatedSelector.js": {
 		"fileType": 64,
@@ -1225,7 +1229,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/effects\/Tween.js": {
 		"fileType": 64,
@@ -1236,7 +1240,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/event.js": {
 		"fileType": 64,
@@ -1247,7 +1251,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/event\/alias.js": {
 		"fileType": 64,
@@ -1258,7 +1262,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/event\/support.js": {
 		"fileType": 64,
@@ -1269,7 +1273,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/exports\/amd.js": {
 		"fileType": 64,
@@ -1280,7 +1284,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/exports\/global.js": {
 		"fileType": 64,
@@ -1291,7 +1295,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/intro.js": {
 		"fileType": 64,
@@ -1302,7 +1306,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/jquery.js": {
 		"fileType": 64,
@@ -1313,7 +1317,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/manipulation.js": {
 		"fileType": 64,
@@ -1324,7 +1328,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/manipulation\/_evalUrl.js": {
 		"fileType": 64,
@@ -1335,7 +1339,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/manipulation\/support.js": {
 		"fileType": 64,
@@ -1346,7 +1350,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/manipulation\/var\/rcheckableType.js": {
 		"fileType": 64,
@@ -1357,7 +1361,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/offset.js": {
 		"fileType": 64,
@@ -1368,7 +1372,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/outro.js": {
 		"fileType": 64,
@@ -1379,7 +1383,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/queue.js": {
 		"fileType": 64,
@@ -1390,7 +1394,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/queue\/delay.js": {
 		"fileType": 64,
@@ -1401,7 +1405,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/selector-native.js": {
 		"fileType": 64,
@@ -1412,7 +1416,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/selector-sizzle.js": {
 		"fileType": 64,
@@ -1423,7 +1427,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/selector.js": {
 		"fileType": 64,
@@ -1434,7 +1438,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/serialize.js": {
 		"fileType": 64,
@@ -1445,7 +1449,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/sizzle\/dist\/sizzle.js": {
 		"fileType": 64,
@@ -1456,7 +1460,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/sizzle\/dist\/sizzle.min.js": {
 		"fileType": 64,
@@ -1467,7 +1471,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/traversing.js": {
 		"fileType": 64,
@@ -1478,7 +1482,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/traversing\/findFilter.js": {
 		"fileType": 64,
@@ -1489,7 +1493,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/traversing\/var\/rneedsContext.js": {
 		"fileType": 64,
@@ -1500,7 +1504,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/var\/arr.js": {
 		"fileType": 64,
@@ -1511,7 +1515,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/var\/class2type.js": {
 		"fileType": 64,
@@ -1522,7 +1526,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/var\/concat.js": {
 		"fileType": 64,
@@ -1533,7 +1537,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/var\/hasOwn.js": {
 		"fileType": 64,
@@ -1544,7 +1548,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/var\/indexOf.js": {
 		"fileType": 64,
@@ -1555,7 +1559,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/var\/pnum.js": {
 		"fileType": 64,
@@ -1566,7 +1570,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/var\/push.js": {
 		"fileType": 64,
@@ -1577,7 +1581,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/var\/rnotwhite.js": {
 		"fileType": 64,
@@ -1588,7 +1592,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/var\/slice.js": {
 		"fileType": 64,
@@ -1599,7 +1603,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/var\/strundefined.js": {
 		"fileType": 64,
@@ -1610,7 +1614,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/var\/support.js": {
 		"fileType": 64,
@@ -1621,7 +1625,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/var\/toString.js": {
 		"fileType": 64,
@@ -1632,7 +1636,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/jquery\/src\/wrap.js": {
 		"fileType": 64,
@@ -1643,7 +1647,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/sass_mixin_rem\/stylesheets\/_rem.sass": {
 		"createSourceMap": 1,
@@ -1653,10 +1657,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/sass_mixin_rem\/stylesheets\/_rem.sass",
-		"outputAbbreviatedPath": "\/app\/bower_components\/sass_mixin_rem\/stylesheets\/_rem.css",
+		"outputAbbreviatedPath": "\/app\/css\/_rem.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1669,10 +1673,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/sass_mixin_rem\/stylesheets\/_rem.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/sass_mixin_rem\/stylesheets\/_rem.css",
+		"outputAbbreviatedPath": "\/app\/css\/_rem.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1694,10 +1698,10 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/sass_mixin_rem\/test\/sass\/screen.sass",
-		"outputAbbreviatedPath": "\/app\/bower_components\/sass_mixin_rem\/test\/sass\/screen.css",
+		"outputAbbreviatedPath": "\/app\/css\/screen.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1747,7 +1751,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/affix.js": {
 		"fileType": 64,
@@ -1758,7 +1762,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/alert.js": {
 		"fileType": 64,
@@ -1769,7 +1773,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/button.js": {
 		"fileType": 64,
@@ -1780,7 +1784,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/carousel.js": {
 		"fileType": 64,
@@ -1791,7 +1795,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/collapse.js": {
 		"fileType": 64,
@@ -1802,7 +1806,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/dropdown.js": {
 		"fileType": 64,
@@ -1813,7 +1817,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/modal.js": {
 		"fileType": 64,
@@ -1824,7 +1828,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/popover.js": {
 		"fileType": 64,
@@ -1835,7 +1839,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/scrollspy.js": {
 		"fileType": 64,
@@ -1846,7 +1850,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/tab.js": {
 		"fileType": 64,
@@ -1857,7 +1861,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/tooltip.js": {
 		"fileType": 64,
@@ -1868,7 +1872,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/transition.js": {
 		"fileType": 64,
@@ -1879,7 +1883,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap.scss": {
 		"createSourceMap": 1,
@@ -1889,10 +1893,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap.css",
+		"outputAbbreviatedPath": "\/app\/css\/bootstrap.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1905,10 +1909,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_alerts.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_alerts.css",
+		"outputAbbreviatedPath": "\/app\/css\/_alerts.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1921,10 +1925,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_badges.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_badges.css",
+		"outputAbbreviatedPath": "\/app\/css\/_badges.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1937,10 +1941,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_breadcrumbs.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_breadcrumbs.css",
+		"outputAbbreviatedPath": "\/app\/css\/_breadcrumbs.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1953,10 +1957,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_button-groups.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_button-groups.css",
+		"outputAbbreviatedPath": "\/app\/css\/_button-groups.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1969,10 +1973,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_buttons.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_buttons.css",
+		"outputAbbreviatedPath": "\/app\/css\/_buttons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -1985,10 +1989,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_carousel.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_carousel.css",
+		"outputAbbreviatedPath": "\/app\/css\/_carousel.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2001,10 +2005,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_close.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_close.css",
+		"outputAbbreviatedPath": "\/app\/css\/_close.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2017,10 +2021,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_code.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_code.css",
+		"outputAbbreviatedPath": "\/app\/css\/_code.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2033,10 +2037,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_component-animations.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_component-animations.css",
+		"outputAbbreviatedPath": "\/app\/css\/_component-animations.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2049,10 +2053,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_dropdowns.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_dropdowns.css",
+		"outputAbbreviatedPath": "\/app\/css\/_dropdowns.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2065,10 +2069,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_forms.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_forms.css",
+		"outputAbbreviatedPath": "\/app\/css\/_forms.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2081,10 +2085,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_glyphicons.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_glyphicons.css",
+		"outputAbbreviatedPath": "\/app\/css\/_glyphicons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2097,10 +2101,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_grid.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_grid.css",
+		"outputAbbreviatedPath": "\/app\/css\/_grid.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2113,10 +2117,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_input-groups.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_input-groups.css",
+		"outputAbbreviatedPath": "\/app\/css\/_input-groups.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2129,10 +2133,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_jumbotron.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_jumbotron.css",
+		"outputAbbreviatedPath": "\/app\/css\/_jumbotron.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2145,10 +2149,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_labels.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_labels.css",
+		"outputAbbreviatedPath": "\/app\/css\/_labels.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2161,10 +2165,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_list-group.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_list-group.css",
+		"outputAbbreviatedPath": "\/app\/css\/_list-group.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2177,10 +2181,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_media.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_media.css",
+		"outputAbbreviatedPath": "\/app\/css\/_media.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2193,10 +2197,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_mixins.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_mixins.css",
+		"outputAbbreviatedPath": "\/app\/css\/_mixins.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2209,10 +2213,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_modals.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_modals.css",
+		"outputAbbreviatedPath": "\/app\/css\/_modals.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2225,10 +2229,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_navbar.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_navbar.css",
+		"outputAbbreviatedPath": "\/app\/css\/_navbar.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2241,10 +2245,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_navs.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_navs.css",
+		"outputAbbreviatedPath": "\/app\/css\/_navs.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2257,10 +2261,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_normalize.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_normalize.css",
+		"outputAbbreviatedPath": "\/app\/css\/_normalize.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2273,10 +2277,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_pager.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_pager.css",
+		"outputAbbreviatedPath": "\/app\/css\/_pager.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2289,10 +2293,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_pagination.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_pagination.css",
+		"outputAbbreviatedPath": "\/app\/css\/_pagination.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2305,10 +2309,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_panels.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_panels.css",
+		"outputAbbreviatedPath": "\/app\/css\/_panels.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2321,10 +2325,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_popovers.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_popovers.css",
+		"outputAbbreviatedPath": "\/app\/css\/_popovers.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2337,10 +2341,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_print.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_print.css",
+		"outputAbbreviatedPath": "\/app\/css\/_print.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2353,10 +2357,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_progress-bars.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_progress-bars.css",
+		"outputAbbreviatedPath": "\/app\/css\/_progress-bars.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2369,10 +2373,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_responsive-utilities.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_responsive-utilities.css",
+		"outputAbbreviatedPath": "\/app\/css\/_responsive-utilities.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2385,10 +2389,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_scaffolding.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_scaffolding.css",
+		"outputAbbreviatedPath": "\/app\/css\/_scaffolding.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2401,10 +2405,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_tables.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_tables.css",
+		"outputAbbreviatedPath": "\/app\/css\/_tables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2417,10 +2421,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_theme.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_theme.css",
+		"outputAbbreviatedPath": "\/app\/css\/_theme.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2433,10 +2437,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_thumbnails.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_thumbnails.css",
+		"outputAbbreviatedPath": "\/app\/css\/_thumbnails.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2449,10 +2453,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_tooltip.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_tooltip.css",
+		"outputAbbreviatedPath": "\/app\/css\/_tooltip.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2465,10 +2469,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_type.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_type.css",
+		"outputAbbreviatedPath": "\/app\/css\/_type.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2481,10 +2485,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_utilities.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_utilities.css",
+		"outputAbbreviatedPath": "\/app\/css\/_utilities.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2497,10 +2501,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_variables.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_variables.css",
+		"outputAbbreviatedPath": "\/app\/css\/_variables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2513,10 +2517,10 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_wells.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/_wells.css",
+		"outputAbbreviatedPath": "\/app\/css\/_wells.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2529,10 +2533,10 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/bootstrap.scss",
-		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap\/bootstrap.css",
+		"outputAbbreviatedPath": "\/app\/css\/bootstrap.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2555,16 +2559,7 @@
 		"outputAbbreviatedPath": "\/build\/canvs-contact-modal.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
-		},
-	"\/build\/content.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/content.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputStyle": 0
 		},
 	"\/build\/content.jade": {
 		"compileDebug": 1,
@@ -2575,7 +2570,7 @@
 		"outputAbbreviatedPath": "\/build\/content.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
+		"outputStyle": 0
 		},
 	"\/build\/footer.html": {
 		"fileType": 8192,
@@ -2595,13 +2590,13 @@
 		"outputAbbreviatedPath": "\/build\/footer.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
+		"outputStyle": 0
 		},
 	"\/build\/images\/3E00B1E31C5BC4CC.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 265705,
+		"initialSize": 0,
 		"inputAbbreviatedPath": "\/build\/images\/3E00B1E31C5BC4CC.jpg",
 		"outputAbbreviatedPath": "\/build\/images\/3E00B1E31C5BC4CC.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2612,7 +2607,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 265705,
+		"initialSize": 0,
 		"inputAbbreviatedPath": "\/build\/images\/3E00B1E31C5BC4CF.jpg",
 		"outputAbbreviatedPath": "\/build\/images\/3E00B1E31C5BC4CF.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2623,7 +2618,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 712,
+		"initialSize": 0,
 		"inputAbbreviatedPath": "\/build\/images\/72A21AB048430905.jpg",
 		"outputAbbreviatedPath": "\/build\/images\/72A21AB048430905.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2656,7 +2651,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 210044,
+		"initialSize": 364898,
 		"inputAbbreviatedPath": "\/build\/images\/about-hero-image.jpg",
 		"outputAbbreviatedPath": "\/build\/images\/about-hero-image.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2700,18 +2695,18 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.93787e+06,
+		"initialSize": 73237,
 		"inputAbbreviatedPath": "\/build\/images\/canvs-header-image-test.jpg",
 		"outputAbbreviatedPath": "\/build\/images\/canvs-header-image-test.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/build\/images\/canvs-header-image-test2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 98942,
+		"initialSize": 6.75018e+06,
 		"inputAbbreviatedPath": "\/build\/images\/canvs-header-image-test2.jpg",
 		"outputAbbreviatedPath": "\/build\/images\/canvs-header-image-test2.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2733,12 +2728,12 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 115632,
+		"initialSize": 118676,
 		"inputAbbreviatedPath": "\/build\/images\/hero-image.jpg",
 		"outputAbbreviatedPath": "\/build\/images\/hero-image.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/build\/images\/team\/jared.jpg": {
 		"fileType": 16384,
@@ -2755,12 +2750,21 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 31102,
+		"initialSize": 0,
 		"inputAbbreviatedPath": "\/build\/images\/team\/sam.jpg",
 		"outputAbbreviatedPath": "\/build\/images\/team\/sam.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/build\/includes\/_google-analytics.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/includes\/_google-analytics.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/build\/index.kit": {
 		"fileType": 2048,
@@ -2789,7 +2793,7 @@
 		"outputAbbreviatedPath": "\/build\/newsletter-modal.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
+		"outputStyle": 0
 		},
 	"\/build\/scripts\/main.js": {
 		"fileType": 64,
@@ -2813,7 +2817,7 @@
 		"outputAbbreviatedPath": "\/app\/style\/_about.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2829,7 +2833,7 @@
 		"outputAbbreviatedPath": "\/app\/style\/_animations.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2845,7 +2849,7 @@
 		"outputAbbreviatedPath": "\/app\/style\/_buttons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2861,7 +2865,7 @@
 		"outputAbbreviatedPath": "\/app\/style\/_inputs.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2877,7 +2881,7 @@
 		"outputAbbreviatedPath": "\/app\/style\/_mixins.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2893,7 +2897,7 @@
 		"outputAbbreviatedPath": "\/app\/style\/_primary.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2909,7 +2913,7 @@
 		"outputAbbreviatedPath": "\/app\/style\/_typography.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2925,7 +2929,7 @@
 		"outputAbbreviatedPath": "\/app\/style\/_variables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2941,7 +2945,7 @@
 		"outputAbbreviatedPath": "\/app\/style\/style.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -2954,7 +2958,7 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "build",
-	"displayValue": "canvs-website",
+	"displayValue": "Canvs Website",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-trap"
 	},
@@ -3090,7 +3094,7 @@
 	"jadeAutoOutputPathReplace2": "",
 	"jadeAutoOutputPathStyle": 0,
 	"jadeCompileDebug": 1,
-	"jadeOutputStyle": 1,
+	"jadeOutputStyle": 0,
 	"javascriptAutoOutputPathRelativePath": "\/min",
 	"javascriptAutoOutputPathReplace1": "build",
 	"javascriptAutoOutputPathReplace2": "app",
@@ -3098,7 +3102,7 @@
 	"javascriptCreateSourceMap": 1,
 	"javascriptOutputStyle": 1,
 	"javascriptOutputSuffix": "-min",
-	"javascriptSyntaxCheckerStyle": 0,
+	"javascriptSyntaxCheckerStyle": 1,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
 		"asi": {
@@ -3517,14 +3521,14 @@
 	"markdownEnableSmartyPants": 1,
 	"markdownExpandTabs": 1,
 	"reloadFileURLs": 0,
-	"sassAutoOutputPathRelativePath": "..\/css",
-	"sassAutoOutputPathReplace1": "build",
-	"sassAutoOutputPathReplace2": "app",
-	"sassAutoOutputPathStyle": 3,
+	"sassAutoOutputPathRelativePath": "\/app\/style",
+	"sassAutoOutputPathReplace1": "sass",
+	"sassAutoOutputPathReplace2": "css",
+	"sassAutoOutputPathStyle": 1,
 	"sassCreateSourceMap": 1,
 	"sassDebugStyle": 0,
 	"sassDecimalPrecision": 10,
-	"sassOutputStyle": 3,
+	"sassOutputStyle": 0,
 	"sassUseLibsass": 0,
 	"shouldRunAutoprefixer": 1,
 	"shouldRunBless": 0,

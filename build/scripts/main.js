@@ -13,18 +13,15 @@
 
 $(document).ready(function(){
 
-  // $(document).ready(function(){
-  //   // Target your .container, .wrapper, .post, etc.
-  //   $(".canvs-video-wrap").fitVids();
-  // });
 
   $('.video-play-btn').click(function() {
+    $('.canvs-login').removeClass('fadeInRight').addClass('animated fadeOutRight');
     $('.canvs-video-wrap-container').addClass('active animated fadeIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
       $(this).removeClass('fadeOut');
     });
     $('.canvs-video-wrap').addClass('animated growIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
       $(this).removeClass('growIn');
-      $f($('#canvs-video')[0]).api('play');      
+      $f($('#canvs-video')[0]).api('play');
     });
   });
 
@@ -36,8 +33,8 @@ $(document).ready(function(){
     $('.canvs-video-wrap-container').addClass('animated fadeout').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
       $(this).removeClass('active fadeOut');
     });
+    $('.canvs-login').removeClass('fadeOutRight').addClass('fadeInRight');
   });
-
 
 //Mailchimp AJAX Script for Canvs Demo Form - Source: http://designshack.net/articles/css/custom-mailchimp-email-signup-form/
 
