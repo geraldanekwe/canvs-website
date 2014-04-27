@@ -1,18 +1,20 @@
-// @codekit-append "../bower_components/twitter-bootstrap-sass/vendor/assets/javascripts/bootstrap/affix.js"
-// @codekit-append "../bower_components/twitter-bootstrap-sass/vendor/assets/javascripts/bootstrap/alert.js"
-// @codekit-append "../bower_components/twitter-bootstrap-sass/vendor/assets/javascripts/bootstrap/button.js"
-// @codekit-append "../bower_components/twitter-bootstrap-sass/vendor/assets/javascripts/bootstrap/carousel.js"
-// @codekit-append "../bower_components/twitter-bootstrap-sass/vendor/assets/javascripts/bootstrap/collapse.js"
-// @codekit-append "../bower_components/twitter-bootstrap-sass/vendor/assets/javascripts/bootstrap/dropdown.js"
-// @codekit-append "../bower_components/twitter-bootstrap-sass/vendor/assets/javascripts/bootstrap/tab.js"
-// @codekit-append "../bower_components/twitter-bootstrap-sass/vendor/assets/javascripts/bootstrap/transition.js"
-// @codekit-append "../bower_components/twitter-bootstrap-sass/vendor/assets/javascripts/bootstrap/scrollspy.js"
-// @codekit-append "../bower_components/twitter-bootstrap-sass/vendor/assets/javascripts/bootstrap/modal.js"
-// @codekit-append "../bower_components/twitter-bootstrap-sass/vendor/assets/javascripts/bootstrap/tooltip.js"
-// @codekit-append "../bower_components/twitter-bootstrap-sass/vendor/assets/javascripts/bootstrap/popover.js"
+// @codekit-append "/build/bower_components/twitter-bootstrap-sass/vendor/assets/javascripts/bootstrap/affix.js"
+// @codekit-append "/build/bower_components/twitter-bootstrap-sass/vendor/assets/javascripts/bootstrap/alert.js"
+// @codekit-append "/build/bower_components/twitter-bootstrap-sass/vendor/assets/javascripts/bootstrap/button.js"
+// @codekit-append "/build/bower_components/twitter-bootstrap-sass/vendor/assets/javascripts/bootstrap/carousel.js"
+// @codekit-append "/build/bower_components/twitter-bootstrap-sass/vendor/assets/javascripts/bootstrap/collapse.js"
+// @codekit-append "/build/bower_components/twitter-bootstrap-sass/vendor/assets/javascripts/bootstrap/dropdown.js"
+// @codekit-append "/build/bower_components/twitter-bootstrap-sass/vendor/assets/javascripts/bootstrap/tab.js"
+// @codekit-append "/build/bower_components/twitter-bootstrap-sass/vendor/assets/javascripts/bootstrap/transition.js"
+// @codekit-append "/build/bower_components/twitter-bootstrap-sass/vendor/assets/javascripts/bootstrap/scrollspy.js"
+// @codekit-append "/build/bower_components/twitter-bootstrap-sass/vendor/assets/javascripts/bootstrap/modal.js"
+// @codekit-append "/build/bower_components/twitter-bootstrap-sass/vendor/assets/javascripts/bootstrap/tooltip.js"
+// @codekit-append "/build/bower_components/twitter-bootstrap-sass/vendor/assets/javascripts/bootstrap/popover.js"
+
 
 $(document).ready(function(){
 
+//Video show/hide
 
   $('.video-play-btn').click(function() {
     $('.canvs-login').removeClass('fadeInRight').addClass('animated fadeOutRight');
@@ -34,6 +36,12 @@ $(document).ready(function(){
       $(this).removeClass('active fadeOut');
     });
     $('.canvs-login').removeClass('fadeOutRight').addClass('fadeInRight');
+  });
+
+//Scroll button
+
+  $('.scroll-down-arrow').click(function() {
+    $('.about-canvs-section').animatescroll();
   });
 
 //Mailchimp AJAX Script for Canvs Demo Form - Source: http://designshack.net/articles/css/custom-mailchimp-email-signup-form/

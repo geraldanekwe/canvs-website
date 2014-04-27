@@ -105,11 +105,12 @@ section, .section {
     position: initial;
     display: inline-block;
     margin: 10px 0;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     padding: 0 10px;
     background-color: transparentize(white,.85);
     height: 30px;
     line-height: 30px;
+    @include rem('font-size', 18px);
   }
 }
 
@@ -155,7 +156,7 @@ section, .section {
     }
   }
   @include max-width($screen-xs) {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 }
 
@@ -211,11 +212,11 @@ section, .section {
     }
   }
   @include max-width($screen-sm) {
-    @include size(100px);
+    @include size(90px);
     .play-btn-triangle {
       height: 40px;
       width: auto;
-      margin-top: 30px;
+      margin-top: 25px;
     }
   }
 }
@@ -244,6 +245,7 @@ section, .section {
   @include max-width($screen-xs) {
     @include rem('font-size', 28px);
     @include rem('line-height', 34px);
+    margin-bottom: 20px;
   }
 }
 
@@ -267,6 +269,12 @@ section, .section {
   left: 50%;
   margin-left: -25px;
   opacity: 0.75;
+  transition: opacity .25s linear, transform .25s $easeOutBack;
+  &:hover {
+    transform: scale(1.2);
+    opacity: 1;
+    cursor: pointer;
+  }
 }
 
 //About Canvs section

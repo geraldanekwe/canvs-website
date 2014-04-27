@@ -350,12 +350,12 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/app\/plugins\/froogaloop.min-min.js": {
+	"\/app\/plugins\/animatescroll-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/plugins\/froogaloop.min-min.js",
-		"outputAbbreviatedPath": "\/app\/plugins\/froogaloop.min-min-min.js",
+		"inputAbbreviatedPath": "\/app\/plugins\/animatescroll-min.js",
+		"outputAbbreviatedPath": "\/app\/plugins\/animatescroll-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -363,10 +363,21 @@
 		},
 	"\/app\/plugins\/froogaloop.min.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/app\/plugins\/froogaloop.min.js",
 		"outputAbbreviatedPath": "\/app\/plugins\/froogaloop.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 0
+		},
+	"\/app\/plugins\/modernizr-2.6.2.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/plugins\/modernizr-2.6.2.min.js",
+		"outputAbbreviatedPath": "\/app\/plugins\/modernizr-2.6.2.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -405,7 +416,7 @@
 		},
 	"\/build\/about\/about-content.kit": {
 		"fileType": 2048,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/about\/about-content.kit",
 		"outputAbbreviatedPath": "\/app\/about\/about-content.html",
@@ -421,47 +432,66 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/build\/bower_components\/FitVids\/CONTRIBUTING.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/bower_components\/FitVids\/CONTRIBUTING.md",
-		"outputAbbreviatedPath": "\/build\/bower_components\/FitVids\/CONTRIBUTING.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/bower_components\/FitVids\/jquery.fitvids.js": {
+	"\/build\/bower_components\/animatescroll\/animatescroll.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/bower_components\/FitVids\/jquery.fitvids.js",
-		"outputAbbreviatedPath": "\/app\/bower_components\/FitVids\/jquery.fitvids-min.js",
+		"inputAbbreviatedPath": "\/build\/bower_components\/animatescroll\/animatescroll.js",
+		"outputAbbreviatedPath": "\/app\/plugins\/animatescroll-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 0
+		},
+	"\/build\/bower_components\/animatescroll\/animatescroll.noeasing.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/bower_components\/animatescroll\/animatescroll.noeasing.js",
+		"outputAbbreviatedPath": "\/app\/bower_components\/animatescroll\/animatescroll.noeasing-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 0
 		},
-	"\/build\/bower_components\/FitVids\/README.md": {
+	"\/build\/bower_components\/animatescroll\/custom.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/bower_components\/animatescroll\/custom.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/bower_components\/animatescroll\/demo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/bower_components\/animatescroll\/demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/bower_components\/animatescroll\/jquery-1.8.3.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/bower_components\/animatescroll\/jquery-1.8.3.min.js",
+		"outputAbbreviatedPath": "\/app\/bower_components\/animatescroll\/jquery-1.8.3.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 0
+		},
+	"\/build\/bower_components\/animatescroll\/README.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
 		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/bower_components\/FitVids\/README.md",
-		"outputAbbreviatedPath": "\/build\/bower_components\/FitVids\/README.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/bower_components\/FitVids\/tests.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/bower_components\/FitVids\/tests.html",
-		"outputAbbreviatedPath": "No Output Path",
+		"inputAbbreviatedPath": "\/build\/bower_components\/animatescroll\/README.md",
+		"outputAbbreviatedPath": "\/build\/bower_components\/animatescroll\/README.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -1742,7 +1772,7 @@
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/affix.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/affix.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/affix-min.js",
@@ -1753,7 +1783,7 @@
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/alert.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/alert.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/alert-min.js",
@@ -1764,7 +1794,7 @@
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/button.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/button.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/button-min.js",
@@ -1775,7 +1805,7 @@
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/carousel.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/carousel.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/carousel-min.js",
@@ -1786,7 +1816,7 @@
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/collapse.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/collapse.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/collapse-min.js",
@@ -1797,7 +1827,7 @@
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/dropdown.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/dropdown.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/dropdown-min.js",
@@ -1808,7 +1838,7 @@
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/modal.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/modal.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/modal-min.js",
@@ -1819,7 +1849,7 @@
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/popover.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/popover.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/popover-min.js",
@@ -1830,7 +1860,7 @@
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/scrollspy.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/scrollspy.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/scrollspy-min.js",
@@ -1841,7 +1871,7 @@
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/tab.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/tab.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/tab-min.js",
@@ -1852,7 +1882,7 @@
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/tooltip.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/tooltip.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/tooltip-min.js",
@@ -1863,7 +1893,7 @@
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/transition.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/transition.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/transition-min.js",
@@ -2559,15 +2589,6 @@
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 1
 		},
-	"\/build\/content.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/content.kit",
-		"outputAbbreviatedPath": "\/app\/content.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/build\/footer.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -2634,7 +2655,7 @@
 		"outputAbbreviatedPath": "\/app\/scripts\/main-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 2,
 		"syntaxCheckerStyle": 0
 		},
 	"\/build\/style\/_about.scss": {
