@@ -254,9 +254,19 @@ section, .section {
 
 .learn-more-btn {
   position: absolute;
-  bottom: 40px;
+  bottom: 70px;
   left: 50%;
   margin-left: -120px;
+}
+
+.scroll-down-arrow {
+  width: 50px;
+  height: 25px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -25px;
+  opacity: 0.75;
 }
 
 //About Canvs section
