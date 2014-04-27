@@ -20,7 +20,7 @@
 		"outputAbbreviatedPath": "\/app\/apple-touch-icon-114x114.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/apple-touch-icon-120x120.png": {
 		"fileType": 32768,
@@ -31,7 +31,7 @@
 		"outputAbbreviatedPath": "\/app\/apple-touch-icon-120x120.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/apple-touch-icon-144x144.png": {
 		"fileType": 32768,
@@ -42,7 +42,7 @@
 		"outputAbbreviatedPath": "\/app\/apple-touch-icon-144x144.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/apple-touch-icon-152x152.png": {
 		"fileType": 32768,
@@ -53,7 +53,7 @@
 		"outputAbbreviatedPath": "\/app\/apple-touch-icon-152x152.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/apple-touch-icon-57x57.png": {
 		"fileType": 32768,
@@ -64,7 +64,7 @@
 		"outputAbbreviatedPath": "\/app\/apple-touch-icon-57x57.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/apple-touch-icon-60x60.png": {
 		"fileType": 32768,
@@ -75,7 +75,7 @@
 		"outputAbbreviatedPath": "\/app\/apple-touch-icon-60x60.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/apple-touch-icon-72x72.png": {
 		"fileType": 32768,
@@ -86,7 +86,7 @@
 		"outputAbbreviatedPath": "\/app\/apple-touch-icon-72x72.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/apple-touch-icon-76x76.png": {
 		"fileType": 32768,
@@ -97,7 +97,7 @@
 		"outputAbbreviatedPath": "\/app\/apple-touch-icon-76x76.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/apple-touch-icon-precomposed.png": {
 		"fileType": 32768,
@@ -108,7 +108,7 @@
 		"outputAbbreviatedPath": "\/app\/apple-touch-icon-precomposed.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/apple-touch-icon.png": {
 		"fileType": 32768,
@@ -119,7 +119,7 @@
 		"outputAbbreviatedPath": "\/app\/apple-touch-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/favicon-160x160.png": {
 		"fileType": 32768,
@@ -130,7 +130,7 @@
 		"outputAbbreviatedPath": "\/app\/favicon-160x160.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/favicon-16x16.png": {
 		"fileType": 32768,
@@ -141,7 +141,7 @@
 		"outputAbbreviatedPath": "\/app\/favicon-16x16.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/favicon-32x32.png": {
 		"fileType": 32768,
@@ -152,7 +152,7 @@
 		"outputAbbreviatedPath": "\/app\/favicon-32x32.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/favicon-96x96.png": {
 		"fileType": 32768,
@@ -163,7 +163,7 @@
 		"outputAbbreviatedPath": "\/app\/favicon-96x96.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/images\/about-hero-image.jpg": {
 		"fileType": 16384,
@@ -174,7 +174,7 @@
 		"outputAbbreviatedPath": "\/app\/images\/about-hero-image.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/images\/advisors\/michoel-ogince.jpg": {
 		"fileType": 16384,
@@ -185,7 +185,7 @@
 		"outputAbbreviatedPath": "\/app\/images\/advisors\/michoel-ogince.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/images\/advisors\/shaula-yemini.jpg": {
 		"fileType": 16384,
@@ -196,7 +196,7 @@
 		"outputAbbreviatedPath": "\/app\/images\/advisors\/shaula-yemini.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/images\/advisors\/stephen-gatfield.jpg": {
 		"fileType": 16384,
@@ -207,18 +207,18 @@
 		"outputAbbreviatedPath": "\/app\/images\/advisors\/stephen-gatfield.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/images\/canvs-header-image1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 73237,
+		"initialSize": 0,
 		"inputAbbreviatedPath": "\/app\/images\/canvs-header-image1.jpg",
 		"outputAbbreviatedPath": "\/app\/images\/canvs-header-image1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/images\/canvs-header-image2.jpg": {
 		"fileType": 16384,
@@ -229,7 +229,7 @@
 		"outputAbbreviatedPath": "\/app\/images\/canvs-header-image2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/images\/canvs-header-image3.jpg": {
 		"fileType": 16384,
@@ -240,7 +240,7 @@
 		"outputAbbreviatedPath": "\/app\/images\/canvs-header-image3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/images\/canvs-header-image4.jpg": {
 		"fileType": 16384,
@@ -251,7 +251,7 @@
 		"outputAbbreviatedPath": "\/app\/images\/canvs-header-image4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/images\/canvs-header-image5.jpg": {
 		"fileType": 16384,
@@ -262,7 +262,7 @@
 		"outputAbbreviatedPath": "\/app\/images\/canvs-header-image5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/images\/hero-image.jpg": {
 		"fileType": 16384,
@@ -273,7 +273,7 @@
 		"outputAbbreviatedPath": "\/app\/images\/hero-image.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/images\/team\/jared.jpg": {
 		"fileType": 16384,
@@ -284,7 +284,7 @@
 		"outputAbbreviatedPath": "\/app\/images\/team\/jared.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/images\/team\/sam.jpg": {
 		"fileType": 16384,
@@ -295,7 +295,7 @@
 		"outputAbbreviatedPath": "\/app\/images\/team\/sam.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/index.html": {
 		"fileType": 8192,
@@ -315,7 +315,7 @@
 		"outputAbbreviatedPath": "\/app\/mstile-144x144.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/mstile-150x150.png": {
 		"fileType": 32768,
@@ -326,7 +326,7 @@
 		"outputAbbreviatedPath": "\/app\/mstile-150x150.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/mstile-310x310.png": {
 		"fileType": 32768,
@@ -337,7 +337,7 @@
 		"outputAbbreviatedPath": "\/app\/mstile-310x310.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/mstile-70x70.png": {
 		"fileType": 32768,
@@ -348,7 +348,7 @@
 		"outputAbbreviatedPath": "\/app\/mstile-70x70.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/plugins\/froogaloop.min-min.js": {
 		"fileType": 64,
@@ -392,25 +392,25 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/build\/about\/about-content.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/about\/about-content.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/build\/about\/about-content.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/about\/about-content.jade",
-		"outputAbbreviatedPath": "\/build\/about\/about-content.html",
+		"outputAbbreviatedPath": "\/build\/about\/about-content.kit",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 1
+		},
+	"\/build\/about\/about-content.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/about\/about-content.kit",
+		"outputAbbreviatedPath": "\/app\/about\/about-content.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/build\/about\/index.kit": {
 		"fileType": 2048,
@@ -2528,32 +2528,23 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/build\/canvs-contact-modal.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/canvs-contact-modal.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/build\/canvs-contact-modal.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/canvs-contact-modal.jade",
-		"outputAbbreviatedPath": "\/build\/canvs-contact-modal.html",
+		"outputAbbreviatedPath": "\/build\/canvs-contact-modal.kit",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 1
 		},
-	"\/build\/content.html": {
-		"fileType": 8192,
+	"\/build\/canvs-contact-modal.kit": {
+		"fileType": 2048,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/content.html",
-		"outputAbbreviatedPath": "No Output Path",
+		"inputAbbreviatedPath": "\/build\/canvs-contact-modal.kit",
+		"outputAbbreviatedPath": "\/app\/canvs-contact-modal.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2563,17 +2554,17 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/content.jade",
-		"outputAbbreviatedPath": "\/build\/content.html",
+		"outputAbbreviatedPath": "\/build\/content.kit",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 1
 		},
-	"\/build\/footer.html": {
-		"fileType": 8192,
+	"\/build\/content.kit": {
+		"fileType": 2048,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/footer.html",
-		"outputAbbreviatedPath": "No Output Path",
+		"inputAbbreviatedPath": "\/build\/content.kit",
+		"outputAbbreviatedPath": "\/app\/content.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2583,10 +2574,19 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/footer.jade",
-		"outputAbbreviatedPath": "\/build\/footer.html",
+		"outputAbbreviatedPath": "\/build\/footer.kit",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 1
+		},
+	"\/build\/footer.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/footer.kit",
+		"outputAbbreviatedPath": "\/app\/footer.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/build\/includes\/_google-analytics.html": {
 		"fileType": 8192,
@@ -2606,25 +2606,25 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/build\/newsletter-modal.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/newsletter-modal.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/build\/newsletter-modal.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/newsletter-modal.jade",
-		"outputAbbreviatedPath": "\/build\/newsletter-modal.html",
+		"outputAbbreviatedPath": "\/build\/newsletter-modal.kit",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 1
+		},
+	"\/build\/newsletter-modal.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/newsletter-modal.kit",
+		"outputAbbreviatedPath": "\/app\/newsletter-modal.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/build\/scripts\/main.js": {
 		"fileType": 64,
