@@ -176,6 +176,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/app\/images\/adsales-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1194,
+		"inputAbbreviatedPath": "\/app\/images\/adsales-icon.png",
+		"outputAbbreviatedPath": "\/app\/images\/adsales-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/app\/images\/advisors\/michoel-ogince.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -209,60 +220,82 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/app\/images\/canvs-header-image1.jpg": {
+	"\/app\/images\/beautiful-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3783,
+		"inputAbbreviatedPath": "\/app\/images\/beautiful-icon.png",
+		"outputAbbreviatedPath": "\/app\/images\/beautiful-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/app\/images\/canvs-header-image.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/app\/images\/canvs-header-image1.jpg",
-		"outputAbbreviatedPath": "\/app\/images\/canvs-header-image1.jpg",
+		"initialSize": 78565,
+		"inputAbbreviatedPath": "\/app\/images\/canvs-header-image.jpg",
+		"outputAbbreviatedPath": "\/app\/images\/canvs-header-image.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/app\/images\/canvs-header-image2.jpg": {
-		"fileType": 16384,
+	"\/app\/images\/context-icon.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 105049,
-		"inputAbbreviatedPath": "\/app\/images\/canvs-header-image2.jpg",
-		"outputAbbreviatedPath": "\/app\/images\/canvs-header-image2.jpg",
+		"initialSize": 1840,
+		"inputAbbreviatedPath": "\/app\/images\/context-icon.png",
+		"outputAbbreviatedPath": "\/app\/images\/context-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/app\/images\/canvs-header-image3.jpg": {
-		"fileType": 16384,
+	"\/app\/images\/credible-icon.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 80709,
-		"inputAbbreviatedPath": "\/app\/images\/canvs-header-image3.jpg",
-		"outputAbbreviatedPath": "\/app\/images\/canvs-header-image3.jpg",
+		"initialSize": 6716,
+		"inputAbbreviatedPath": "\/app\/images\/credible-icon.png",
+		"outputAbbreviatedPath": "\/app\/images\/credible-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/app\/images\/canvs-header-image4.jpg": {
-		"fileType": 16384,
+	"\/app\/images\/emotion-icon.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 98942,
-		"inputAbbreviatedPath": "\/app\/images\/canvs-header-image4.jpg",
-		"outputAbbreviatedPath": "\/app\/images\/canvs-header-image4.jpg",
+		"initialSize": 1290,
+		"inputAbbreviatedPath": "\/app\/images\/emotion-icon.png",
+		"outputAbbreviatedPath": "\/app\/images\/emotion-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/app\/images\/canvs-header-image5.jpg": {
-		"fileType": 16384,
+	"\/app\/images\/facebook-icon.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 86548,
-		"inputAbbreviatedPath": "\/app\/images\/canvs-header-image5.jpg",
-		"outputAbbreviatedPath": "\/app\/images\/canvs-header-image5.jpg",
+		"initialSize": 248,
+		"inputAbbreviatedPath": "\/app\/images\/facebook-icon.png",
+		"outputAbbreviatedPath": "\/app\/images\/facebook-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/app\/images\/forget-sentiment.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6325,
+		"inputAbbreviatedPath": "\/app\/images\/forget-sentiment.png",
+		"outputAbbreviatedPath": "\/app\/images\/forget-sentiment.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/app\/images\/hero-image.jpg": {
 		"fileType": 16384,
@@ -273,7 +306,139 @@
 		"outputAbbreviatedPath": "\/app\/images\/hero-image.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/app\/images\/immediate-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11099,
+		"inputAbbreviatedPath": "\/app\/images\/immediate-icon.png",
+		"outputAbbreviatedPath": "\/app\/images\/immediate-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/app\/images\/intelligent-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6209,
+		"inputAbbreviatedPath": "\/app\/images\/intelligent-icon.png",
+		"outputAbbreviatedPath": "\/app\/images\/intelligent-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/app\/images\/linkedin-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 374,
+		"inputAbbreviatedPath": "\/app\/images\/linkedin-icon.png",
+		"outputAbbreviatedPath": "\/app\/images\/linkedin-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/app\/images\/logos\/canvs-logo-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6626,
+		"inputAbbreviatedPath": "\/app\/images\/logos\/canvs-logo-white.png",
+		"outputAbbreviatedPath": "\/app\/images\/logos\/canvs-logo-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/app\/images\/logos\/made-in-ny-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2407,
+		"inputAbbreviatedPath": "\/app\/images\/logos\/made-in-ny-logo.png",
+		"outputAbbreviatedPath": "\/app\/images\/logos\/made-in-ny-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/images\/logos\/mashwork-logo-white-red.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2260,
+		"inputAbbreviatedPath": "\/app\/images\/logos\/mashwork-logo-white-red.png",
+		"outputAbbreviatedPath": "\/app\/images\/logos\/mashwork-logo-white-red.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/images\/marketing-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2136,
+		"inputAbbreviatedPath": "\/app\/images\/marketing-icon.png",
+		"outputAbbreviatedPath": "\/app\/images\/marketing-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/app\/images\/nuance-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 295,
+		"inputAbbreviatedPath": "\/app\/images\/nuance-icon.png",
+		"outputAbbreviatedPath": "\/app\/images\/nuance-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/app\/images\/play-btn-triangle.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 684,
+		"inputAbbreviatedPath": "\/app\/images\/play-btn-triangle.png",
+		"outputAbbreviatedPath": "\/app\/images\/play-btn-triangle.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/app\/images\/production-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3565,
+		"inputAbbreviatedPath": "\/app\/images\/production-icon.png",
+		"outputAbbreviatedPath": "\/app\/images\/production-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/app\/images\/scroll-down-arrow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 601,
+		"inputAbbreviatedPath": "\/app\/images\/scroll-down-arrow.png",
+		"outputAbbreviatedPath": "\/app\/images\/scroll-down-arrow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/app\/images\/stop-counting.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9881,
+		"inputAbbreviatedPath": "\/app\/images\/stop-counting.png",
+		"outputAbbreviatedPath": "\/app\/images\/stop-counting.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/app\/images\/team\/jared.jpg": {
 		"fileType": 16384,
@@ -296,6 +461,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/app\/images\/transparent-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3957,
+		"inputAbbreviatedPath": "\/app\/images\/transparent-icon.png",
+		"outputAbbreviatedPath": "\/app\/images\/transparent-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/app\/images\/twitter-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 561,
+		"inputAbbreviatedPath": "\/app\/images\/twitter-icon.png",
+		"outputAbbreviatedPath": "\/app\/images\/twitter-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/app\/images\/user-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 538,
+		"inputAbbreviatedPath": "\/app\/images\/user-icon.png",
+		"outputAbbreviatedPath": "\/app\/images\/user-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/app\/index.html": {
 		"fileType": 8192,
@@ -378,6 +576,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/app\/plugins\/modernizr-2.6.2.min.js",
 		"outputAbbreviatedPath": "\/app\/plugins\/modernizr-2.6.2.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 0
+		},
+	"\/app\/plugins\/svgeezy-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/plugins\/svgeezy-min.js",
+		"outputAbbreviatedPath": "\/app\/plugins\/svgeezy-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -1723,6 +1932,40 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/build\/bower_components\/svgeezy\/readme.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/bower_components\/svgeezy\/readme.md",
+		"outputAbbreviatedPath": "\/build\/bower_components\/svgeezy\/readme.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/bower_components\/svgeezy\/svgeezy.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/bower_components\/svgeezy\/svgeezy.js",
+		"outputAbbreviatedPath": "\/app\/plugins\/svgeezy-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 0
+		},
+	"\/build\/bower_components\/svgeezy\/svgeezy.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/bower_components\/svgeezy\/svgeezy.min.js",
+		"outputAbbreviatedPath": "\/app\/bower_components\/svgeezy\/svgeezy.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 0
+		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/CHANGELOG.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -2588,6 +2831,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 1
+		},
+	"\/build\/content.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/content.kit",
+		"outputAbbreviatedPath": "\/app\/content.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/build\/footer.jade": {
 		"compileDebug": 1,

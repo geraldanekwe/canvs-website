@@ -1,1 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="200 440 320 320" enable-background="new 200 440 320 320"><circle fill="#DDDCDC" cx="360" cy="600" r="160"/><path fill="#59C9BE" stroke="#30BCAE" stroke-width=".889" stroke-miterlimit="10" d="M473.1 519h-226c-4 0-7.4 3-7.4 7v151c0 4 3.4 7.3 7.4 7.3h225.99999999999997c4 0 7.2-3.3 7.2-7.3v-151c0-4-3.2-7-7.2-7z"/><path fill="#319B9B" d="M330.6 701c-3.7 3.7-8.8 7.2-6.8 9 .5 1.1 2.8 1.7 8 1.7h58.599999999999994c5.9 0 8-1 8-2.4h-.2v-.5h-.2c-.3-1.9-4.2-4.8-7.2-7.9-4.6-4.7-5.4-14.5-5.5-16.8h-49.2c-.1 2.4-.8 12.1-5.5 16.9z"/><path fill="#fff" d="M470.2 652.8h-220.4v-124.2h220.3v124.2h.1z"/><rect x="249.8" y="528.6" width="220.3" height="124.2" fill="none"/><circle fill="#319B9B" cx="360" cy="669.6" r="5"/><g fill="#005CB9"><rect x="317.9" y="562.2" width="18.8" height="80.5"/><rect x="285.2" y="539.2" width="18.8" height="103.5"/><rect x="350.6" y="585.2" width="18.8" height="57.5"/><rect x="383.3" y="608.2" width="18.8" height="34.5"/><rect x="416" y="631.2" width="18.8" height="11.5"/></g><g fill="#009ECA"><rect x="317.9" y="562.2" width="17.2" height="80.5"/><rect x="285.2" y="539.2" width="17.2" height="103.5"/><rect x="350.6" y="585.2" width="17.2" height="57.5"/><rect x="383.3" y="608.2" width="17.2" height="34.5"/><rect x="416" y="631.2" width="17.2" height="11.5"/></g><line stroke="#30BCAE" stroke-width="1.776" stroke-linecap="round" stroke-miterlimit="10" x1="470" y1="528.6" x2="250" y2="528.6" fill="none"/><polyline opacity=".39" fill="#fff" enable-background="new" points="251.8,651.2 468.5,530.3 251.5,530.3 251.5,651.2"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="116 386 200 200" enable-background="new 116 386 200 200" xml:space="preserve">
+<circle fill="#DDDCDC" cx="216" cy="486" r="100"/>
+<path opacity="0.2" fill="#4C4B4C" enable-background="new    " d="M291.317,439.079h-141.25c-2.5,0-4.625,1.875-4.625,4.375v95.301
+	c0,2.5,2.125,4.562,4.625,4.562h54.976c-0.486,2.069-1.328,4.316-2.788,5.808c-2.312,2.312-5.5,4.5-4.25,5.625
+	c0.312,0.687,1.75,1.062,5,1.062h36.625c3.688,0,5-0.625,5-1.5h-0.125V554h-0.125c-0.188-1.188-2.625-3-4.5-4.938
+	c-1.422-1.453-2.262-3.686-2.757-5.745h54.194c2.5,0,4.5-2.062,4.5-4.562v-95.301C295.817,440.954,293.817,439.079,291.317,439.079z
+	"/>
+<path fill="#59C9BE" stroke="#30BCAE" stroke-width="0.4116" stroke-miterlimit="10" d="M286.688,435.375h-141.25
+	c-2.5,0-4.625,1.875-4.625,4.375v94.375c0,2.5,2.125,4.562,4.625,4.562h141.25c2.5,0,4.5-2.063,4.5-4.562V439.75
+	C291.188,437.25,289.188,435.375,286.688,435.375z"/>
+<path fill="#319B9B" d="M197.625,549.125c-2.312,2.312-5.5,4.5-4.25,5.625c0.312,0.688,1.75,1.062,5,1.062H235
+	c3.688,0,5-0.625,5-1.5h-0.125V554h-0.125c-0.188-1.188-2.625-3-4.5-4.938c-2.875-2.938-3.375-9.062-3.438-10.5h-30.75
+	C201,540.062,200.562,546.125,197.625,549.125L197.625,549.125z"/>
+<path fill="#FFFFFF" d="M284.875,519h-137.75v-77.625h137.687V519H284.875L284.875,519z"/>
+<rect x="147.125" y="441.375" fill="none" width="137.687" height="77.625"/>
+<circle fill="#319B9B" cx="216" cy="529.5" r="3.125"/>
+<g>
+	<rect x="189.688" y="462.375" fill="#005CB9" width="11.75" height="50.313"/>
+	<rect x="169.25" y="448" fill="#005CB9" width="11.75" height="64.688"/>
+	<rect x="210.125" y="476.75" fill="#005CB9" width="11.75" height="35.938"/>
+	<rect x="230.562" y="491.125" fill="#005CB9" width="11.75" height="21.562"/>
+	<rect x="251" y="505.5" fill="#005CB9" width="11.75" height="7.187"/>
+</g>
+<g>
+	<rect x="189.688" y="462.375" fill="#009ECA" width="10.75" height="50.313"/>
+	<rect x="169.25" y="448" fill="#009ECA" width="10.75" height="64.688"/>
+	<rect x="210.125" y="476.75" fill="#009ECA" width="10.75" height="35.938"/>
+	<rect x="230.562" y="491.125" fill="#009ECA" width="10.75" height="21.562"/>
+	<rect x="251" y="505.5" fill="#009ECA" width="10.75" height="7.187"/>
+</g>
+<line fill="none" stroke="#30BCAE" stroke-width="0.8222" stroke-linecap="round" stroke-miterlimit="10" x1="284.75" y1="441.375" x2="147.25" y2="441.375"/>
+<polyline opacity="0.39" fill="#FFFFFF" enable-background="new    " points="148.375,518 283.812,442.438 148.188,442.438 
+	148.188,518 "/>
+</svg>
