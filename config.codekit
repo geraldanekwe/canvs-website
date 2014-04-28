@@ -2936,7 +2936,7 @@
 		"outputAbbreviatedPath": "\/app\/scripts\/main-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 2,
 		"syntaxCheckerStyle": 0
 		},
 	"\/build\/style\/_about.scss": {
