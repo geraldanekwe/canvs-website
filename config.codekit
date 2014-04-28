@@ -548,17 +548,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/app\/plugins\/froogaloop.min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/app\/plugins\/froogaloop.min.js",
-		"outputAbbreviatedPath": "\/app\/plugins\/froogaloop.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
-		},
 	"\/app\/plugins\/jquery-1.10.2.min.js": {
 		"fileType": 64,
 		"ignore": 0,

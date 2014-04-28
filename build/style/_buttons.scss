@@ -33,14 +33,23 @@
 	@include rem('line-height',$height);
 }
 
-.btn-teal {
-	@include button-color();
+.normal-btn {
 	@include button-size();
 }
 
+.btn-teal {
+	@extend .normal-btn;
+	@include button-color();
+}
+
 .btn-gray {
+	@extend .normal-btn;
 	@include button-color($gray);
-	@include button-size();
+}
+
+.btn-gold {
+	@extend .normal-btn;
+	@include button-color($gold);
 }
 
 button {
