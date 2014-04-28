@@ -548,17 +548,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/app\/plugins\/animatescroll-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/plugins\/animatescroll-min.js",
-		"outputAbbreviatedPath": "\/app\/plugins\/animatescroll-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
-		},
 	"\/app\/plugins\/froogaloop.min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -570,23 +559,23 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 0
 		},
+	"\/app\/plugins\/jquery-1.10.2.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/plugins\/jquery-1.10.2.min.js",
+		"outputAbbreviatedPath": "\/app\/plugins\/jquery-1.10.2.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 0
+		},
 	"\/app\/plugins\/modernizr-2.6.2.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/app\/plugins\/modernizr-2.6.2.min.js",
 		"outputAbbreviatedPath": "\/app\/plugins\/modernizr-2.6.2.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
-		},
-	"\/app\/plugins\/svgeezy-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/plugins\/svgeezy-min.js",
-		"outputAbbreviatedPath": "\/app\/plugins\/svgeezy-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -613,7 +602,7 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/about\/about-content.jade": {
-		"compileDebug": 1,
+		"compileDebug": 0,
 		"fileType": 512,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
@@ -621,7 +610,7 @@
 		"outputAbbreviatedPath": "\/build\/about\/about-content.kit",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 1
+		"outputStyle": 0
 		},
 	"\/build\/about\/about-content.kit": {
 		"fileType": 2048,
@@ -643,7 +632,7 @@
 		},
 	"\/build\/bower_components\/animatescroll\/animatescroll.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/animatescroll\/animatescroll.js",
 		"outputAbbreviatedPath": "\/app\/plugins\/animatescroll-min.js",
@@ -1957,7 +1946,7 @@
 		},
 	"\/build\/bower_components\/svgeezy\/svgeezy.min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/svgeezy\/svgeezy.min.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/svgeezy\/svgeezy.min-min.js",
@@ -2015,7 +2004,7 @@
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/affix.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/affix.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/affix-min.js",
@@ -2026,7 +2015,7 @@
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/alert.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/alert.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/alert-min.js",
@@ -2037,7 +2026,7 @@
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/button.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/button.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/button-min.js",
@@ -2048,7 +2037,7 @@
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/carousel.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/carousel.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/carousel-min.js",
@@ -2059,7 +2048,7 @@
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/collapse.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/collapse.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/collapse-min.js",
@@ -2070,7 +2059,7 @@
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/dropdown.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/dropdown.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/dropdown-min.js",
@@ -2081,7 +2070,7 @@
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/modal.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/modal.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/modal-min.js",
@@ -2092,7 +2081,7 @@
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/popover.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/popover.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/popover-min.js",
@@ -2103,7 +2092,7 @@
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/scrollspy.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/scrollspy.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/scrollspy-min.js",
@@ -2114,7 +2103,7 @@
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/tab.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/tab.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/tab-min.js",
@@ -2125,7 +2114,7 @@
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/tooltip.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/tooltip.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/tooltip-min.js",
@@ -2136,7 +2125,7 @@
 		},
 	"\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/transition.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/transition.js",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/javascripts\/bootstrap\/transition-min.js",
@@ -2801,8 +2790,59 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/build\/bower_components\/vimeo-player-api\/actionscript\/deploy\/assets\/js\/swfobject.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/bower_components\/vimeo-player-api\/actionscript\/deploy\/assets\/js\/swfobject.js",
+		"outputAbbreviatedPath": "\/app\/bower_components\/vimeo-player-api\/actionscript\/deploy\/assets\/js\/swfobject-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 0
+		},
+	"\/build\/bower_components\/vimeo-player-api\/actionscript\/deploy\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/bower_components\/vimeo-player-api\/actionscript\/deploy\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/bower_components\/vimeo-player-api\/javascript\/froogaloop.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/bower_components\/vimeo-player-api\/javascript\/froogaloop.js",
+		"outputAbbreviatedPath": "\/app\/bower_components\/vimeo-player-api\/javascript\/froogaloop-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 0
+		},
+	"\/build\/bower_components\/vimeo-player-api\/javascript\/froogaloop.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/bower_components\/vimeo-player-api\/javascript\/froogaloop.min.js",
+		"outputAbbreviatedPath": "\/app\/bower_components\/vimeo-player-api\/javascript\/froogaloop.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 0
+		},
+	"\/build\/bower_components\/vimeo-player-api\/javascript\/playground.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/bower_components\/vimeo-player-api\/javascript\/playground.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/build\/canvs-contact-modal.jade": {
-		"compileDebug": 1,
+		"compileDebug": 0,
 		"fileType": 512,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
@@ -2810,7 +2850,7 @@
 		"outputAbbreviatedPath": "\/build\/canvs-contact-modal.kit",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 1
+		"outputStyle": 0
 		},
 	"\/build\/canvs-contact-modal.kit": {
 		"fileType": 2048,
@@ -2822,7 +2862,7 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/content.jade": {
-		"compileDebug": 1,
+		"compileDebug": 0,
 		"fileType": 512,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
@@ -2830,7 +2870,7 @@
 		"outputAbbreviatedPath": "\/build\/content.kit",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 1
+		"outputStyle": 0
 		},
 	"\/build\/content.kit": {
 		"fileType": 2048,
@@ -2842,7 +2882,7 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/footer.jade": {
-		"compileDebug": 1,
+		"compileDebug": 0,
 		"fileType": 512,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
@@ -2850,7 +2890,7 @@
 		"outputAbbreviatedPath": "\/build\/footer.kit",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 1
+		"outputStyle": 0
 		},
 	"\/build\/footer.kit": {
 		"fileType": 2048,
@@ -2880,7 +2920,7 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/build\/newsletter-modal.jade": {
-		"compileDebug": 1,
+		"compileDebug": 0,
 		"fileType": 512,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
@@ -2888,7 +2928,7 @@
 		"outputAbbreviatedPath": "\/build\/newsletter-modal.kit",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 1
+		"outputStyle": 0
 		},
 	"\/build\/newsletter-modal.kit": {
 		"fileType": 2048,
@@ -2907,7 +2947,7 @@
 		"outputAbbreviatedPath": "\/app\/scripts\/main-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
+		"outputStyle": 0,
 		"syntaxCheckerStyle": 0
 		},
 	"\/build\/style\/_about.scss": {
@@ -3197,8 +3237,8 @@
 	"jadeAutoOutputPathReplace1": "",
 	"jadeAutoOutputPathReplace2": "",
 	"jadeAutoOutputPathStyle": 0,
-	"jadeCompileDebug": 1,
-	"jadeOutputStyle": 1,
+	"jadeCompileDebug": 0,
+	"jadeOutputStyle": 0,
 	"javascriptAutoOutputPathRelativePath": "\/min",
 	"javascriptAutoOutputPathReplace1": "build",
 	"javascriptAutoOutputPathReplace2": "app",
