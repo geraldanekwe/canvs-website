@@ -1,0 +1,42 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+use File::Find qw(finddepth);
+use File::Basename;
+
+my @files;
+
+print "install start\n";
+create_dist_dir();
+read_dist_folder();
+compress_dist_folder();
+print "install done\n";
+
+sub create_dist_dir {
+    print "create dist folder\n";
+    if (-d "dist") {
+        system("rm -fr dist");
+    }
+    system("cp -r app dist");
+}
+
+sub read_dist_folder {
+    my $folder = "dist";
+    finddepth(sub {
+            return if($_ eq '.' || $_ eq '..');
+            my $f = $File::Find::name;
+            push @files, $f;
+        }, $folder);
+}
+
+sub compress_dist_folder {
+    print "conpress files\n";
+    foreach my $file (@files) {
+        if (-f $file && $file !~ /\.pdf$/) {
+            my $origin = $file;
+            $origin =~ s/^dist/app/;
+            system("gzip -c -9 $origin > $file");
+        }
+    }
+}

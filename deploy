@@ -1,0 +1,20 @@
+#!/bin/bash
+
+which s3cmd
+if [ $? -eq 0 ]; then
+    echo "s3cmd exists, ok"
+else
+    echo "please install s3cmd, exit!"
+    exit 1
+fi
+
+if [ -d dist ]; then
+    echo "dist folder exists"
+else
+    echo "missing dist folder, exit!"
+    exit 1
+fi
+
+# sync all gzip files
+s3cmd sync --acl-public --add-header "Content-Encoding:gzip" --add-header="Cache-Control: max-age=604800" --exclude "*.pdf" dist/ s3://canvs.tv/
+s3cmd sync --acl-public --add-header="Cache-Control: max-age=6048000" --exclude "*.*" --include "*.pdf" dist/ s3://canvs.tv/
