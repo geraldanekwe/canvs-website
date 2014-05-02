@@ -16,5 +16,7 @@ else
 fi
 
 # sync all gzip files
-s3cmd sync --acl-public --add-header "Content-Encoding:gzip" --add-header="Cache-Control: max-age=604800" --exclude "*.pdf" dist/ s3://canvs.tv/
+s3cmd sync --acl-public --add-header "Content-Encoding:gzip" --add-header="Cache-Control: max-age=604800" --exclude "*.pdf" --exclude "login" dist/ s3://canvs.tv/
 s3cmd sync --acl-public --add-header="Cache-Control: max-age=6048000" --exclude "*.*" --include "*.pdf" dist/ s3://canvs.tv/
+# looks like only "put" can make header x-amz-website-redirect-location effective, while sync failed
+s3cmd put --acl-public --add-header="x-amz-website-redirect-location:http://app.canvs.tv/login" dist/login s3://canvs.tv/
