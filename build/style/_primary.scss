@@ -22,6 +22,9 @@ body {
 section, .section {
   padding: 70px 0;
   @extend .clearfix;
+  @include max-width($screen-xs) {
+    padding: 50px 0;
+  }
 }
 
 .section-header-wrap {
@@ -314,6 +317,7 @@ section, .section {
   margin: 0 10px;
   margin-bottom: 15px;
 }
+
 .newsletter-btn {
   margin: 0 10px;
 }
@@ -375,6 +379,52 @@ section, .section {
   @extend .btn-gold;
 }
 
+//Quotes Section
+
+.quotes-section {
+  background-color: $teal;
+  h1 {
+    color: white;
+    margin-bottom: 0;
+  }
+  .quote-mark {
+    @include size(30px);
+    margin-bottom: 30px;
+  }
+  .quote-text {
+    color: white;
+    font-style: italic;
+    @include font-smoothing;
+    font-weight: 400;
+    @include rem('font-size', 18px);
+    @include rem('line-height', 28px);
+    padding: 0 40px;
+    margin-bottom: 30px;
+    @include max-width($screen-md) {
+      padding: 0 20px;
+    }
+  }
+}
+
+.quote-box {
+  @include make-sm-column(6);
+  .quote-author-wrap {
+    color: white;
+    max-width: 300px;
+    @include center-block;
+    .quote-author {
+      display: block;
+      @include rem('font-size', 24px);
+      font-family: $headerFontFamily;
+      margin-bottom: 10px;
+    }
+    .quote-author-title {
+      font-weight: 300;
+      display: block;
+      @include rem('font-size', 18px);
+    }
+  }
+}
 
 //Single solution section
 
