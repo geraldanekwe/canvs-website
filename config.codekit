@@ -418,6 +418,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/app\/images\/quote-mark.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 861,
+		"inputAbbreviatedPath": "\/app\/images\/quote-mark.png",
+		"outputAbbreviatedPath": "\/app\/images\/quote-mark.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/images\/scroll-down-arrow.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2860,15 +2871,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
-		},
-	"\/build\/content.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/content.kit",
-		"outputAbbreviatedPath": "\/app\/content.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/build\/footer.jade": {
 		"compileDebug": 0,
