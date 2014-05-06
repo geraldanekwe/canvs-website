@@ -17,6 +17,7 @@ $lightBlueGray:   rgb(101, 110, 125);
 // -------------------------
 $mashRed:         rgb(175, 35, 40);
 $gold:            rgb(157,133,79);
+$goldLight:				lighten($gold,5%);
 $red:             rgb(237, 35, 38);
 $blue:            rgb(52, 197, 240);
 $blueDark:        rgb(0,140,190);

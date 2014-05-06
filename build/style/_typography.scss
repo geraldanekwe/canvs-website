@@ -14,9 +14,9 @@ body {
 }
 
 a {
-  color: $gold;
+  color: $goldLight;
   &:hover {
-    color: shade($gold, .5);
+    color: shade($goldLight, .5);
     cursor: pointer;
   }
 }
@@ -86,7 +86,7 @@ p.section-description {
 }
 
 .content-box h2 {
-  color: $gold;
+  color: $goldLight;
   font-weight: 400;
   @include rem('font-size', 30px);
   @include rem('line-height', 36px); 
@@ -104,4 +104,10 @@ blockquote {
   text-align: center;
   margin: 0;
   padding: 0;
+}
+
+.quote-text {
+  strong {
+    font-weight: 600;
+  }
 }
