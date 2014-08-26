@@ -392,11 +392,6 @@ section, .section {
 //Quotes Section
 
 .quotes-section {
-  background-color: shade($offWhite, 5%);
-  // h1 {
-  //   color: white;
-  //   margin-bottom: 0;
-  // }
   .quote-mark {
     @include size(30px);
     margin-bottom: 30px;
@@ -431,6 +426,12 @@ section, .section {
       color: $teal;
     }
   }
+}
+
+//In the News Section
+
+.in-the-news-section {
+  background-color: shade($offWhite, 5%);
 }
 
 //Single solution section
