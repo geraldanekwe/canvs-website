@@ -374,6 +374,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/app\/images\/logos\/mashable-logo-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30070,
+		"inputAbbreviatedPath": "\/app\/images\/logos\/mashable-logo-black.png",
+		"outputAbbreviatedPath": "\/app\/images\/logos\/mashable-logo-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/images\/logos\/mashable-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15911,
+		"inputAbbreviatedPath": "\/app\/images\/logos\/mashable-logo.png",
+		"outputAbbreviatedPath": "\/app\/images\/logos\/mashable-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/images\/logos\/mashwork-logo-white-red.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -381,6 +403,17 @@
 		"initialSize": 2260,
 		"inputAbbreviatedPath": "\/app\/images\/logos\/mashwork-logo-white-red.png",
 		"outputAbbreviatedPath": "\/app\/images\/logos\/mashwork-logo-white-red.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/images\/logos\/the-atlantic-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21100,
+		"inputAbbreviatedPath": "\/app\/images\/logos\/the-atlantic-logo.png",
+		"outputAbbreviatedPath": "\/app\/images\/logos\/the-atlantic-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2882,15 +2915,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
-		},
-	"\/build\/content.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/content.kit",
-		"outputAbbreviatedPath": "\/app\/content.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/build\/footer.jade": {
 		"compileDebug": 0,
