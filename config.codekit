@@ -2971,6 +2971,15 @@
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
+	"\/build\/content.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/content.kit",
+		"outputAbbreviatedPath": "\/app\/content.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/build\/footer.jade": {
 		"compileDebug": 0,
 		"fileType": 512,

@@ -465,7 +465,7 @@ section, .section {
     font-style: italic;
     margin-bottom: 30px;
     color: $white;
-    transform: translateY(20px);
+    transform: translateY(30px);
     transition: transform .35s $easeOutQuad;
     @include rem('font-size', 28px);
     @include rem('line-height', 36px);
@@ -514,6 +514,14 @@ section, .section {
   }
 }
 
+.marketing-land-link {
+  .quote-logo {
+    max-width: 220px;
+  }
+  .quote-title {
+    margin-bottom: 40px;
+  }
+}
 
 
 //In the News Section
