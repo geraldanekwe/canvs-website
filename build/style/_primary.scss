@@ -389,44 +389,131 @@ section, .section {
   }
 }
 
-//Quotes Section
+//Quote Section
 
-.quotes-section {
+.quote-section {
+  background-color: $teal;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  padding: 0;
+  height: 300px;
+  overflow: hidden;
+  .quote-image {
+    display: block;
+    position: relative;
+    transition: opacity 0.35s, transform 0.35s;
+    transition-timing-function: $easeOutQuad;
+    transform: scale(1.1);
+    opacity: .85;
+    min-width: 100%;
+  }
+  .quote-link {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+  }
+  .quote-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    &:before {
+      position: absolute;
+      content: '';
+      top: 30px;
+      left: 30px;
+      right: 30px;
+      bottom: 30px;
+      opacity: 0;
+      border: 1px solid $white;
+      transition: opacity 0.35s, transform 0.35s;
+      transition-timing-function: $easeOutQuad;
+      transform: scale(1.1);
+    }
+  }
+  .quote-logo {
+    @include center-block;
+    margin-top: 40px;
+    max-width: 180px;
+    margin-bottom: 40px;
+    transition: transform .35s $easeOutQuad;
+    @include max-width($screen-sm) {
+      margin-top: 20px;
+      max-width: 140px;
+    }
+  }
+  .quote-logo-image {
+    width: 100%;
+  }
   .quote-mark {
     @include size(30px);
     margin-bottom: 30px;
   }
-  .quote-text {
+  .quote-title {
     @include font-smoothing;
+    font-family: $slabFontFamily;
     font-weight: 400;
-    @include rem('font-size', 21px);
-    @include rem('line-height', 30px);
-    padding: 0 40px;
+    font-style: italic;
     margin-bottom: 30px;
-    @include max-width($screen-md) {
-      padding: 0 20px;
+    color: $white;
+    transition: transform .35s $easeOutQuad;
+    @include rem('font-size', 28px);
+    @include rem('line-height', 36px);
+    @include max-width($screen-sm) {
+      @include rem('font-size', 21px);
+      @include rem('line-height', 28px);
     }
+  }
+  .quote-read-more-link {
+    color: $white;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    opacity: 0;
+    position: relative;
+    display: inline-block;
+    @include rem('font-size', 18px);
+    @include rem('line-height', 24px);
+    background-color: transparentize($white, 1);
+    transition: background-color .35s, opacity .35s, transform .35s;
+    transition-timing-function: $easeOutQuad;
   }
 }
 
-.quote-box {
-  @include make-sm-column(6);
-  .quote-author-wrap {
-    @include center-block;
-    .quote-author {
-      display: block;
-      @include rem('font-size', 18px);
-      margin-bottom: 10px;
-    }
-    .quote-author-company {
-      font-weight: 600;
-      display: block;
-      font-family: $headerFontFamily;
-      @include rem('font-size', 21px);
-      color: $teal;
+.quote-section:hover {
+  .quote-image {
+    opacity: .65;
+    transform: scale(1);
+  }
+  .quote-box {
+    &:before {
+      opacity: .5;
+      transform: scale(1);
     }
   }
+  .quote-logo {
+    transform: translateY(-20px);
+  }
+  .quote-title {
+    transform: translateY(-30px);
+  }
+  .quote-read-more-link {
+    opacity: 1;
+    background-color: transparentize($white, .75);
+    transform: translateY(-40px);
+  }
 }
+
+
 
 //In the News Section
 
@@ -460,7 +547,7 @@ section, .section {
 
 .news-link-image {
   width: 100%;
-  opacity: 0.7;
+  opacity: 0.5;
   &:hover {
     opacity: 1;
   }

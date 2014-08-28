@@ -174,7 +174,7 @@
 		"outputAbbreviatedPath": "\/app\/images\/about-hero-image.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/app\/images\/adsales-icon.png": {
 		"fileType": 32768,
@@ -240,7 +240,7 @@
 		"outputAbbreviatedPath": "\/app\/images\/canvs-header-image.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/app\/images\/canvs-video-poster.png": {
 		"fileType": 32768,
@@ -251,7 +251,7 @@
 		"outputAbbreviatedPath": "\/app\/images\/canvs-video-poster.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/app\/images\/context-icon.png": {
 		"fileType": 32768,
@@ -308,17 +308,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/app\/images\/hero-image.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 115632,
-		"inputAbbreviatedPath": "\/app\/images\/hero-image.jpg",
-		"outputAbbreviatedPath": "\/app\/images\/hero-image.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
 	"\/app\/images\/immediate-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -363,6 +352,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/app\/images\/logos\/dm-news-logo-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18530,
+		"inputAbbreviatedPath": "\/app\/images\/logos\/dm-news-logo-black.png",
+		"outputAbbreviatedPath": "\/app\/images\/logos\/dm-news-logo-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/images\/logos\/dm-news-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3171,
+		"inputAbbreviatedPath": "\/app\/images\/logos\/dm-news-logo.png",
+		"outputAbbreviatedPath": "\/app\/images\/logos\/dm-news-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/images\/logos\/lost-remote-logo-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34032,
+		"inputAbbreviatedPath": "\/app\/images\/logos\/lost-remote-logo-black.png",
+		"outputAbbreviatedPath": "\/app\/images\/logos\/lost-remote-logo-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/images\/logos\/lost-remote-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7020,
+		"inputAbbreviatedPath": "\/app\/images\/logos\/lost-remote-logo.png",
+		"outputAbbreviatedPath": "\/app\/images\/logos\/lost-remote-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/images\/logos\/made-in-ny-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -403,6 +436,17 @@
 		"initialSize": 2260,
 		"inputAbbreviatedPath": "\/app\/images\/logos\/mashwork-logo-white-red.png",
 		"outputAbbreviatedPath": "\/app\/images\/logos\/mashwork-logo-white-red.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/images\/logos\/the-atlantic-logo-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52644,
+		"inputAbbreviatedPath": "\/app\/images\/logos\/the-atlantic-logo-white.png",
+		"outputAbbreviatedPath": "\/app\/images\/logos\/the-atlantic-logo-white.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -471,7 +515,7 @@
 		"outputAbbreviatedPath": "\/app\/images\/quote-mark.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/app\/images\/scroll-down-arrow.png": {
 		"fileType": 32768,

@@ -48,6 +48,13 @@ $(document).ready(function(){
     $('.about-canvs-section').animatescroll();
   });
 
+//Activate Popovers
+
+  // $('.news-link-item').popover({
+  //     placement : 'bottom',
+  //     trigger: 'hover'
+  // });
+
 //Mailchimp AJAX Script for Canvs Demo Form - Source: http://designshack.net/articles/css/custom-mailchimp-email-signup-form/
 
   var $form = $('#canvs-demo-form');
