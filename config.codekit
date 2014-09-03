@@ -466,7 +466,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 21100,
+		"initialSize": 42501,
 		"inputAbbreviatedPath": "\/app\/images\/logos\/the-atlantic-logo.png",
 		"outputAbbreviatedPath": "\/app\/images\/logos\/the-atlantic-logo.png",
 		"outputPathIsOutsideProject": 0,
@@ -4792,6 +4792,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
+		},
+	"\/build\/content.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/content.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/build\/content.jade": {
 		"compileDebug": 0,
