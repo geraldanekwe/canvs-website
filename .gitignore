@@ -1,5 +1,7 @@
 .sass-cache
 *.psd
+build/bower_components
+build/bower_components/*
 
 # Compiled source #
 ###################
