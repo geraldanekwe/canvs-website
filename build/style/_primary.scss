@@ -307,6 +307,9 @@ section, .section {
 .updates-section {
   text-align: center;
   background-color: shade($offWhite, 5%);
+  .section-header {
+    margin-bottom: 20px;
+  }
 }
 
 .updates-btn {
@@ -494,7 +497,7 @@ section, .section {
 }
 
 .quote-section {
-  &:hover, &:active {
+  &:hover {
     .quote-image {
       opacity: .75;
       transform: scale(1);
@@ -539,23 +542,35 @@ section, .section {
 .news-link-list {
   list-style: none;
   padding: 0;
+  margin-bottom: 0;
   max-width: 1000px;
   @include center-block;
+
 }
 
 .news-link-item {
   display: inline-block;
   margin: 0 20px;
   margin-bottom: 40px;
-  max-width: 160px;
-  &.la-times-news-link {
-    max-width: 240px;
+  .news-link {
+    display: inline-block;
+    width: 160px;
   }
-  &.mashable-link {
-    max-width: 200px;
-  }
-  &.marketing-land-logo {
-    max-width: 200px;
+  // &.la-times-news-link {
+  //   max-width: 240px;
+  // }
+  // &.mashable-link {
+  //   max-width: 200px;
+  // }
+  // &.marketing-land-logo {
+  //   max-width: 200px;
+  // }
+  @include max-width($screen-sm) {
+    margin: 0 10px;
+    margin-bottom: 30px;
+    .news-link {
+      width: 120px;
+    }
   }
 }
 
