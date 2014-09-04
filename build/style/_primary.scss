@@ -334,7 +334,7 @@ section, .section {
     @include font-smoothing;
   }
   text-align: center;
-  background: $offBlack url("../images/canvs-header-image.jpg") no-repeat center center fixed;
+  background: $offBlack url("../images/canvs-header-image.jpg") no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
   @include max-width($screen-sm) {
@@ -448,13 +448,15 @@ section, .section {
   }
   .quote-logo {
     @include center-block;
-    max-width: 180px;
+    max-width: 140px;
     margin-bottom: 40px;
     transform: translateY(20px);
-    transition: transform .35s $easeOutQuad;
+    opacity: .8;
+    transition: transform .35s, opacity .35s;
+    transition-timing-function: $easeOutQuad;
     @include max-width($screen-sm) {
       margin-top: 20px;
-      max-width: 140px;
+      max-width: 120px;
     }
   }
   .quote-logo-image {
@@ -464,20 +466,23 @@ section, .section {
     @include size(30px);
     margin-bottom: 30px;
   }
-  .quote-title {
+  .quote-text {
     @include font-smoothing;
     font-family: $slabFontFamily;
     font-weight: 400;
     font-style: italic;
-    margin-bottom: 30px;
+    width: 640px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
     color: $white;
     transform: translateY(30px);
     transition: transform .35s $easeOutQuad;
-    @include rem('font-size', 28px);
-    @include rem('line-height', 36px);
+    @include rem('font-size', 32px);
+    @include rem('line-height', 38px);
     @include max-width($screen-sm) {
-      @include rem('font-size', 21px);
-      @include rem('line-height', 28px);
+      @include rem('font-size', 24px);
+      @include rem('line-height', 32px);
     }
   }
   .quote-read-more-link {
@@ -489,10 +494,14 @@ section, .section {
     display: inline-block;
     @include rem('font-size', 18px);
     @include rem('line-height', 24px);
-    background-color: transparentize($white, 1);
+    background-color: transparentize($white, .75);
     transform: translateY(40px);
-    transition: background-color .35s, opacity .35s, transform .35s;
+    transition: background-color .35s, opacity .35s, transform .35s, color .35s;
     transition-timing-function: $easeOutQuad;
+    &:hover {
+      background-color: $white;
+      color: $tealDarkest;
+    }
   }
 }
 
@@ -510,13 +519,13 @@ section, .section {
     }
     .quote-logo {
       transform: translateY(0px);
+      opacity: 1;
     }
-    .quote-title {
+    .quote-text {
       transform: translateY(0px);
     }
     .quote-read-more-link {
       opacity: 1;
-      background-color: transparentize($white, .75);
       transform: translateY(0px);
     }
   }
@@ -524,10 +533,7 @@ section, .section {
 
 .marketing-land-link {
   .quote-logo {
-    max-width: 220px;
-  }
-  .quote-title {
-    margin-bottom: 40px;
+    max-width: 180px;
   }
 }
 
