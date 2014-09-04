@@ -37,6 +37,16 @@ section, .section {
   margin-bottom: 30px;
 }
 
+.background-gradient {
+  background: linear-gradient(165deg, #34c5f0 0%, #30bcae 70%);
+  opacity: .15;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
 //HERO HEADER
 
 .hero-header {
@@ -84,9 +94,9 @@ section, .section {
     margin-left: 10px;
     border-radius: 100%;
     @include size(26px);
-    background-color: $teal;
+    background-color: transparentize($white, .75);
     vertical-align: middle;
-    transition: transform .25s $easeOutBack;
+    transition: transform .25s $easeOutBack, background-color .25s linear;
     img {
       @include size(12px);
       display: inline-block;
@@ -102,6 +112,7 @@ section, .section {
     text-decoration: none;
     .login-icon {
       transform: scale(1.2);
+      background-color: $teal;
     }
   }
   @include max-width($screen-xs) {
@@ -110,7 +121,7 @@ section, .section {
     margin: 10px 0;
     margin-bottom: 15px;
     padding: 0 10px;
-    background-color: transparentize(white,.85);
+    background-color: transparentize(white, .8);
     height: 30px;
     line-height: 30px;
     @include rem('font-size', 18px);
@@ -484,6 +495,10 @@ section, .section {
       @include rem('font-size', 24px);
       @include rem('line-height', 32px);
     }
+    @include max-width($screen-xs) {
+      @include rem('font-size', 21px);
+      @include rem('line-height', 28px);
+    }
   }
   .quote-read-more-link {
     color: $white;
@@ -506,7 +521,7 @@ section, .section {
 }
 
 .quote-section {
-  &:hover {
+  &:hover, .touch & {
     .quote-image {
       opacity: .75;
       transform: scale(1);
@@ -530,6 +545,7 @@ section, .section {
     }
   }
 }
+
 
 .marketing-land-link {
   .quote-logo {

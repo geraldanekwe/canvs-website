@@ -123,6 +123,7 @@
 
 .canvs-advisors-section {
   background-color: $offBlack;
+  position: relative;
   text-align: center;
   @include font-smoothing;
   @extend .clearfix;
