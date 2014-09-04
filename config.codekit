@@ -198,6 +198,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/app\/images\/advisors\/dean-callas.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28553,
+		"inputAbbreviatedPath": "\/app\/images\/advisors\/dean-callas.jpg",
+		"outputAbbreviatedPath": "\/app\/images\/advisors\/dean-callas.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/images\/advisors\/greg-battle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12302,
+		"inputAbbreviatedPath": "\/app\/images\/advisors\/greg-battle.jpg",
+		"outputAbbreviatedPath": "\/app\/images\/advisors\/greg-battle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/images\/advisors\/michoel-ogince.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4814,6 +4836,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
+		},
+	"\/build\/content.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/content.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/build\/content.jade": {
 		"compileDebug": 0,

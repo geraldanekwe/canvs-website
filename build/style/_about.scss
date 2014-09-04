@@ -131,20 +131,26 @@
     color: white;
   }
   .content-box {
-    @include make-sm-column(4);
-    @include make-xs-column(6);
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 60px;
     img {
       @include size(130px);
       border-radius: 100%;
       margin-bottom: 20px;
     }
   }
-  .shaula-yemini {
-    @include max-width($screen-sm) {
-      float: none;
-      margin: 0 auto;
+  @include max-width($screen-md) {
+    .content-box {
+      width: 45%;
     }
   }
+  // .shaula-yemini {
+  //   @include max-width($screen-sm) {
+  //     float: none;
+  //     margin: 0 auto;
+  //   }
+  // }
 }
 
 
