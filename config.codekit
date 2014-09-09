@@ -4837,15 +4837,6 @@
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
-	"\/build\/content.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/content.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/build\/content.jade": {
 		"compileDebug": 0,
 		"fileType": 512,
@@ -5211,6 +5202,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/dist\/favicon-196x196.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8724,
+		"inputAbbreviatedPath": "\/dist\/favicon-196x196.png",
+		"outputAbbreviatedPath": "\/dist\/favicon-196x196.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/dist\/favicon-32x32.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -5251,6 +5253,28 @@
 		"initialSize": 891,
 		"inputAbbreviatedPath": "\/dist\/images\/adsales-icon.png",
 		"outputAbbreviatedPath": "\/dist\/images\/adsales-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/advisors\/dean-callas.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27726,
+		"inputAbbreviatedPath": "\/dist\/images\/advisors\/dean-callas.jpg",
+		"outputAbbreviatedPath": "\/dist\/images\/advisors\/dean-callas.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/advisors\/greg-battle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9052,
+		"inputAbbreviatedPath": "\/dist\/images\/advisors\/greg-battle.jpg",
+		"outputAbbreviatedPath": "\/dist\/images\/advisors\/greg-battle.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5700,6 +5724,17 @@
 		"initialSize": 1759,
 		"inputAbbreviatedPath": "\/dist\/mstile-150x150.png",
 		"outputAbbreviatedPath": "\/dist\/mstile-150x150.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/mstile-310x150.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2683,
+		"inputAbbreviatedPath": "\/dist\/mstile-310x150.png",
+		"outputAbbreviatedPath": "\/dist\/mstile-310x150.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
