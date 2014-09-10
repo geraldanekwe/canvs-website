@@ -37,6 +37,16 @@ section, .section {
   margin-bottom: 30px;
 }
 
+.background-gradient {
+  background: linear-gradient(165deg, #34c5f0 0%, #30bcae 70%);
+  opacity: .05;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
 //HERO HEADER
 
 .hero-header {
@@ -84,9 +94,9 @@ section, .section {
     margin-left: 10px;
     border-radius: 100%;
     @include size(26px);
-    background-color: $teal;
+    background-color: transparentize($white, .75);
     vertical-align: middle;
-    transition: transform .25s $easeOutBack;
+    transition: transform .25s $easeOutBack, background-color .25s linear;
     img {
       @include size(12px);
       display: inline-block;
@@ -102,6 +112,7 @@ section, .section {
     text-decoration: none;
     .login-icon {
       transform: scale(1.2);
+      background-color: $teal;
     }
   }
   @include max-width($screen-xs) {
@@ -110,7 +121,7 @@ section, .section {
     margin: 10px 0;
     margin-bottom: 15px;
     padding: 0 10px;
-    background-color: transparentize(white,.85);
+    background-color: transparentize(white, .8);
     height: 30px;
     line-height: 30px;
     @include rem('font-size', 18px);
@@ -307,6 +318,9 @@ section, .section {
 .updates-section {
   text-align: center;
   background-color: shade($offWhite, 5%);
+  .section-header {
+    margin-bottom: 20px;
+  }
 }
 
 .updates-btn {
@@ -331,7 +345,7 @@ section, .section {
     @include font-smoothing;
   }
   text-align: center;
-  background: $offBlack url("../images/canvs-header-image.jpg") no-repeat center center fixed;
+  background: $offBlack;
   background-attachment: fixed;
   background-size: cover;
   @include max-width($screen-sm) {
@@ -389,47 +403,195 @@ section, .section {
   }
 }
 
-//Quotes Section
+//Quote Section
 
-.quotes-section {
-  background-color: shade($offWhite, 5%);
-  // h1 {
-  //   color: white;
-  //   margin-bottom: 0;
-  // }
+.quote-section {
+  background-color: $teal;
+  background: linear-gradient(165deg, #34c5f0 0%, #30bcae 70%);
+  text-align: center;
+  position: relative;
+  padding: 0;
+  height: 300px;
+  overflow: hidden;
+  .quote-image {
+    display: block;
+    position: relative;
+    transition: opacity 0.35s, transform 0.35s;
+    transition-timing-function: $easeOutQuad;
+    transform: scale(1.05);
+    opacity: .85;
+    min-width: 100%;
+  }
+  .quote-link {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+  }
+  .quote-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    @include max-width($screen-sm) {
+      padding: 20px;
+    }
+    // &:before {
+    //   position: absolute;
+    //   content: '';
+    //   top: 30px;
+    //   left: 30px;
+    //   right: 30px;
+    //   bottom: 30px;
+    //   opacity: 0;
+    //   border: 1px solid $white;
+    //   transition: opacity 0.35s, transform 0.35s;
+    //   transition-timing-function: $easeOutQuad;
+    //   transform: scale(1.1);
+    // }
+  }
+  .quote-logo {
+    @include center-block;
+    max-width: 140px;
+    margin-bottom: 40px;
+    transform: translateY(20px);
+    opacity: .8;
+    transition: transform .35s, opacity .35s;
+    transition-timing-function: $easeOutQuad;
+    @include max-width($screen-sm) {
+      margin-top: 20px;
+      max-width: 120px;
+    }
+  }
+  .quote-logo-image {
+    width: 100%;
+  }
   .quote-mark {
     @include size(30px);
     margin-bottom: 30px;
   }
   .quote-text {
     @include font-smoothing;
+    font-family: $slabFontFamily;
     font-weight: 400;
-    @include rem('font-size', 21px);
-    @include rem('line-height', 30px);
-    padding: 0 40px;
-    margin-bottom: 30px;
-    @include max-width($screen-md) {
-      padding: 0 20px;
+    font-style: italic;
+    width: 640px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    color: $white;
+    transform: translateY(30px);
+    transition: transform .35s $easeOutQuad;
+    @include rem('font-size', 32px);
+    @include rem('line-height', 38px);
+    @include max-width($screen-sm) {
+      @include rem('font-size', 24px);
+      @include rem('line-height', 32px);
+    }
+    @include max-width($screen-xs) {
+      @include rem('font-size', 21px);
+      @include rem('line-height', 28px);
+    }
+  }
+  .quote-read-more-link {
+    color: $white;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    opacity: 0;
+    position: relative;
+    display: inline-block;
+    @include rem('font-size', 18px);
+    @include rem('line-height', 24px);
+    background-color: transparentize($white, .75);
+    transform: translateY(40px);
+    transition: background-color .35s, opacity .35s, transform .35s, color .35s;
+    transition-timing-function: $easeOutQuad;
+    &:hover {
+      background-color: $white;
+      color: $tealDarkest;
     }
   }
 }
 
-.quote-box {
-  @include make-sm-column(6);
-  .quote-author-wrap {
-    @include center-block;
-    .quote-author {
-      display: block;
-      @include rem('font-size', 18px);
-      margin-bottom: 10px;
+.quote-section {
+  &:hover, .touch & {
+    .quote-image {
+      opacity: .75;
+      transform: scale(1);
     }
-    .quote-author-company {
-      font-weight: 600;
-      display: block;
-      font-family: $headerFontFamily;
-      @include rem('font-size', 21px);
-      color: $teal;
+    .quote-box {
+      // &:before {
+      //   opacity: .5;
+      //   transform: scale(1);
+      // }
     }
+    .quote-logo {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+    .quote-text {
+      transform: translateY(0px);
+    }
+    .quote-read-more-link {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+}
+
+
+.marketing-land-link {
+  .quote-logo {
+    max-width: 180px;
+  }
+}
+
+
+//In the News Section
+
+.in-the-news-section {
+  background-color: shade($offWhite, 5%);
+  text-align: center;
+}
+
+.news-link-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+  max-width: 1000px;
+  @include center-block;
+
+}
+
+.news-link-item {
+  display: inline-block;
+  margin: 0 20px;
+  margin-bottom: 40px;
+  .news-link {
+    display: inline-block;
+    width: 160px;
+  }
+  @include max-width($screen-sm) {
+    margin: 0 10px;
+    margin-bottom: 30px;
+    .news-link {
+      width: 120px;
+    }
+  }
+}
+
+.news-link-image {
+  width: 100%;
+  opacity: 0.75;
+  &:hover {
+    opacity: 1;
   }
 }
 
@@ -539,6 +701,7 @@ section, .section {
   width: 100%;
   height: 100%;
   margin: 0;
+  padding: 0;
 }
 
 .modal-content {

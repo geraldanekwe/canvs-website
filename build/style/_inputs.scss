@@ -10,7 +10,7 @@
     box-shadow: none;
     background-color: tint($gray, 50%);
     font-weight: 300;
-    padding: 0 15px;
+    padding: 5px 15px;
     height: 45px;
     @include rem('line-height', 32px);
     @include rem('font-size', 21px);
@@ -76,6 +76,11 @@
   .section-description {
     &.error {
       color: $red;
+      a {
+        display: block;
+        color: $red;
+        text-decoration: underline;
+      }
     }
   }
 }

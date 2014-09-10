@@ -1,4 +1,5 @@
 header.hero-header
+  div.background-gradient
   div.container
     a.canvs-login(href="http://app.canvs.tv") Login to Canvs
       span.login-icon
@@ -26,17 +27,26 @@ section.about-canvs-section
       div.content-box.about-canvs-box.stop-counting
         img.about-canvs-illustration(src="images/stop-counting.svg")
         h2 Stop counting
-        p 
+        p
           strong You know how many people are talking about your show, but only Canvs can tell you why they’re talking about it. 
           | Canvs allows you to immediately identify the specific moments that drove audience reactions to your content. 
       div.content-box.about-canvs-box.forget-sentiment
         img.about-canvs-illustration(src="images/forget-sentiment.svg")
         h2 Forget sentiment
-        p 
+        p
           strong We know that social media sentiment tools aren’t accurate because we’ve used them all. 
           | We don’t even believe in positive, negative, and neutral sentiment. Canvs uncovers nuanced audience emotions and lets you decide what they mean for your show. 
 
     button.action-btn.request-demo-btn(data-toggle="modal", data-target=".canvs-demo-modal") Request a Demo
+
+section.quote-section
+  img.quote-image(src="images/about-hero-image.jpg")
+  a.quote-link(href="http://bit.ly/1o3bosF", target="_blank")
+    div.quote-box
+      h4.quote-text "An impossible, and yet possible, real-time focus group of the masses."
+      div.quote-logo
+        img.quote-logo-image(src="images/logos/dm-news-logo-white.png")
+      span.quote-read-more-link Click to read more
 
 section.updates-section
   div.container
@@ -70,26 +80,35 @@ section.actionable-insights-section
 
     a.action-btn.info-sheet-btn(href='/files/Canvs_Info_Sheet.pdf', target="_blank") Download Info Sheet
 
-section.quotes-section
-  div.container
-    div.row
-      header.section-header-wrap
-        h1.section-header Relied upon by the best
-      div.content-box.quote-box
-        blockquote
-          //- img.quote-mark(src="images/quote-mark.svg")
-          p.quote-text "Canvs fills a gap in the social metrics landscape. No one else has <strong>easily understandable, manipulable, accurate sentiment analysis.</strong> Canvs is an intuitive platform that helps TV brands identify the most important reactions to their shows while also carving up the data to create actionable insights."
-          div.quote-author-wrap
-            span.quote-author JP Lespinasse, Senior Director of Social Media
-            span.quote-author-company BET
+section.quote-section
+  img.quote-image(src="images/about-hero-image.jpg")
+  a.quote-link(href="http://bit.ly/PUZnGI", target="_blank")
+    div.quote-box
+      h4.quote-text "An algorithm knows who liked the How I Met Your Mother finale"
+      div.quote-logo
+        img.quote-logo-image(src="images/logos/the-atlantic-logo-white.png")
+      span.quote-read-more-link Click to read more
 
-      div.content-box.quote-box
-        blockquote
-          //- img.quote-mark(src="images/quote-mark.svg")
-          p.quote-text "Our franchises generate hundreds of thousands of mentions on Twitter each time they air. Canvs’s ability to organize those conversations into emotional themes is extremely valuable. <strong>It helps us tell the social story for our shows and saves my team countless hours</strong> of what would otherwise be an extremely manual task."
-          div.quote-author-wrap
-            span.quote-author Scott Calise, Director of Digital Research
-            span.quote-author-company Viacom: Comedy Central and TV Land
+//- section.quotes-section
+//-   div.container
+//-     div.row
+//-       header.section-header-wrap
+//-         h1.section-header Relied upon by the best
+//-       div.content-box.quote-box
+//-         blockquote
+//-           //- img.quote-mark(src="images/quote-mark.svg")
+//-           p.quote-text "Canvs fills a gap in the social metrics landscape. No one else has <strong>easily understandable, manipulable, accurate sentiment analysis.</strong> Canvs is an intuitive platform that helps TV brands identify the most important reactions to their shows while also carving up the data to create actionable insights."
+//-           div.quote-author-wrap
+//-             span.quote-author JP Lespinasse, Senior Director of Social Media
+//-             span.quote-author-company BET
+
+//-       div.content-box.quote-box
+//-         blockquote
+//-           //- img.quote-mark(src="images/quote-mark.svg")
+//-           p.quote-text "Our franchises generate hundreds of thousands of mentions on Twitter each time they air. Canvs’s ability to organize those conversations into emotional themes is extremely valuable. <strong>It helps us tell the social story for our shows and saves my team countless hours</strong> of what would otherwise be an extremely manual task."
+//-           div.quote-author-wrap
+//-             span.quote-author Scott Calise, Director of Digital Research
+//-             span.quote-author-company Viacom: Comedy Central and TV Land
 
 section.single-solution-section
   div.container
@@ -99,40 +118,80 @@ section.single-solution-section
       div.content-box.single-solution-box.immediate-box
         img.single-solution-illustration(src="images/immediate-icon.svg")
         h2 Immediate
-        p 
-          strong No more settling for shaky sentiment.<br> 
+        p
+          strong No more settling for shaky sentiment.<br>
           | No more hours manually calculating it yourself. Canvs gives you immediate, actionable insights about how your audience feels with the click of a mouse.
       div.content-box.single-solution-box.credible-box
         img.single-solution-illustration(src="images/credible-icon.svg")
         h2 Credible
-        p 
-          strong Our pedigree speaks for itself.<br> 
+        p
+          strong Our pedigree speaks for itself.<br>
           | Canvs was built by New York City’s best social TV analysts and data scientists as a tool for themselves. See what it can do for you. 
 
     div.row
       div.content-box.single-solution-box.transparent-box
         img.single-solution-illustration(src="images/transparent-icon.svg")
         h2 Transparent
-        p 
+        p
           strong Canvs gives you visibility into all conversation. 
           | You can see that Canvs is really as good at categorizing reactions as we say it is.
       div.content-box.single-solution-box.credible-box
         img.single-solution-illustration(src="images/beautiful-icon.svg")
         h2 Beautiful
-        p 
-          strong Gone are crowded dashboards and illegible charts.  
+        p
+          strong Gone are crowded dashboards and illegible charts. 
           | Functional design is one of our core values. As a result, Canvs is clean, intuitive, and fun to use.
     div.row
       div.content-box.single-solution-box.intelligent-box
         img.single-solution-illustration(src="images/intelligent-icon.svg")
         h2 Intelligent
-        p 
-          strong Canvs was conceived in 2010 by some of the best minds in data science.  
+        p
+          strong Canvs was conceived in 2010 by some of the best minds in data science. 
           | Our expert analysts continually teach the platform the ever-evolving vernacular of social media. The result is a dynamically intelligent tool that reflects the way real people are talking right now.
 
     button.action-btn.contact-demo-btn(data-toggle="modal", data-target=".canvs-demo-modal") Contact us for a Demo
 
+section.quote-section
+  img.quote-image(src="images/about-hero-image.jpg")
+  a.quote-link.marketing-land-link(href="http://mklnd.com/TCufOQ", target="_blank")
+    div.quote-box
+      h4.quote-text "Beyond Sentiment Analysis: Canvs Takes Instant Social Temperature Of TV Shows"
+      div.quote-logo
+        img.quote-logo-image(src="images/logos/marketing-land-logo-white.svg")
+      span.quote-read-more-link Click to read more
+
+section.in-the-news-section
+  div.container
+    div.row
+      header.section-header-wrap
+        h1.section-header According to Canvs
+      ul.news-link-list
+        li.news-link-item.the-atlantic-news-link
+          a.news-link(href="http://bit.ly/PUZnGI", target="_blank")
+            img.news-link-image(src="images/logos/the-atlantic-logo.png")
+        li.news-link-item.la-times-news-link
+          a.news-link(href="http://lat.ms/1qaruwR", target="_blank")
+            img.news-link-image(src="images/logos/la-times-logo.svg")
+        li.news-link-item.wired-news-link
+          a.news-link(href="http://wrd.cm/1v2klGY", target="_blank")
+            img.news-link-image(src="images/logos/wired-logo.svg")
+        li.news-link-item.variety-news-link
+          a.news-link(href="http://bit.ly/1pol9Am", target="_blank")
+            img.news-link-image(src="images/logos/variety-logo.svg")
+        li.news-link-item.lost-remote-news-link
+          a.news-link(href="http://ow.ly/ACs6K ", target="_blank")
+            img.news-link-image(src="images/logos/lost-remote-logo.png")
+        li.news-link-item.mashable-news-link
+          a.news-link(href="http://on.mash.to/1zAnESD", target="_blank")
+            img.news-link-image(src="images/logos/mashable-logo.png")
+        li.news-link-item.marketing-land-news-link
+          a.news-link(href="http://mklnd.com/TCufOQ", target="_blank")
+            img.news-link-image(src="images/logos/marketing-land-logo.svg")
+        li.news-link-item.dm-news-news-link
+          a.news-link(href="http://bit.ly/1o3bosF", target="_blank")
+            img.news-link-image(src="images/logos/dm-news-logo.png")
+
 div.canvs-video-wrap-container
-  div.canvs-video-close x
+  div.canvs-video-close ×
   div.canvs-video-wrap
     iframe#canvs-video.canvs-video(src="//player.vimeo.com/video/92680334?api=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;color=30bcae&amp;&player_id=canvs-video" width="1140" height="640" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen)
