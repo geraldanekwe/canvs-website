@@ -604,24 +604,27 @@ section, .section {
 .single-solution-box {
   @include make-sm-column(6);
   margin-bottom: 50px;
-  p {
-    width: 78%;
-    @extend .center-block;
-    @include max-width($screen-md) {
-      width: 90%;
-    }
-    @include max-width($screen-sm) {
-      width: 100%;
-    }
-  }
+  padding: 0 30px;
   .single-solution-illustration {
-    @include size(180px);
-    margin-bottom: 20px;
+    @include size(140px);
+    float: left;
   }
-}
 
-.intelligent-box {
-  @include make-sm-column-offset(3);
+  h2, p {
+    text-align: left;
+    margin-left: 175px;
+  }
+  @include max-width($screen-md) {
+    .single-solution-illustration {
+      @include size(140px);
+      float: initial;
+      margin-bottom: 20px;
+    }
+    h2, p {
+      text-align: center;
+      margin-left: 0;
+    }
+  }
 }
 
 
