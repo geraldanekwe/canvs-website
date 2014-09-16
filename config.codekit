@@ -647,7 +647,7 @@
 		"outputAbbreviatedPath": "\/app\/images\/versatile-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/app\/index.html": {
 		"fileType": 8192,
