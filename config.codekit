@@ -638,6 +638,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/app\/images\/versatile-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/app\/images\/versatile-icon.png",
+		"outputAbbreviatedPath": "\/app\/images\/versatile-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/index.html": {
 		"fileType": 8192,
 		"ignore": 1,
