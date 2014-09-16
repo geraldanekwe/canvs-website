@@ -310,6 +310,11 @@ section, .section {
     @include size(200px);
     margin-bottom: 20px;
   }
+  @include max-width($screen-sm) {
+    .about-canvs-illustration {
+      @include size(140px);
+    }
+  }
 }
 
 
@@ -378,11 +383,12 @@ section, .section {
     }
   }
   @include max-width($screen-sm) {
+    margin-bottom: 50px;
     .icon-circle {
-      @include size(180px);
+      @include size(140px);
       .actionable-insights-illustration {
-        @include size(120px);
-        margin-top: 30px;
+        @include size(100px);
+        margin-top: 20px;
       }
     }
 
@@ -615,8 +621,8 @@ section, .section {
     margin-left: 175px;
   }
   @include max-width($screen-md) {
+    padding: 0 15px;
     .single-solution-illustration {
-      @include size(140px);
       float: initial;
       margin-bottom: 20px;
     }
