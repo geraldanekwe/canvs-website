@@ -513,6 +513,8 @@ section, .section {
     opacity: 0;
     position: relative;
     display: inline-block;
+    font-family: $headerFontFamily;
+    letter-spacing: .5px;
     @include rem('font-size', 18px);
     @include rem('line-height', 24px);
     background-color: transparentize($white, .75);
