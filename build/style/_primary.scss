@@ -612,13 +612,13 @@ section, .section {
   margin-bottom: 50px;
   padding: 0 30px;
   .single-solution-illustration {
-    @include size(140px);
+    @include size(120px);
     float: left;
   }
 
   h2, p {
     text-align: left;
-    margin-left: 175px;
+    margin-left: 145px;
   }
   @include max-width($screen-md) {
     padding: 0 15px;
@@ -632,6 +632,15 @@ section, .section {
     }
   }
 }
+
+// .single-solution-box {
+//   &:first-child {
+//     padding-right: 50px;
+//   }
+//   &:last-child {
+//     padding-left: 50px;
+//   }
+// }
 
 
 //Page Footer
