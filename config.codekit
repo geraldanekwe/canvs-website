@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "17756",
+"creatorBuild": "18027",
 "files": {
 	"\/app\/about\/index.html": {
 		"fileType": 8192,
@@ -356,12 +356,12 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6209,
+		"initialSize": 6364,
 		"inputAbbreviatedPath": "\/app\/images\/intelligent-icon.png",
 		"outputAbbreviatedPath": "\/app\/images\/intelligent-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/images\/linkedin-icon.png": {
 		"fileType": 32768,
@@ -642,12 +642,12 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
+		"initialSize": 5210,
 		"inputAbbreviatedPath": "\/app\/images\/versatile-icon.png",
 		"outputAbbreviatedPath": "\/app\/images\/versatile-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/app\/index.html": {
 		"fileType": 8192,
@@ -4848,15 +4848,6 @@
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
-	"\/build\/content.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/content.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/build\/content.jade": {
 		"compileDebug": 0,
 		"fileType": 512,
@@ -4865,7 +4856,7 @@
 		"inputAbbreviatedPath": "\/build\/content.jade",
 		"outputAbbreviatedPath": "\/build\/content.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/build\/footer.html": {
@@ -5713,6 +5704,17 @@
 		"initialSize": 436,
 		"inputAbbreviatedPath": "\/dist\/images\/user-icon.png",
 		"outputAbbreviatedPath": "\/dist\/images\/user-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/dist\/images\/versatile-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5252,
+		"inputAbbreviatedPath": "\/dist\/images\/versatile-icon.png",
+		"outputAbbreviatedPath": "\/dist\/images\/versatile-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
