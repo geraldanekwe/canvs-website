@@ -361,6 +361,7 @@ section, .section {
 
 .actionable-insights-box {
   @include make-sm-column(4);
+  margin-bottom: 0;
   p {
     color: white;
     width: 85%;

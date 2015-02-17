@@ -2293,7 +2293,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap.scss",
 		"outputAbbreviatedPath": "\/app\/bower_components\/twitter-bootstrap-sass\/vendor\/assets\/stylesheets\/bootstrap.css",
